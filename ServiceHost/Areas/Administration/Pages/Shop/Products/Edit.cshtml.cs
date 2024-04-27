@@ -35,7 +35,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
                 Message = result.Message;
                 return RedirectToPage("Index");
             }
-            ViewData["Message"] = result.Message;
+            Message= result.Message;
             Command = _productApplication.GetDetails(command.Id);
             return Page();
         }

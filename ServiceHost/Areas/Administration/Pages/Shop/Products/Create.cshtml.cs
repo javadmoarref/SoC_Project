@@ -33,7 +33,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
                 Message=result.Message;
                 return RedirectToPage("Index");
             }
-            ViewData["Message"]=result.Message;
+            Message=result.Message;
             return Page();
         }
     }

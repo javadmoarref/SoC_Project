@@ -5,10 +5,10 @@
 }
 
 <div class="container-xxl flex-grow-1 container-p-y">
-    @if (ViewData["Message"] != null)
+    @if (TempData["Message"] != null)
     {
         <div class="alert alert-danger alert-dismissible mb-0" role="alert">
-            @ViewData["Message"]
+            @TempData["Message"]
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
     }

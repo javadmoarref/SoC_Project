@@ -32,7 +32,7 @@ public class ProductRepository:RepositoryBase<long,Product>,IProductRepository
             Slug = x.Slug,
             UnitPrice = x.UnitPrice,
             CategoryId = x.CategoryId
-        }).SingleOrDefault(x => x.Id == id);
+        }).FirstOrDefault(x => x.Id == id);
     }
 
     public List<ProductViewModel> Search(ProductSearchModel searchModel)
@@ -67,5 +67,14 @@ public class ProductRepository:RepositoryBase<long,Product>,IProductRepository
         }
 
         return query.OrderByDescending(x => x.Id).ToList();
+    }
+
+    public List<ProductViewModel> GetProducts()
+    {
+        return _context.Products.Select(x => new ProductViewModel()
+        {
+            Id = x.Id,
+            Name = x.Name
+        }).ToList();
     }
 }
