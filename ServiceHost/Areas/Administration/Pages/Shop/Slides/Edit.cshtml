@@ -1,0 +1,92 @@
+﻿@page
+@model ServiceHost.Areas.Administration.Pages.Shop.Slides.EditModel
+@{
+    ViewData["Title"] = "ویرایش اسلاید";
+}
+<div class="container-xxl flex-grow-1 container-p-y">
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible mb-0" role="alert">
+            @TempData["Message"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    <div class="row">
+        <div class="col-xxl">
+            <div class="card mb-4">
+                <div class="card-header d-flex align-items-center justify-content-between">
+                    <h5 class="mb-0">ویرایش اسلاید : @Model.Command.Heading</h5>
+                </div>
+                <div class="card-body">
+                    <form asp-page="/Edit"
+                          method="post">
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Command.Heading" class="control-label">تیتر</label>
+                                    <input type="text" class="form-control" asp-for="Command.Heading" />
+                                    <span asp-validation-for="Command.Heading" class="error"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Command.Picture" class="control-label">عکس</label>
+                                    <input type="text" class="form-control" asp-for="Command.Picture" />
+                                    <span asp-validation-for="Command.Picture" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Command.Title" class="control-label">عنوان</label>
+                                    <input type="text" class="form-control" asp-for="Command.Title" />
+                                    <span asp-validation-for="Command.Title" class="error"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Command.BtnText" class="control-label">متن دکمه</label>
+                                    <input type="text" class="form-control" asp-for="Command.BtnText">
+                                    <span asp-validation-for="Command.BtnText" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Command.PictureAlt" class="control-label">Alt</label>
+                                    <input type="text" class="form-control" asp-for="Command.PictureAlt" />
+                                    <span asp-validation-for="Command.PictureAlt" class="error"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Command.PictureTitle" class="control-label">عنوان عکس</label>
+                                    <input type="text" class="form-control" asp-for="Command.PictureTitle">
+                                    <span asp-validation-for="Command.PictureTitle" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label asp-for="Command.Text" class="control-label">متن</label>
+                                    <textarea type="text" class="form-control" asp-for="Command.Text"></textarea>
+                                    <span asp-validation-for="Command.Text" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="hidden" asp-for="Command.Id" value="@Model.Command.Id"/>
+                        <a type="button" asp-page="./Index" class="btn btn-outline-secondary">
+                            بازگشت
+                        </a>
+                        <button type="submit" class="btn btn-primary">ویرایش</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
