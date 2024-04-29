@@ -13,6 +13,8 @@ public class ProductPictureMapping:IEntityTypeConfiguration<ProductPicture>
         builder.Property(x => x.Picture).HasMaxLength(1000).IsRequired();
         builder.Property(x => x.PictureAlt).HasMaxLength(500).IsRequired();
         builder.Property(x=>x.PictureTitle).HasMaxLength(500).IsRequired();
+        builder.Property(x => x.BackgroundColor).HasMaxLength(50);
+
 
         builder.HasOne(x => x.Product)
             .WithMany(x => x.ProductPictures)

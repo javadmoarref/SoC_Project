@@ -23,7 +23,7 @@ public class ProductApplication:IProductApplication
         var slug=command.Slug.Slugify();
         var product = new Product(command.Name, command.Code, command.UnitPrice, command.ShortDescription,
             command.Description, command.Picture, command.PictureAlt, command.PictureTitle, slug, command.Keywords,
-            command.MetaDescription, command.CategoryId);
+            command.MetaDescription, command.CategoryId,command.BackgroundColor);
         _productRepository.Create(product);
         _productRepository.SaveChanges();
         return operation.Succedded();
@@ -45,7 +45,7 @@ public class ProductApplication:IProductApplication
         var slug=command.Slug.Slugify();
         product.Edit(command.Name,command.Code,command.UnitPrice,command.ShortDescription,command.Description,
             command.Picture,command.PictureAlt,command.PictureTitle,slug,command.Keywords,
-            command.MetaDescription,command.CategoryId);
+            command.MetaDescription,command.CategoryId,command.BackgroundColor);
         _productRepository.SaveChanges();
         return operation.Succedded();
     }

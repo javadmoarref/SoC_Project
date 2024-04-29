@@ -16,6 +16,7 @@ public class Product:EntityBase
     public string PictureAlt { get; private set; }
     public string PictureTitle { get; private set; }
     public string Slug { get; private set; }
+    public string BackgroundColor { get; private set; }
     public string Keywords { get; private set; }
     public string MetaDescription { get; private set; }
     public long CategoryId { get; private set; }
@@ -29,7 +30,7 @@ public class Product:EntityBase
 
     public Product(string name, string code, double unitPrice, string shortDescription, string description,
         string picture, string pictureAlt, string pictureTitle, string slug, string keywords, 
-        string metaDescription, long categoryId)
+        string metaDescription, long categoryId, string backgroundColor)
     {
         Name = name;
         Code = code;
@@ -44,11 +45,12 @@ public class Product:EntityBase
         MetaDescription = metaDescription;
         CategoryId = categoryId;
         IsInStock = true;
+        BackgroundColor = backgroundColor;
     }
 
     public void Edit(string name, string code, double unitPrice, string shortDescription, string description,
         string picture, string pictureAlt, string pictureTitle, string slug, string keywords,
-        string metaDescription, long categoryId)
+        string metaDescription, long categoryId, string backgroundColor)
     {
         Name = name;
         Code = code;
@@ -62,6 +64,7 @@ public class Product:EntityBase
         Keywords = keywords;
         MetaDescription = metaDescription;
         CategoryId = categoryId;
+        BackgroundColor = backgroundColor;
     }
 
     public void InStock()

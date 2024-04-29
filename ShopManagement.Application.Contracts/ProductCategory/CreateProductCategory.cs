@@ -21,4 +21,6 @@ public class CreateProductCategory
 
     [Required(ErrorMessage = ValidationMessage.IsRequired)]
     public string Slug { get;  set; }
+
+    public string BackgroundColor { get; set; }
 }

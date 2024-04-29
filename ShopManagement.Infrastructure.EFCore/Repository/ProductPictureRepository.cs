@@ -21,7 +21,8 @@ public class ProductPictureRepository:RepositoryBase<long,ProductPicture>, IProd
             Picture = x.Picture,
             PictureAlt = x.PictureAlt,
             PictureTitle = x.PictureTitle,
-            ProductId = x.ProductId
+            ProductId = x.ProductId,
+            BackgroundColor = x.BackgroundColor
         }).FirstOrDefault(x => x.Id == id);
     }
 
@@ -36,7 +37,8 @@ public class ProductPictureRepository:RepositoryBase<long,ProductPicture>, IProd
                 CreationDate = x.CreationDate.ToString(),
                 Product = x.Product.Name,
                 IsRemoved = x.IsRemoved,
-                ProductId = x.ProductId
+                ProductId = x.ProductId,
+                BackgroundColor = x.BackgroundColor
             });
         if (searchModel.ProductId != 0)
         {

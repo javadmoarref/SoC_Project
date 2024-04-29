@@ -7,4 +7,5 @@ public class ProductCategoryViewModel
     public string Picture { get; set; }
     public string CreationDate { get; set; }
     public long ProductsCount { get; set; }
+    public string BackgroundColor { get; set; }
 }

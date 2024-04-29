@@ -23,7 +23,7 @@ public class ProductPictureApplication:IProductPictureApplication
         }
 
         var productPicture = new ProductPicture(command.ProductId, command.Picture, command.PictureAlt,
-            command.PictureTitle);
+            command.PictureTitle,command.BackgroundColor);
         _productPictureRepository.Create(productPicture);
         _productPictureRepository.SaveChanges();
         return operation.Succedded();
@@ -43,7 +43,8 @@ public class ProductPictureApplication:IProductPictureApplication
         {
             return operation.Failed(ApplicationMessage.DuplicatedRecord);
         }
-        productPicture.Edit(command.ProductId,command.Picture,command.PictureAlt,command.PictureTitle);
+        productPicture.Edit(command.ProductId,command.Picture,command.PictureAlt,command.PictureTitle,
+            command.BackgroundColor);
         _productPictureRepository.SaveChanges();
         return operation.Succedded();
     }

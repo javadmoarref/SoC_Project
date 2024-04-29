@@ -16,4 +16,5 @@ public class CreateProductPicture
 
     [Required(ErrorMessage = ValidationMessage.IsRequired)]
     public string PictureTitle { get;  set; }
+    public string BackgroundColor { get;  set; }
 }

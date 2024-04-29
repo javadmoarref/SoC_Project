@@ -18,6 +18,7 @@ public class ProductCategoryMapping:IEntityTypeConfiguration<ProductCategory>
         builder.Property(x => x.Keywords).HasMaxLength(80).IsRequired();
         builder.Property(x => x.MetaDescription).HasMaxLength(150).IsRequired();
         builder.Property(x => x.Slug).HasMaxLength(300).IsRequired();
+        builder.Property(x => x.BackgroundColor).HasMaxLength(50);
 
         builder.HasMany(x => x.Products)
             .WithOne(x => x.Category)

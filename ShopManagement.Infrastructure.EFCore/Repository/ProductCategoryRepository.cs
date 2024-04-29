@@ -26,7 +26,8 @@ public class ProductCategoryRepository:RepositoryBase<long,ProductCategory>, IPr
             PictureTitle = x.PictureTitle,
             MetaDescription = x.MetaDescription,
             Keywords = x.Keywords,
-            Slug = x.Slug
+            Slug = x.Slug,
+            BackgroundColor = x.BackgroundColor
         }).FirstOrDefault(x => x.Id == id);
     }
 
@@ -37,7 +38,8 @@ public class ProductCategoryRepository:RepositoryBase<long,ProductCategory>, IPr
             Id = x.Id,
             Name = x.Name,
             Picture = x.Picture,
-            CreationDate = x.CreationDate.ToString()
+            CreationDate = x.CreationDate.ToString(),
+            BackgroundColor = x.BackgroundColor
         });
         if (!string.IsNullOrWhiteSpace(searchModel.Name))
         {

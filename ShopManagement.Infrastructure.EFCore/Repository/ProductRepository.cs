@@ -31,7 +31,8 @@ public class ProductRepository:RepositoryBase<long,Product>,IProductRepository
             ShortDescription = x.ShortDescription,
             Slug = x.Slug,
             UnitPrice = x.UnitPrice,
-            CategoryId = x.CategoryId
+            CategoryId = x.CategoryId,
+            BackgroundColor = x.BackgroundColor
         }).FirstOrDefault(x => x.Id == id);
     }
 
@@ -49,7 +50,8 @@ public class ProductRepository:RepositoryBase<long,Product>,IProductRepository
             CategoryId = x.CategoryId,
             Code = x.Code,
             UnitPrice = x.UnitPrice,
-            IsInStock = x.IsInStock
+            IsInStock = x.IsInStock,
+            BackgroundColor = x.BackgroundColor
         });
         if (!string.IsNullOrWhiteSpace(searchModel.Name))
         {

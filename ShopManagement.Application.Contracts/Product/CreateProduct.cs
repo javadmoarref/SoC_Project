@@ -31,4 +31,5 @@ public class CreateProduct
 
     [Range(1,100000,ErrorMessage = ValidationMessage.IsRequired)]
     public long CategoryId { get;  set; }
+    public string BackgroundColor { get;  set; }
 }

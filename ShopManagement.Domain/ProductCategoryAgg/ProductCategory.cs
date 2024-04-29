@@ -13,6 +13,7 @@ public class ProductCategory:EntityBase
     public string Keywords { get; private set; }
     public string MetaDescription { get; private set; }
     public string Slug { get; private set; }
+    public string BackgroundColor { get; private set; }
     public List<Product> Products { get; private set; }
 
     public ProductCategory()
@@ -21,7 +22,7 @@ public class ProductCategory:EntityBase
     }
 
     public ProductCategory(string name, string description, string picture, string pictureAlt,
-        string pictureTitle, string keywords, string metaDescription, string slug)
+        string pictureTitle, string keywords, string metaDescription, string slug, string backgroundColor)
     {
         Name = name;
         Description = description;
@@ -31,10 +32,11 @@ public class ProductCategory:EntityBase
         Keywords = keywords;
         MetaDescription = metaDescription;
         Slug = slug;
+        BackgroundColor = backgroundColor;
     }
 
     public void Edit(string name, string description, string picture, string pictureAlt,
-        string pictureTitle, string keywords, string metaDescription, string slug)
+        string pictureTitle, string keywords, string metaDescription, string slug,string backgroundColor)
     {
         Name = name;
         Description = description;
@@ -44,5 +46,6 @@ public class ProductCategory:EntityBase
         Keywords = keywords;
         MetaDescription = metaDescription;
         Slug = slug;
+        BackgroundColor = backgroundColor;
     }
 }
