@@ -26,7 +26,6 @@ public class SlideQuery:ISlideQuery
                 Title = x.Title,
                 Link = x.Link,
                 BtnText = x.BtnText
-            })
-            .ToList();
+            }).ToList();
     }
 }
