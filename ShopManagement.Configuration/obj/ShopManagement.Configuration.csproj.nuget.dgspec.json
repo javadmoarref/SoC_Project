@@ -4,6 +4,64 @@
     "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {}
   },
   "projects": {
+    "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\01_SogandShopQuery\\01_SogandShopQuery.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\01_SogandShopQuery\\01_SogandShopQuery.csproj",
+        "projectName": "01_SogandShopQuery",
+        "projectPath": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\01_SogandShopQuery\\01_SogandShopQuery.csproj",
+        "packagesPath": "C:\\Users\\Mohsen\\.nuget\\packages\\",
+        "outputPath": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\01_SogandShopQuery\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -206,6 +264,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\01_SogandShopQuery\\01_SogandShopQuery.csproj": {
+                "projectPath": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\01_SogandShopQuery\\01_SogandShopQuery.csproj"
+              },
               "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
                 "projectPath": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               },

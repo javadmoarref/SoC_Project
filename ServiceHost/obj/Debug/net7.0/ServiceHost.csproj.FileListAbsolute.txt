@@ -86,3 +86,5 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\n
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\Mono.TextTemplating.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\System.CodeDom.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\01_SogandShopQuery.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\01_SogandShopQuery.pdb

@@ -71,6 +71,15 @@
                         <div class="row mb-3">
                             <div class="col-md-12">
                                 <div class="form-group">
+                                    <label asp-for="Command.Link" class="control-label">لینک</label>
+                                    <input type="text" class="form-control" asp-for="Command.Link"/>
+                                    <span asp-validation-for="Command.Link" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <div class="form-group">
                                     <label asp-for="Command.Text" class="control-label">متن</label>
                                     <textarea type="text" class="form-control" asp-for="Command.Text"></textarea>
                                     <span asp-validation-for="Command.Text" class="error"></span>

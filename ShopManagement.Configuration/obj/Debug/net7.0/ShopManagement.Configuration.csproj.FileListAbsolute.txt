@@ -21,3 +21,5 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configur
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configuration\obj\Debug\net7.0\refint\ShopManagement.Configuration.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configuration\obj\Debug\net7.0\ShopManagement.Configuration.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configuration\obj\Debug\net7.0\ref\ShopManagement.Configuration.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configuration\bin\Debug\net7.0\01_SogandShopQuery.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configuration\bin\Debug\net7.0\01_SogandShopQuery.pdb

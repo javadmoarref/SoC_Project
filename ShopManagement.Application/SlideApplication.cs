@@ -17,7 +17,7 @@ public class SlideApplication:ISlideApplication
     {
         var operation=new OperationResult();
         var slide = new Slide(command.Picture, command.PictureAlt, command.PictureTitle, command.Heading,
-            command.Title, command.Text, command.BtnText);
+            command.Title, command.Text, command.BtnText,command.Link);
         _slideRepository.Create(slide);
         _slideRepository.SaveChanges();
         return operation.Succedded();
@@ -32,7 +32,7 @@ public class SlideApplication:ISlideApplication
             return operation.Failed(ApplicationMessage.RecordNotFound);
         }
         slide.Edit(command.Picture,command.PictureAlt,command.PictureTitle,command.Heading,command.Title,
-            command.Text,command.BtnText);
+            command.Text,command.BtnText,command.Link);
         _slideRepository.SaveChanges();
         return operation.Succedded();
     }

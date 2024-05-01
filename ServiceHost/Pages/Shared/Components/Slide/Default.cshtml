@@ -1,0 +1,37 @@
+﻿@model List<_01_SogandShopQuery.Contracts.Slide.SlideQueryModel>
+
+<section class="hero-slider-area position-relative">
+    <div class="swiper hero-slider-container">
+        <div class="swiper-wrapper">
+            @foreach (var slide in Model)
+            {
+                <div class="swiper-slide hero-slide-item">
+                    <div class="container">
+                        <div class="row align-items-center position-relative">
+                            <div class="col-12 col-md-6">
+                                <div class="hero-slide-content">
+                                    <div class="hero-slide-text-img"><img src="~/Theme/files/images/slider/text-theme.png" width="427" height="232" alt="Image"></div>
+                                    <h2 class="hero-slide-title">@slide.Heading</h2>
+                                    <p class="hero-slide-desc">@slide.Text</p>
+                                    <a class="btn btn-border-dark" href="@slide.Link">@slide.BtnText</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="hero-slide-thumb">
+                                    <img src="@slide.Picture" width="841" height="832" alt="@slide.PictureAlt" title="@slide.PictureTitle">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-slide-text-shape"><img src="~/Theme/files/images/slider/sogandcollection.png" width="80" height="1000" alt="Image"></div>
+                    <div class="hero-slide-social-shape"></div>
+                </div>
+            }
+        </div>
+        <!--== Add Pagination ==-->
+        <div class="hero-slider-pagination"></div>
+    </div>
+    <div class="hero-slide-social-media">
+        <a href="https://www.instagram.com/sogand_arayeshii?igsh=NTc4MTIwNjQ2YQ==" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a>
+    </div>
+</section>

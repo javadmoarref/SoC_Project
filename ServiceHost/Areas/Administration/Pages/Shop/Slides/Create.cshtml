@@ -64,8 +64,17 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label asp-for="Command.PictureTitle" class="control-label">عنوان عکس</label>
-                                    <input type="text" class="form-control" asp-for="Command.PictureTitle">
+                                    <input type="text" class="form-control" asp-for="Command.PictureTitle"/>
                                     <span asp-validation-for="Command.PictureTitle" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label asp-for="Command.Link" class="control-label">لینک</label>
+                                    <input type="text" class="form-control" asp-for="Command.Link"/>
+                                    <span asp-validation-for="Command.Link" class="error"></span>
                                 </div>
                             </div>
                         </div>

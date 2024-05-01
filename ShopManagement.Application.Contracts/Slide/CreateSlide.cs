@@ -21,4 +21,7 @@ public class CreateSlide
 
     [Required(ErrorMessage = ValidationMessage.IsRequired)]
     public string BtnText { get;  set; }
+
+    [Required(ErrorMessage = ValidationMessage.IsRequired)]
+    public string Link { get; set; }
 }
