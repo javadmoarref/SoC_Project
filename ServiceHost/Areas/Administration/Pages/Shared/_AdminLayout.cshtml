@@ -37,6 +37,8 @@
 
     <!-- Page CSS -->
     <!-- MyCustom CSS -->
+    @*<link rel="stylesheet" href="~/AdminTheme/assets/css/persian-datepicker.min.css" />*@
+    <link type="text/css" rel="stylesheet" href="~/AdminTheme/assets/css/jalalidatepicker.css" />
     <link rel="stylesheet" href="~/AdminTheme/assets/css/mystyle.css" />
 
     <!-- Helpers -->
@@ -52,7 +54,7 @@
     <div class="layout-wrapper layout-content-navbar">
         <div class="layout-container">
             <!-- Menu -->
-            <partial name="_Menu"/>
+            <partial name="_Menu" />
             <!-- / Menu -->
             <!-- Layout container -->
             <div class="layout-page">
@@ -177,7 +179,7 @@
         <div class="layout-overlay layout-menu-toggle"></div>
     </div>
     <!-- / Layout wrapper -->
-<!-- Core JS -->
+    <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/AdminTheme/assets/vendor/libs/popper/popper.js"></script>
@@ -190,12 +192,20 @@
     <script src="~/AdminTheme/assets/js/main.js"></script>
     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
     <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
-    <script src="~/AdminTheme/assets/js/my-site.js"></script>
-
+<script src="~/AdminTheme/assets/js/my-site.js"></script>
+    <script type="text/javascript" src="~/AdminTheme/assets/js/jalalidatepicker.js"></script>
+   @* <script src="~/AdminTheme/assets/js/persian-date.min.js"></script>
+    <script src="~/AdminTheme/assets/js/persian-datepicker.min.js"></script>*@
 
     <!-- Page JS -->
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+   @* <script>
+        $('.persianDateInput').persianDatepicker({
+            format: 'YYYY/MM/DD',
+            autoClose: true
+        });
+    </script>*@
 </body>
 
 </html>

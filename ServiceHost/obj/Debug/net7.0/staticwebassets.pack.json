@@ -9,32 +9,104 @@
       "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\demo.css"
     },
     {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\jalalidatepicker.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\jalalidatepicker.css"
+    },
+    {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\mystyle.css",
       "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\mystyle.css"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\persian-datepicker.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\persian-datepicker.min.css"
     },
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\CHANGELOG.md",
       "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\CHANGELOG.md"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\IranianSans.eot",
-      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\IranianSans.eot"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Bold-FD.eot",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Bold-FD.eot"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\IranianSans.svg",
-      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\IranianSans.svg"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Bold-FD.ttf",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Bold-FD.ttf"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\IranianSans.ttf",
-      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\IranianSans.ttf"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Bold-FD.woff",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Bold-FD.woff"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\IranianSans.woff",
-      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\IranianSans.woff"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Bold-FD.woff2",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Bold-FD.woff2"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\IranianSans.woff2",
-      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\IranianSans.woff2"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-FD.eot",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-FD.eot"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-FD.ttf",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-FD.ttf"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-FD.woff",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-FD.woff"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-FD.woff2",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-FD.woff2"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Light-FD.eot",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Light-FD.eot"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Light-FD.ttf",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Light-FD.ttf"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Light-FD.woff",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Light-FD.woff"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Light-FD.woff2",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Light-FD.woff2"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Medium-FD.eot",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Medium-FD.eot"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Medium-FD.ttf",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Medium-FD.ttf"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Medium-FD.woff",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Medium-FD.woff"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Medium-FD.woff2",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Medium-FD.woff2"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Thin-FD.eot",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Thin-FD.eot"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Thin-FD.ttf",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Thin-FD.ttf"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Thin-FD.woff",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Thin-FD.woff"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Thin-FD.woff2",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Farsi-Digits\\Vazir-Thin-FD.woff2"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\FontAwesome.otf"
     },
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\LICENSE",
@@ -119,6 +191,98 @@
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Vazir.woff2",
       "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Vazir.woff2"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\et-line.eot",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\et-line.eot"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\et-line.svg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\et-line.svg"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\et-line.ttf",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\et-line.ttf"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\et-line.woff",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\et-line.woff"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\fontawesome-webfont.otf",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\fontawesome-webfont.otf"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\ionicons.eot",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\ionicons.eot"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\ionicons.svg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\ionicons.svg"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\ionicons.ttf"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\ionicons.woff",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\ionicons.woff"
     },
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\img\\avatars\\1.png",
@@ -325,6 +489,10 @@
       "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\form-basic-inputs.js"
     },
     {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\jalalidatepicker.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\jalalidatepicker.js"
+    },
+    {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\main.js",
       "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\main.js"
     },
@@ -335,6 +503,14 @@
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\pages-account-settings-account.js",
       "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\persian-date.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\persian-date.min.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\persian-datepicker.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\persian-datepicker.min.js"
     },
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\ui-modals.js",

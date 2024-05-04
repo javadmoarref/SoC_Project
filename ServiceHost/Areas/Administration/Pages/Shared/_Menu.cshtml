@@ -94,6 +94,25 @@
             </ul>
         </li>
         <li class="menu-item">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bxs-discount"></i>
+                <div data-i18n="Layouts">تخفیفات</div>
+            </a>
+
+            <ul class="menu-sub">
+                <li class="menu-item">
+                    <a asp-page="/Discount/CustomerDiscounts/Index" class="menu-link">
+                        <div data-i18n="Without menu">تخفیفات مشتری</div>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a asp-page="/Discount/ColleagueDiscounts/Index" class="menu-link">
+                        <div data-i18n="Without menu">تخفیفات همکار</div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li class="menu-item">
             <a asp-area="" asp-page="/Index" class="menu-link">
                 <i class="menu-icon tf-icons bx bxs-home"></i>
                 <div data-i18n="Analytics">صفحه اصلی</div>

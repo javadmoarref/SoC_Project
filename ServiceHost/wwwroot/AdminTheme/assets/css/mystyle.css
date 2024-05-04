@@ -9,11 +9,25 @@
     font-style: normal;
     font-weight: bold;
     src: url('../fonts/Vazir-Bold.eot');
-    src: url('../fonts/Vazir-Bold.eotiefix') format('embedded-opentype'), 
+    src: url('../fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
          url('../fonts/Vazir-Bold.woff2') format('woff2'), 
-         url('../fonts/Vazir-Bold.woff') format('woff'),
-         url('../fonts/Vazir-Bold.ttf') format('truetype');
+         url('../fonts/Vazir-Bold.woff') format('woff'), 
+         url('../fonts/Vazir.ttf') format('truetype');
 }
+@font-face {
+    font-family: Vazir-FD;
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/Farsi-Digits/Vazir-Bold-FD.eot");
+    src: url("../fonts/Farsi-Digits/Vazir-Bold-FD.woff2") format("woff2"),
+         url("../fonts/Farsi-Digits/Vazir-Bold-FD.woff") format("woff"), 
+         url("../fonts/Farsi-Digits/Vazir-Bold-FD.ttf") format("truetype");
+}
+
+body .persianNumber, .jdp-day, .jdp-year{
+    font-family: Vazir-FD;
+}
+
 
 body {
     font-family: 'Vazir'

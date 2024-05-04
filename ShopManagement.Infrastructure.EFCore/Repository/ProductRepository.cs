@@ -1,4 +1,5 @@
 ﻿using System.Text.Json.Serialization;
+using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Product;
@@ -44,7 +45,7 @@ public class ProductRepository:RepositoryBase<long,Product>,IProductRepository
         {
             Id = x.Id,
             Name = x.Name,
-            CreationDate = x.CreationDate.ToString(),
+            CreationDate = x.CreationDate.ToFarsi(),
             Picture = x.Picture,
             Category = x.Category.Name,
             CategoryId = x.CategoryId,

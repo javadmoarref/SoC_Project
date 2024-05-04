@@ -88,3 +88,13 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\n
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\System.CodeDom.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\01_SogandShopQuery.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\01_SogandShopQuery.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\DiscountManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\DiscountManagement.Application.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\DiscountManagement.Configuration.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\DiscountManagement.Domain.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\DiscountManagement.Configuration.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\DiscountManagement.Application.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\DiscountManagement.Application.Contracts.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\DiscountManagement.Domain.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.pdb
