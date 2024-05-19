@@ -27,20 +27,5 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
             Products = _productApplication.Search(searchModel);
             ProductCategories = new SelectList(_productCategoryApplication.GetProductCategories(),"Id","Name");
         }
-
-        public IActionResult OnGetNotInStock(long id)
-        {
-            var result=_productApplication.NotInStock(id);
-            Message = result.Message;
-            return RedirectToPage("./Index");
-        }
-
-        public IActionResult OnGetInStock(long id)
-        {
-            var result= _productApplication.InStock(id);
-            Message=result.Message;
-            return RedirectToPage("./Index");
-        }
-
     }
 }

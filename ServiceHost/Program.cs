@@ -1,4 +1,5 @@
 using DiscountManagement.Configuration;
+using InventoryManagement.Configuration;
 using ShopManagement.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,8 @@ var connectionString = builder.Configuration.GetConnectionString("SogandShopConn
 
 ShopManagementBootstrapper.Configure(services,connectionString);
 DiscountManagementBootstrapper.Configure(services,connectionString);
+InventoryManagementBootstrapper.Configure(services,connectionString);
+
 builder.Services.AddRazorPages();
 
 var app = builder.Build();

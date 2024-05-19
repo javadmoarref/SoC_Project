@@ -8,8 +8,6 @@ public class Product:EntityBase
 {
     public string Name { get; private set; }
     public string Code { get; private set; }
-    public double UnitPrice { get; private set; }
-    public bool IsInStock { get; private set; }
     public string ShortDescription { get; private set; }
     public string Description { get; private set; }
     public string Picture { get; private set; }
@@ -28,13 +26,12 @@ public class Product:EntityBase
         ProductPictures=new List<ProductPicture>();
     }
 
-    public Product(string name, string code, double unitPrice, string shortDescription, string description,
+    public Product(string name, string code, string shortDescription, string description,
         string picture, string pictureAlt, string pictureTitle, string slug, string keywords, 
         string metaDescription, long categoryId, string backgroundColor)
     {
         Name = name;
         Code = code;
-        UnitPrice = unitPrice;
         ShortDescription = shortDescription;
         Description = description;
         Picture = picture;
@@ -44,17 +41,15 @@ public class Product:EntityBase
         Keywords = keywords;
         MetaDescription = metaDescription;
         CategoryId = categoryId;
-        IsInStock = true;
         BackgroundColor = backgroundColor;
     }
 
-    public void Edit(string name, string code, double unitPrice, string shortDescription, string description,
+    public void Edit(string name, string code,  string shortDescription, string description,
         string picture, string pictureAlt, string pictureTitle, string slug, string keywords,
         string metaDescription, long categoryId, string backgroundColor)
     {
         Name = name;
         Code = code;
-        UnitPrice = unitPrice;
         ShortDescription = shortDescription;
         Description = description;
         Picture = picture;
@@ -65,15 +60,5 @@ public class Product:EntityBase
         MetaDescription = metaDescription;
         CategoryId = categoryId;
         BackgroundColor = backgroundColor;
-    }
-
-    public void InStock()
-    {
-        IsInStock=true;
-    }
-
-    public void NotInStock()
-    {
-        IsInStock=false;
     }
 }

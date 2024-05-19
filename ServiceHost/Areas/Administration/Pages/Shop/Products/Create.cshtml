@@ -5,10 +5,10 @@
 }
 
 <div class="container-xxl flex-grow-1 container-p-y">
-    @if (TempData["Message"] != null)
+    @if (ViewData["Message"] != null)
     {
         <div class="alert alert-danger alert-dismissible mb-0" role="alert">
-            @TempData["Message"]
+            @ViewData["Message"]
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
     }
@@ -38,14 +38,7 @@
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label asp-for="Command.UnitPrice" class="control-label">قیمت</label>
-                                    <input type="text" class="form-control persianNumber" asp-for="Command.UnitPrice">
-                                    <span asp-validation-for="Command.UnitPrice" class="error"></span>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="form-group">
                                     <label asp-for="Command.CategoryId" class="control-label">گروه محصول</label>
                                     <select id="selectTypeOpt" class="form-select color-dropdown" asp-for="Command.CategoryId"

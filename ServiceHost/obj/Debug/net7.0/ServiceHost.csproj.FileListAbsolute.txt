@@ -98,3 +98,13 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\n
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\DiscountManagement.Application.Contracts.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\DiscountManagement.Domain.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\InventoryManagement.Configuration.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\InventoryManagement.Domain.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\InventoryManagement.Configuration.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.Contracts.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\InventoryManagement.Domain.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.pdb

@@ -1,0 +1,15 @@
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\bin\Debug\net7.0\InventoryManagement.Application.Contracts.deps.json
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\bin\Debug\net7.0\InventoryManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\bin\Debug\net7.0\InventoryManagement.Application.Contracts.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\bin\Debug\net7.0\0_Framework.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\bin\Debug\net7.0\0_Framework.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\obj\Debug\net7.0\InventoryManagement.Application.Contracts.csproj.AssemblyReference.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\obj\Debug\net7.0\InventoryManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\obj\Debug\net7.0\InventoryManagement.Application.Contracts.AssemblyInfoInputs.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\obj\Debug\net7.0\InventoryManagement.Application.Contracts.AssemblyInfo.cs
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\obj\Debug\net7.0\InventoryManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\obj\Debug\net7.0\InventoryManagement.Application.Contracts.csproj.CopyComplete
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\obj\Debug\net7.0\InventoryManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\obj\Debug\net7.0\refint\InventoryManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\obj\Debug\net7.0\InventoryManagement.Application.Contracts.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\obj\Debug\net7.0\ref\InventoryManagement.Application.Contracts.dll

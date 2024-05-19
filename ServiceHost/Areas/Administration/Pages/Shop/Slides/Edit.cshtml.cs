@@ -33,7 +33,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slides
                 Message = result.Message;
                 return RedirectToPage("Index");
             }
-            Message= result.Message;
+            ViewData["Message"] = result.Message;
             Command = _slideApplication.GetDetails(command.Id);
             return Page();
         }

@@ -37,7 +37,8 @@ namespace ServiceHost.Areas.Administration.Pages.Discount.ColleagueDiscounts
                 Message=result.Message;
                 return RedirectToPage("Index");
             }
-            Message=result.Message;
+            ViewData["Message"] =result.Message;
+            Products = new SelectList(_productApplication.GetProducts(), "Id", "Name");
             return Page();
         }
     }

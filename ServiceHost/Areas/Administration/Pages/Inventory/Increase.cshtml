@@ -1,0 +1,53 @@
+﻿@page
+@model ServiceHost.Areas.Administration.Pages.Inventory.IncreaseModel
+@{
+    ViewData["Title"] = "افزایش موجودی انبار";
+}
+<div class="container-xxl flex-grow-1 container-p-y">
+    @if (ViewData["Message"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible mb-0" role="alert">
+            @ViewData["Message"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    <div class="row">
+        <div class="col-xxl">
+            <div class="card mb-4">
+                <div class="card-header d-flex align-items-center justify-content-between">
+                    <h5 class="mb-0">افزایش موجودی انبار</h5>
+                </div>
+                <div class="card-body">
+                    <form asp-page="/Increase"
+                          method="post">
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label asp-for="Command.Count" class="control-label">تعداد</label>
+                                    <input type="number" class="form-control persianNumber" asp-for="Command.Count" />
+                                    <span asp-validation-for="Command.Count" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label asp-for="Command.Description" class="control-label">توضیحات</label>
+                                    <textarea type="text" class="form-control" asp-for="Command.Description"></textarea>
+                                    <span asp-validation-for="Command.Description" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="hidden" asp-for="Command.InventoryId" value="@Model.Command.InventoryId"/>
+                        <a type="button" asp-page="./Index" class="btn btn-outline-secondary">
+                            بازگشت
+                        </a>
+                        <button type="submit" class="btn btn-primary">افزایش</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

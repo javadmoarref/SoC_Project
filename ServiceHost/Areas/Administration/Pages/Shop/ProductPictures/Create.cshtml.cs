@@ -34,7 +34,8 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
                 Message=result.Message;
                 return RedirectToPage("Index");
             }
-            Message=result.Message;
+            ViewData["Message"] =result.Message;
+            Products = new SelectList(_productApplication.GetProducts(), "Id", "Name");
             return Page();
         }
     }

@@ -1061,6 +1061,10 @@
       "PackagePath": "staticwebassets\\Theme\\files\\images\\icons\\funfact3.webp"
     },
     {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\icons\\instagram.png",
+      "PackagePath": "staticwebassets\\Theme\\files\\images\\icons\\instagram.png"
+    },
+    {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\icons\\menu-down2.webp",
       "PackagePath": "staticwebassets\\Theme\\files\\images\\icons\\menu-down2.webp"
     },

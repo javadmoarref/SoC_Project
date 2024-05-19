@@ -5,10 +5,10 @@
 }
 
 <div class="container-xxl flex-grow-1 container-p-y">
-    @if (TempData["Message"] != null)
+    @if (ViewData["Message"] != null)
     {
         <div class="alert alert-danger alert-dismissible mb-0" role="alert">
-            @TempData["Message"]
+            @ViewData["Message"]
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
     }
@@ -35,7 +35,7 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label asp-for="Command.DiscountRate" class="control-label">درصد تخفیف</label>
-                                    <input type="number" class="form-control persianNumber" asp-for="Command.DiscountRate" />
+                                    <input type="number" value="0" class="form-control persianNumber" asp-for="Command.DiscountRate" />
                                     <span asp-validation-for="Command.DiscountRate" class="error"></span>
                                 </div>
                             </div>

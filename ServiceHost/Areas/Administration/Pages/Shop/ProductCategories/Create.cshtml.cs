@@ -28,7 +28,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
                 Message=result.Message;
                 return RedirectToPage("Index");
             }
-            Message=result.Message;
+            ViewData["Message"] = result.Message;
             return Page();
         }
     }

@@ -1,9 +1,7 @@
-﻿using System.Text.Json.Serialization;
-using _0_Framework.Application;
+﻿using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Product;
-using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Domain.ProductAgg;
 
 namespace ShopManagement.Infrastructure.EFCore.Repository;
@@ -31,7 +29,6 @@ public class ProductRepository:RepositoryBase<long,Product>,IProductRepository
             MetaDescription = x.MetaDescription,
             ShortDescription = x.ShortDescription,
             Slug = x.Slug,
-            UnitPrice = x.UnitPrice,
             CategoryId = x.CategoryId,
             BackgroundColor = x.BackgroundColor
         }).FirstOrDefault(x => x.Id == id);
@@ -50,8 +47,6 @@ public class ProductRepository:RepositoryBase<long,Product>,IProductRepository
             Category = x.Category.Name,
             CategoryId = x.CategoryId,
             Code = x.Code,
-            UnitPrice = x.UnitPrice,
-            IsInStock = x.IsInStock,
             BackgroundColor = x.BackgroundColor
         });
         if (!string.IsNullOrWhiteSpace(searchModel.Name))

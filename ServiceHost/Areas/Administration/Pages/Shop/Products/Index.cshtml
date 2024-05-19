@@ -79,9 +79,7 @@
                     <th> رنگ زمینه عکس</th>
                     <th>نام</th>
                     <th>کد</th>
-                    <th>قیمت</th>
                     <th>گروه محصول</th>
-                    <th>موجودی</th>
                     <th>تاریخ ایجاد</th>
                     <th>عملیات</th>
                 </tr>
@@ -97,38 +95,13 @@
                         </td>
                         <td>@item.Name</td>
                         <td>@item.Code</td>
-                        <td class="persianNumber">@item.UnitPrice</td>
                         <td>@item.Category</td>
-                        <td>
-                            @if (item.IsInStock)
-                            {
-                                <i class="bx bx-check display-6"></i>
-                            }
-                            else
-                            {
-                                <i class="bx bx-block display-6"></i>
-                            }
-                        </td>
                         <td class="persianNumber">@item.CreationDate</td>
                         <td>
                             <a class="btn btn-warning pull-right m-rl-5"
                                asp-page="./Edit" asp-route-id="@item.Id">
                                 <i class="fa fa-edit"></i> ویرایش
                             </a>
-                            @if (item.IsInStock)
-                            {
-                                <a class="btn btn-danger pull-right m-rl-5"
-                                   asp-page="./Index" asp-page-handler="NotInStock" asp-route-id="@item.Id">
-                                    اتمام موجودی
-                                </a>
-                            }
-                            else
-                            {
-                                <a class="btn btn-info pull-right m-rl-5" 
-                                   asp-page="./Index" asp-page-handler="InStock" asp-route-id="@item.Id">
-                                    موجود شد
-                                </a>
-                            }
                         </td>
                     </tr>
                 }
