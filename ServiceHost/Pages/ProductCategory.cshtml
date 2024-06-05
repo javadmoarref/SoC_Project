@@ -1,0 +1,118 @@
+﻿@page
+@model ServiceHost.Pages.ProductCategoryModel
+@{
+}
+
+<main class="main-content">
+
+    <!--== Start Page Header Area Wrapper ==-->
+    <section class="page-header-area pt-10 pb-9" data-bg-color="#FFF3DA">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="page-header-st3-content text-center text-md-start">
+                        <ol class="breadcrumb justify-content-center justify-content-md-start">
+                            <li class="breadcrumb-item"><a class="text-dark" asp-page="./Index">صفحه اصلی</a></li>
+                            <li class="breadcrumb-item active text-dark" aria-current="page">محصول</li>
+                        </ol>
+                        <h2 class="page-header-title"> تمام محصولات گروه :@Model.Category.Name</h2>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <h5 class="showing-pagination-results mt-5 mt-md-9 text-center text-md-end">نمایش نتایج @Model.Category.Products.Count() عدد محصول</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--== End Page Header Area Wrapper ==-->
+
+    <!--== Start Product Area Wrapper ==-->
+    <section class="section-space">
+        <div class="container">
+        <div class="row mb-n4 mb-sm-n10 g-3 g-sm-6">
+        @foreach (var product in Model.Category.Products)
+        {
+                    <div class="col-6 col-lg-4 col-xl-3 mb-4 mb-sm-8">
+                        <!--== Start Product Item ==-->
+                        <div class="product-item product-st3-item">
+                            <div class="product-thumb" data-bg-color="@product.BackgroundColor">
+                                <a class="d-block" asp-page="./ProductDetails" asp-route-id="@product.Slug">
+                                    <img src="@product.Picture" width="370" height="450" alt="@product.PictureAlt" title="@product.PictureTitle">
+                                </a>
+                                @*<span class="flag-new">جدید</span>*@
+                                <div class="product-action">
+                                    <a type="button" class="product-action-btn action-btn-quick-view text-center" asp-page="./ProductDetails" asp-route-id="@product.Slug">
+                                        <i class="fa fa-expand pt-3 p-2"></i>
+                                    </a>
+                                    <a type="button" class="product-action-btn action-btn-cart pt-2" href="#showmodal=@Url.Page("./Index", "CartAdd", new { id = product.Id })">
+                                        <span>به سبد خرید اضافه کنید</span>
+                                    </a>
+                                    <a type="button" class="product-action-btn action-btn-wishlist text-center" href="#showmodal=@Url.Page("./Index", "WishList", new { id = product.Id })">
+                                        <i class="fa fa-heart-o pt-2 p-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-rating">
+                                    <div class="rating">
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                    </div>
+                                    <div class="reviews">150 بررسی</div>
+                                </div>
+                                <h4 class="title"><a asp-page="./ProductDetails" asp-route-id="@product.Id">@product.Name </a></h4>
+                                <div class="prices">
+                                    @if (product.HasDiscount)
+                                    {
+                                        <span class="price">@product.PriceWithDiscount تومان</span>
+                                        <span class="price-old fs-5">@product.Price</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="price">@product.Price تومان</span>
+                                    }
+                                </div>
+                            </div>
+                            <div class="product-action-bottom">
+                                <a type="button" class="product-action-btn action-btn-quick-view text-center" asp-page="./ProductDetails" asp-route-id="@product.Id">
+                                    <i class="fa fa-expand mt-1"></i>
+                                </a>
+                                <a type="button" class="product-action-btn action-btn-wishlist text-center" href="#showmodal=@Url.Page("./Index", "WishList", new { id = 4 })">
+                                    <i class="fa fa-heart-o m-1"></i>
+                                </a>
+                                <a type="button" class="product-action-btn action-btn-cart pt-2" href="#showmodal=@Url.Page("./Index", "CartAdd", new { id = 4 })">
+                                    <span class="m-3">به سبد خرید اضافه کنید</span>
+                                </a>
+                            </div>
+                        </div>
+                        <!--== End prPduct Item ==-->
+                    </div>
+        }
+        @*<div class="col-12">
+                    <ul class="pagination justify-content-center me-auto ms-auto mt-5 mb-0 mb-sm-10">
+                        <li class="page-item">
+                            <a class="page-link next" href="product.html" aria-label="Next">
+                                <span class="fa fa-chevron-right" aria-hidden="true"></span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="product.html">01</a></li>
+                        <li class="page-item"><a class="page-link" href="product.html">02</a></li>
+                        <li class="page-item"><a class="page-link" href="product.html">03</a></li>
+                        <li class="page-item"><a class="page-link" href="product.html">....</a></li>
+                        <li class="page-item">
+
+                            <a class="page-link previous" href="product.html" aria-label="Previous">
+                                <span class="fa fa-chevron-left" aria-hidden="true"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>*@
+        </div>
+        </div>
+    </section>
+    <!--== End Product Area Wrapper ==-->
+    
+</main>

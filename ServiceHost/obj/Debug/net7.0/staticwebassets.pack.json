@@ -1129,32 +1129,64 @@
       "PackagePath": "staticwebassets\\Theme\\files\\images\\photos\\page-not-found.webp"
     },
     {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\1.png",
+      "PackagePath": "staticwebassets\\Theme\\files\\images\\shop\\1.png"
+    },
+    {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\1.webp",
       "PackagePath": "staticwebassets\\Theme\\files\\images\\shop\\1.webp"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\2.png",
+      "PackagePath": "staticwebassets\\Theme\\files\\images\\shop\\2.png"
     },
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\2.webp",
       "PackagePath": "staticwebassets\\Theme\\files\\images\\shop\\2.webp"
     },
     {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\3.png",
+      "PackagePath": "staticwebassets\\Theme\\files\\images\\shop\\3.png"
+    },
+    {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\3.webp",
       "PackagePath": "staticwebassets\\Theme\\files\\images\\shop\\3.webp"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\4.png",
+      "PackagePath": "staticwebassets\\Theme\\files\\images\\shop\\4.png"
     },
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\4.webp",
       "PackagePath": "staticwebassets\\Theme\\files\\images\\shop\\4.webp"
     },
     {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\5.png",
+      "PackagePath": "staticwebassets\\Theme\\files\\images\\shop\\5.png"
+    },
+    {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\5.webp",
       "PackagePath": "staticwebassets\\Theme\\files\\images\\shop\\5.webp"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\6.png",
+      "PackagePath": "staticwebassets\\Theme\\files\\images\\shop\\6.png"
     },
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\6.webp",
       "PackagePath": "staticwebassets\\Theme\\files\\images\\shop\\6.webp"
     },
     {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\7.png",
+      "PackagePath": "staticwebassets\\Theme\\files\\images\\shop\\7.png"
+    },
+    {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\7.webp",
       "PackagePath": "staticwebassets\\Theme\\files\\images\\shop\\7.webp"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\8.png",
+      "PackagePath": "staticwebassets\\Theme\\files\\images\\shop\\8.png"
     },
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\8.webp",
@@ -1399,6 +1431,14 @@
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\js\\range-slider.js",
       "PackagePath": "staticwebassets\\Theme\\files\\js\\range-slider.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\js\\site.js",
+      "PackagePath": "staticwebassets\\Theme\\files\\js\\site.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\js\\site1.js",
+      "PackagePath": "staticwebassets\\Theme\\files\\js\\site1.js"
     },
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\js\\swiper-bundle.min.js",

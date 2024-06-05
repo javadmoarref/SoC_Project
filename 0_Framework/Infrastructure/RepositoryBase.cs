@@ -37,4 +37,10 @@ public class RepositoryBase<TKey,T>:IRepository<TKey,T> where T:class
     {
         return _context.Set<T>().Any(expression);
     }
+
+
+    public void Remove(T entity)
+    {
+        _context.Remove(entity);
+    }
 }

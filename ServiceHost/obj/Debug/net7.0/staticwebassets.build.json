@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cwUPptjArCM8KmlO9KmRSu9/jcF1jcrWr8Qav9bM4O0=",
+  "Hash": "yu3wxA21SnjZ/LdZnA+7DUaB/3EAzcNgYXakz32GisM=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -5814,6 +5814,23 @@
       "OriginalItemSpec": "wwwroot\\Theme\\files\\images\\photos\\page-not-found.webp"
     },
     {
+      "Identity": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\1.png",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/files/images/shop/1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\files\\images\\shop\\1.png"
+    },
+    {
       "Identity": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\1.webp",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
@@ -5829,6 +5846,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Theme\\files\\images\\shop\\1.webp"
+    },
+    {
+      "Identity": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\2.png",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/files/images/shop/2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\files\\images\\shop\\2.png"
     },
     {
       "Identity": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\2.webp",
@@ -5848,6 +5882,23 @@
       "OriginalItemSpec": "wwwroot\\Theme\\files\\images\\shop\\2.webp"
     },
     {
+      "Identity": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\3.png",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/files/images/shop/3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\files\\images\\shop\\3.png"
+    },
+    {
       "Identity": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\3.webp",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
@@ -5863,6 +5914,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Theme\\files\\images\\shop\\3.webp"
+    },
+    {
+      "Identity": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\4.png",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/files/images/shop/4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\files\\images\\shop\\4.png"
     },
     {
       "Identity": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\4.webp",
@@ -5882,6 +5950,23 @@
       "OriginalItemSpec": "wwwroot\\Theme\\files\\images\\shop\\4.webp"
     },
     {
+      "Identity": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\5.png",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/files/images/shop/5.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\files\\images\\shop\\5.png"
+    },
+    {
       "Identity": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\5.webp",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
@@ -5897,6 +5982,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Theme\\files\\images\\shop\\5.webp"
+    },
+    {
+      "Identity": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\6.png",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/files/images/shop/6.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\files\\images\\shop\\6.png"
     },
     {
       "Identity": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\6.webp",
@@ -5916,6 +6018,23 @@
       "OriginalItemSpec": "wwwroot\\Theme\\files\\images\\shop\\6.webp"
     },
     {
+      "Identity": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\7.png",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/files/images/shop/7.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\files\\images\\shop\\7.png"
+    },
+    {
       "Identity": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\7.webp",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
@@ -5931,6 +6050,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Theme\\files\\images\\shop\\7.webp"
+    },
+    {
+      "Identity": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\8.png",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/files/images/shop/8.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\files\\images\\shop\\8.png"
     },
     {
       "Identity": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\shop\\8.webp",
@@ -6968,6 +7104,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Theme\\files\\js\\range-slider.js"
+    },
+    {
+      "Identity": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\js\\site.js",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/files/js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\files\\js\\site.js"
+    },
+    {
+      "Identity": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\js\\site1.js",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/files/js/site1.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\files\\js\\site1.js"
     },
     {
       "Identity": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\js\\swiper-bundle.min.js",

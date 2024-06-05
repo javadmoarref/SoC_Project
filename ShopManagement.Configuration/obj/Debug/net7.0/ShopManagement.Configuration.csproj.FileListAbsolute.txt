@@ -23,3 +23,15 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configur
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configuration\obj\Debug\net7.0\ref\ShopManagement.Configuration.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configuration\bin\Debug\net7.0\01_SogandShopQuery.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configuration\bin\Debug\net7.0\01_SogandShopQuery.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Domain.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Application.Contracts.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Domain.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configuration\bin\Debug\net7.0\DiscountManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configuration\bin\Debug\net7.0\DiscountManagement.Domain.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configuration\bin\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configuration\bin\Debug\net7.0\DiscountManagement.Application.Contracts.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configuration\bin\Debug\net7.0\DiscountManagement.Domain.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Configuration\bin\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.pdb

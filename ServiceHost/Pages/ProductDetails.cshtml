@@ -1,0 +1,83 @@
+﻿@page
+@model ServiceHost.Pages.ProductDetailsModel
+@{
+}
+<main class="main-content">
+
+    <!--== Start Page Header Area Wrapper ==-->
+    <section class="page-header-area pt-10 pb-9" data-bg-color="#FFF3DA">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="page-header-st3-content text-center text-md-start">
+                        <ol class="breadcrumb justify-content-center justify-content-md-start">
+                            <li class="breadcrumb-item"><a class="text-dark" asp-page="./Index">صفحه اصلی</a></li>
+                            <li class="breadcrumb-item"><a class="text-dark" asp-page="./ProductCategory" asp-route-id="@Model.Product.CategorySlug">گروه محصول</a></li>
+                            <li class="breadcrumb-item active text-dark" aria-current="page">جزئیات محصول </li>
+                        </ol>
+                        <h2 class="page-header-title">جزئیات محصول : @Model.Product.Name</h2>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                   @* <h5 class="showing-pagination-results mt-5 mt-md-9 text-center text-md-end">نمایش محصول واحد</h5>*@
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--== End Page Header Area Wrapper ==-->
+    <!--== Start Product Details Area Wrapper ==-->
+    <section class="section-space">
+        <div class="container">
+            <div class="row product-details">
+                <div class="col-lg-6">
+                    <div class="product-details-thumb" data-bg-color="@Model.Product.BackgroundColor">
+                        <img src="@Model.Product.Picture" width="570" height="693" alt="@Model.Product.PictureAlt" title="@Model.Product.PictureTitle">
+                        <span class="flag-new">جدید</span>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="product-details-content">
+                        <h5 class="product-details-collection">گروه محصول : @Model.Product.Category</h5>
+                        <h3 class="product-details-title">
+                           @Model.Product.Name
+                        </h3>
+                        <div class="product-details-review mb-7">
+                            <div class="product-review-icon">
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                            <button type="button" class="product-review-show">150 بررسی</button>
+                        </div>
+                        <p class="mb-7">@Model.Product.ShortDescription</p>
+                        @if (Model.Product.HasDiscount)
+                        {
+                            <p class="info-text">این محصول را بخرید و <span class="text-primary">@Model.Product.DiscountRate %</span> تخفیف بگیرید </p>
+                        }
+                        <div class="product-details-action">
+                            <h4 class="price">@Model.Product.Price تومان</h4>
+                            <div class="product-details-cart-wishlist">
+                                <a type="button" class="btn-wishlist text-center" href="#showmodal=@Url.Page("./Index", "WishList", new { id = Model.Product.Slug })">
+                                    <i class="fa fa-heart-o m-3"></i>
+                                </a>
+                                <a type="button" class="btn ps-5" href="#showmodal=@Url.Page("./Index", "CartAdd", new { id = Model.Product.Slug})">
+                                    <span>هم اکنون خریداری کنید</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--== End Product Details Area Wrapper ==-->
+    <!--== Start Product Banner Area Wrapper ==-->
+    <!--== بنر ==-->
+    <!--== End Product Banner Area Wrapper ==-->
+    <!--== Start Product Area Wrapper ==-->
+    <!--== محصولات مرتبط ==-->
+    <!--== End Product Area Wrapper ==-->
+
+</main>

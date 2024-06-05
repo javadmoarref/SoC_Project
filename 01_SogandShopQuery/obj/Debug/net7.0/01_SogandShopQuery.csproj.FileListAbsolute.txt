@@ -19,3 +19,15 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net7.0\ShopManagement.Application.Contracts.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net7.0\ShopManagement.Domain.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\obj\Debug\net7.0\01_SogandShopQuery.csproj.CopyComplete
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net7.0\InventoryManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net7.0\InventoryManagement.Domain.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net7.0\InventoryManagement.Application.Contracts.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net7.0\InventoryManagement.Domain.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net7.0\DiscountManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net7.0\DiscountManagement.Domain.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net7.0\DiscountManagement.Application.Contracts.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net7.0\DiscountManagement.Domain.pdb

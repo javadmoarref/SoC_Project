@@ -1,8 +1,6 @@
 using InventoryManagement.Application.Contracts.Inventory;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using ShopManagement.Application.Contracts.Product;
 
 namespace ServiceHost.Areas.Administration.Pages.Inventory
 {

@@ -12,7 +12,10 @@ public class CreateProduct
     public string Code { get;  set; }
 
     [Required(ErrorMessage = ValidationMessage.IsRequired)]
+    [MaxLength(500,ErrorMessage = ValidationMessage.MaxIsRequired)]
     public string ShortDescription { get;  set; }
+
+    [MaxLength(500, ErrorMessage = ValidationMessage.MaxIsRequired)]
     public string Description { get;  set; }
     public string Picture { get;  set; }
     public string PictureAlt { get;  set; }

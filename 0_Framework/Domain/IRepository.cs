@@ -9,4 +9,5 @@ public interface IRepository<TKey,T> where T:class
     List<T> Get();
     void SaveChanges();
     bool Exists(Expression<Func<T,bool>> expression);
+    void Remove(T entity);
 }

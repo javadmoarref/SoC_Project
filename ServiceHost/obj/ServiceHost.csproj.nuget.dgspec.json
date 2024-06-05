@@ -27,6 +27,12 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
+              },
+              "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj"
+              },
               "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
               }
