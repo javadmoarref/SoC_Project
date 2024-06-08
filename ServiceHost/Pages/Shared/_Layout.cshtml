@@ -79,12 +79,12 @@
                 <div class="container pt--0 pb--0">
                     <div class="search-box-form-wrap">
                         <div class="search-note">
-                            <p>شروع به تایپ کنید و اینتر را برای جستجو فشار دهید</p>
+                            <p>در این جا محصول مورد نظر خود را جستجو کنید.</p>
                         </div>
-                        <form action="#" method="post">
+                        <form method="get" asp-page="./Search" >
                             <div class="aside-search-form position-relative">
-                                <label for="SearchInput" class="visually-hidden">جستجو</label>
-                                <input id="SearchInput" type="search" class="form-control" placeholder="جستجوی کل فروشگاه…">
+                                <label for="value" class="visually-hidden">جستجو</label>
+                                <input id="value" name="value" type="search" class="form-control" placeholder="جستجوی کل فروشگاه…">
                                 <button class="search-button" type="submit"><i class="fa fa-search"></i></button>
                             </div>
                         </form>

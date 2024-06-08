@@ -4,5 +4,6 @@ public interface IProductQuery
 {
     ProductQueryModel GetProductBy(string id);
     List<ProductQueryModel> GetLatestArrivals();
+    List<ProductQueryModel> Search(string value);
 
 }

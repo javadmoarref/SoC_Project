@@ -31,10 +31,10 @@
                                 @* <a type="button" class="product-action-btn action-btn-quick-view" onclick='mymainmodalbtn' id="mymainmodalbtn" href="#showmodal=@Url.Page("./Index", "QuickViewDetails")">
                             <i class="fa fa-expand m-3"></i>
                             </a>*@
-                                <a type="button" class="product-action-btn action-btn-cart pt-2" href="#showmodal=@Url.Page("./Index", "CartAdd", new { id = product.Id })">
+                                <a type="button" class="product-action-btn action-btn-cart pt-2" href="#showmodal=@Url.Page("./Index", "CartAdd", new { id = product.Slug })">
                                     <span>به سبد خرید اضافه کنید</span>
                                 </a>
-                                <a type="button" class="product-action-btn action-btn-wishlist" href="#showmodal=@Url.Page("./Index", "WishList", new { id = product.Id })">
+                                <a type="button" class="product-action-btn action-btn-wishlist" href="#showmodal=@Url.Page("./Index", "WishList", new { id = product.Slug })">
                                     <i class="fa fa-heart-o m-3"></i>
                                 </a>
                             </div>

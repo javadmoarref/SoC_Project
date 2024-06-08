@@ -1,4 +1,5 @@
 ﻿@page
+@using _0_Framework.Application
 @model ServiceHost.Pages.ProductCategoryModel
 @{
 }
@@ -44,10 +45,10 @@
                                     <a type="button" class="product-action-btn action-btn-quick-view text-center" asp-page="./ProductDetails" asp-route-id="@product.Slug">
                                         <i class="fa fa-expand pt-3 p-2"></i>
                                     </a>
-                                    <a type="button" class="product-action-btn action-btn-cart pt-2" href="#showmodal=@Url.Page("./Index", "CartAdd", new { id = product.Id })">
+                                    <a type="button" class="product-action-btn action-btn-cart pt-2" href="#showmodal=@Url.Page("./Index", "CartAdd", new { id = product.Slug })">
                                         <span>به سبد خرید اضافه کنید</span>
                                     </a>
-                                    <a type="button" class="product-action-btn action-btn-wishlist text-center" href="#showmodal=@Url.Page("./Index", "WishList", new { id = product.Id })">
+                                    <a type="button" class="product-action-btn action-btn-wishlist text-center" href="#showmodal=@Url.Page("./Index", "WishList", new { id = product.Slug })">
                                         <i class="fa fa-heart-o pt-2 p-2"></i>
                                     </a>
                                 </div>
@@ -77,13 +78,13 @@
                                 </div>
                             </div>
                             <div class="product-action-bottom">
-                                <a type="button" class="product-action-btn action-btn-quick-view text-center" asp-page="./ProductDetails" asp-route-id="@product.Id">
+                                <a type="button" class="product-action-btn action-btn-quick-view text-center" asp-page="./ProductDetails" asp-route-id="@product.Slug">
                                     <i class="fa fa-expand mt-1"></i>
                                 </a>
-                                <a type="button" class="product-action-btn action-btn-wishlist text-center" href="#showmodal=@Url.Page("./Index", "WishList", new { id = 4 })">
+                                <a type="button" class="product-action-btn action-btn-wishlist text-center" href="#showmodal=@Url.Page("./Index", "WishList", new { id = product.Slug })">
                                     <i class="fa fa-heart-o m-1"></i>
                                 </a>
-                                <a type="button" class="product-action-btn action-btn-cart pt-2" href="#showmodal=@Url.Page("./Index", "CartAdd", new { id = 4 })">
+                                <a type="button" class="product-action-btn action-btn-cart pt-2" href="#showmodal=@Url.Page("./Index", "CartAdd", new { id = product.Slug })">
                                     <span class="m-3">به سبد خرید اضافه کنید</span>
                                 </a>
                             </div>
