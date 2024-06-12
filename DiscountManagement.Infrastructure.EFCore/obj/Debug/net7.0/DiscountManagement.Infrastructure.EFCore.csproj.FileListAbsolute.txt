@@ -19,9 +19,10 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Infr
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Infrastructure.EFCore\obj\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Infrastructure.EFCore\obj\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.AssemblyInfo.cs
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Infrastructure.EFCore\obj\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Infrastructure.EFCore\obj\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.csproj.CopyComplete
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Infrastructure.EFCore\obj\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Infrastructure.EFCore\obj\Debug\net7.0\refint\DiscountManagement.Infrastructure.EFCore.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Infrastructure.EFCore\obj\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Infrastructure.EFCore\obj\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.genruntimeconfig.cache
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Infrastructure.EFCore\obj\Debug\net7.0\ref\DiscountManagement.Infrastructure.EFCore.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Infrastructure.EFCore\obj\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.sourcelink.json
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Infrastructure.EFCore\obj\Debug\net7.0\Discount.3D85B343.Up2Date

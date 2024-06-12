@@ -74,7 +74,6 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\n
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net7.0\scopedcss\bundle\ServiceHost.styles.css
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net7.0\scopedcss\projectbundle\ServiceHost.bundle.scp.css
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net7.0\ServiceHost.csproj.CopyComplete
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net7.0\ServiceHost.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net7.0\refint\ServiceHost.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net7.0\ServiceHost.pdb
@@ -108,3 +107,6 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\n
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net7.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net7.0\ServiceHost.sourcelink.json
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net7.0\ServiceH.EB565EEF.Up2Date

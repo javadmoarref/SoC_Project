@@ -12,8 +12,9 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Applicat
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Application\obj\Debug\net7.0\ShopManagement.Application.AssemblyInfoInputs.cache
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Application\obj\Debug\net7.0\ShopManagement.Application.AssemblyInfo.cs
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Application\obj\Debug\net7.0\ShopManagement.Application.csproj.CoreCompileInputs.cache
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Application\obj\Debug\net7.0\ShopManagement.Application.csproj.CopyComplete
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Application\obj\Debug\net7.0\ShopManagement.Application.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Application\obj\Debug\net7.0\refint\ShopManagement.Application.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Application\obj\Debug\net7.0\ShopManagement.Application.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Application\obj\Debug\net7.0\ref\ShopManagement.Application.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Application\obj\Debug\net7.0\ShopManagement.Application.sourcelink.json
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Application\obj\Debug\net7.0\ShopMana.FD901593.Up2Date

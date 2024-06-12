@@ -625,6 +625,30 @@
       "PackagePath": "staticwebassets\\AdminTheme\\assets\\vendor\\libs\\popper\\popper.js"
     },
     {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Images\\آرایش-صورت\\2.webp",
+      "PackagePath": "staticwebassets\\Images\\آرایش-صورت\\2.webp"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Images\\لوازم-آرایشی\\4.webp",
+      "PackagePath": "staticwebassets\\Images\\لوازم-آرایشی\\4.webp"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Images\\محصولات-طبیعی\\1.webp",
+      "PackagePath": "staticwebassets\\Images\\محصولات-طبیعی\\1.webp"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Images\\مراقبت-از-پوست\\6.webp",
+      "PackagePath": "staticwebassets\\Images\\مراقبت-از-پوست\\6.webp"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Images\\کرم-و-ماسک-صورت\\3.webp",
+      "PackagePath": "staticwebassets\\Images\\کرم-و-ماسک-صورت\\3.webp"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Images\\کرمهای-ضد-آفتاب\\5.webp",
+      "PackagePath": "staticwebassets\\Images\\کرمهای-ضد-آفتاب\\5.webp"
+    },
+    {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Theme\\files\\css\\bootstrap.min.css"
     },

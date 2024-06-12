@@ -12,8 +12,9 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Appl
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Application\obj\Debug\net7.0\DiscountManagement.Application.AssemblyInfoInputs.cache
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Application\obj\Debug\net7.0\DiscountManagement.Application.AssemblyInfo.cs
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Application\obj\Debug\net7.0\DiscountManagement.Application.csproj.CoreCompileInputs.cache
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Application\obj\Debug\net7.0\DiscountManagement.Application.csproj.CopyComplete
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Application\obj\Debug\net7.0\DiscountManagement.Application.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Application\obj\Debug\net7.0\refint\DiscountManagement.Application.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Application\obj\Debug\net7.0\DiscountManagement.Application.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Application\obj\Debug\net7.0\ref\DiscountManagement.Application.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Application\obj\Debug\net7.0\DiscountManagement.Application.sourcelink.json
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Application\obj\Debug\net7.0\Discount.FA9DCEB2.Up2Date

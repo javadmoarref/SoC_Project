@@ -10,8 +10,9 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Doma
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Domain\obj\Debug\net7.0\DiscountManagement.Domain.AssemblyInfoInputs.cache
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Domain\obj\Debug\net7.0\DiscountManagement.Domain.AssemblyInfo.cs
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Domain\obj\Debug\net7.0\DiscountManagement.Domain.csproj.CoreCompileInputs.cache
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Domain\obj\Debug\net7.0\DiscountManagement.Domain.csproj.CopyComplete
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Domain\obj\Debug\net7.0\DiscountManagement.Domain.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Domain\obj\Debug\net7.0\refint\DiscountManagement.Domain.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Domain\obj\Debug\net7.0\DiscountManagement.Domain.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Domain\obj\Debug\net7.0\ref\DiscountManagement.Domain.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Domain\obj\Debug\net7.0\DiscountManagement.Domain.sourcelink.json
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Domain\obj\Debug\net7.0\Discount.4808E127.Up2Date

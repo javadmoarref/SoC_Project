@@ -8,8 +8,9 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.App
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\obj\Debug\net7.0\InventoryManagement.Application.Contracts.AssemblyInfoInputs.cache
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\obj\Debug\net7.0\InventoryManagement.Application.Contracts.AssemblyInfo.cs
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\obj\Debug\net7.0\InventoryManagement.Application.Contracts.csproj.CoreCompileInputs.cache
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\obj\Debug\net7.0\InventoryManagement.Application.Contracts.csproj.CopyComplete
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\obj\Debug\net7.0\InventoryManagement.Application.Contracts.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\obj\Debug\net7.0\refint\InventoryManagement.Application.Contracts.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\obj\Debug\net7.0\InventoryManagement.Application.Contracts.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\obj\Debug\net7.0\ref\InventoryManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\obj\Debug\net7.0\InventoryManagement.Application.Contracts.sourcelink.json
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Application.Contracts\obj\Debug\net7.0\Inventor.6A146F2C.Up2Date

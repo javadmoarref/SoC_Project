@@ -21,7 +21,7 @@ public class ProductCategoryRepository:RepositoryBase<long,ProductCategory>, IPr
         {
             Id = x.Id,
             Name = x.Name,
-            Picture = x.Picture,
+            //Picture = x.Picture,
             Description = x.Description,
             PictureAlt = x.PictureAlt,
             PictureTitle = x.PictureTitle,

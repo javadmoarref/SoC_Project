@@ -14,4 +14,5 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Dom
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Domain\bin\Debug\net7.0\InventoryManagement.Application.Contracts.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Domain\bin\Debug\net7.0\0_Framework.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Domain\bin\Debug\net7.0\InventoryManagement.Application.Contracts.pdb
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Domain\obj\Debug\net7.0\InventoryManagement.Domain.csproj.CopyComplete
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Domain\obj\Debug\net7.0\InventoryManagement.Domain.sourcelink.json
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Domain\obj\Debug\net7.0\Inventor.631CB0DA.Up2Date
