@@ -9,4 +9,5 @@ public interface IProductCategoryRepository:IRepository<long,ProductCategory>
     EditProductCategory GetDetails(long id);
     List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel);
     List<ProductCategoryViewModel> GetProductCategories();
+    string GetCategorySlugBy(long id);
 }

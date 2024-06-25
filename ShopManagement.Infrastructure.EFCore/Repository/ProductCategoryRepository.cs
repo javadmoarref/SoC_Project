@@ -57,4 +57,10 @@ public class ProductCategoryRepository:RepositoryBase<long,ProductCategory>, IPr
             Name = x.Name
         }).ToList();
     }
+
+    public string GetCategorySlugBy(long id)
+    {
+        return _context.ProductCategories.Select(x => new { x.Id, x.Slug })
+            .FirstOrDefault(x => x.Id == id)?.Slug;
+    }
 }

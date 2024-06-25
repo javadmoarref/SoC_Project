@@ -11,7 +11,7 @@ public class CreateProductCategory
 
     public string Description { get; set; }
 
-    [Required(ErrorMessage = ValidationMessage.IsRequired)]
+    [FileExtensionLimitation(new[] { ".jpeg", ".jpg", ".png" }, ErrorMessage = ValidationMessage.InvalideFileFormat)]
     [MaxFileSize(3*1024*1024,ErrorMessage = ValidationMessage.MaxFileSize)]
     public IFormFile Picture { get; set; }
     public string PictureAlt { get; set; }

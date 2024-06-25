@@ -21,7 +21,6 @@ public class ProductRepository:RepositoryBase<long,Product>,IProductRepository
             Id = x.Id,
             Name = x.Name,
             Description = x.Description,
-            Picture = x.Picture,
             PictureAlt = x.PictureAlt,
             PictureTitle = x.PictureTitle,
             Keywords = x.Keywords,
@@ -74,5 +73,11 @@ public class ProductRepository:RepositoryBase<long,Product>,IProductRepository
             Id = x.Id,
             Name = x.Name
         }).ToList();
+    }
+
+    public Product GetProductWithCategoryBy(long id)
+    {
+        return _context.Products.Include(x => x.Category)
+            .FirstOrDefault(x => x.Id == id);
     }
 }

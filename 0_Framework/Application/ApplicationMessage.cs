@@ -4,4 +4,5 @@ public class ApplicationMessage
 {
     public const string RecordNotFound = "رکورد با اطلاعات درخواست شده یافت نشد.";
     public const string DuplicatedRecord = "امکان ثبت رکورد تکراری وجود ندارد.";
+    public const string InvalidModelState = "مقادیر را بدرستی وارد کنید.";
 }

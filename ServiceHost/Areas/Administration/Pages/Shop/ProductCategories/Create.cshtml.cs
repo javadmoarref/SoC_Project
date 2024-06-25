@@ -1,3 +1,4 @@
+using _0_Framework.Application;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ShopManagement.Application.Contracts.ProductCategory;
@@ -17,15 +18,20 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
         }
         public void OnGet()
         {
-           
+
         }
 
         public IActionResult OnPost(CreateProductCategory command)
         {
-            var result=_productCategoryApplication.Create(command);
+            if (!ModelState.IsValid)
+            {
+                ViewData["Message"] = ApplicationMessage.InvalidModelState;
+                return Page();
+            }
+            var result = _productCategoryApplication.Create(command);
             if (result.IsSuccedded)
             {
-                Message=result.Message;
+                Message = result.Message;
                 return RedirectToPage("Index");
             }
             ViewData["Message"] = result.Message;

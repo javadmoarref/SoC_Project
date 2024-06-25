@@ -15,7 +15,7 @@ DiscountManagementBootstrapper.Configure(services,connectionString);
 InventoryManagementBootstrapper.Configure(services,connectionString);
 
 
-services.AddTransient<IFileUploader, FileUploader>();
+services.AddTransient<IFileUploader,FileUploader>();
 builder.Services.AddRazorPages();
 
 var app = builder.Build();

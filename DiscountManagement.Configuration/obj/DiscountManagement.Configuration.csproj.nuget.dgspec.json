@@ -480,9 +480,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Http": {
+            "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
-              "version": "[2.2.2, )"
+              "version": "[2.2.0, )"
             }
           },
           "imports": [

@@ -40,7 +40,10 @@ public class ProductCategory:EntityBase
     {
         Name = name;
         Description = description;
-        Picture = picture;
+        if (!string.IsNullOrWhiteSpace(picture))
+        {
+            Picture = picture;
+        }
         PictureAlt = pictureAlt;
         PictureTitle = pictureTitle;
         Keywords = keywords;
