@@ -1,3 +1,4 @@
+using _0_Framework.Application;
 using DiscountManagement.Application.Contracts.ColleagueDiscount;
 using DiscountManagement.Application.Contracts.CustomerDiscount;
 using Microsoft.AspNetCore.Mvc;
@@ -31,6 +32,11 @@ namespace ServiceHost.Areas.Administration.Pages.Discount.ColleagueDiscounts
 
         public IActionResult OnPost(DefineColleagueDiscount command)
         {
+            if (!ModelState.IsValid)
+            {
+                ViewData["Message"] = ApplicationMessage.InvalidModelState;
+                return Page();
+            }
             var result=_colleagueDiscountApplication.Define(command);
             if (result.IsSuccedded)
             {

@@ -1,3 +1,4 @@
+using _0_Framework.Application;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ShopManagement.Application.Contracts.Slide;
@@ -22,6 +23,11 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slides
 
         public IActionResult OnPost(CreateSlide command)
         {
+            if (!ModelState.IsValid)
+            {
+                ViewData["Message"] = ApplicationMessage.InvalidModelState;
+                return Page();
+            }
             var result=_slideApplication.Create(command);
             if (result.IsSuccedded)
             {

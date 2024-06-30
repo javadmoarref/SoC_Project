@@ -7,4 +7,5 @@ public interface IProductPictureRepository:IRepository<long,ProductPicture>
 {
     EditProductPicture GetDetails(long id);
     List<ProductPictureViewModel> Search(ProductPictureSearchModel searchModel);
+    ProductPicture GetWithProductAndCategory(long id);
 }

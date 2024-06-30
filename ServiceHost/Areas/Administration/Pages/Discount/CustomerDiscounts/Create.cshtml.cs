@@ -1,3 +1,4 @@
+using _0_Framework.Application;
 using DiscountManagement.Application.Contracts.CustomerDiscount;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -30,6 +31,11 @@ namespace ServiceHost.Areas.Administration.Pages.Discount.CustomerDiscounts
 
         public IActionResult OnPost(DefineCustomerDiscount command)
         {
+            if (!ModelState.IsValid)
+            {
+                ViewData["Message"] = ApplicationMessage.InvalidModelState;
+                return Page();
+            }
             var result=_customerDiscountApplication.Define(command);
             if (result.IsSuccedded)
             {

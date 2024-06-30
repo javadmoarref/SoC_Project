@@ -1,3 +1,4 @@
+using _0_Framework.Application;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -27,6 +28,11 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
 
         public IActionResult OnPost(CreateProduct command)
         {
+            if (!ModelState.IsValid)
+            {
+                ViewData["Message"] = ApplicationMessage.InvalidModelState;
+                return Page();
+            }
             var result=_productApplication.Create(command);
             if (result.IsSuccedded)
             {

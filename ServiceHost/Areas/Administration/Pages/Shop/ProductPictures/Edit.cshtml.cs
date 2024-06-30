@@ -1,3 +1,4 @@
+using _0_Framework.Application;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -30,6 +31,11 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
 
         public IActionResult OnPost(EditProductPicture command)
         {
+            if (!ModelState.IsValid)
+            {
+                ViewData["Message"] = ApplicationMessage.InvalidModelState;
+                return Page();
+            }
             var result=_productPictureApplication.Edit(command);
             if (result.IsSuccedded)
             {

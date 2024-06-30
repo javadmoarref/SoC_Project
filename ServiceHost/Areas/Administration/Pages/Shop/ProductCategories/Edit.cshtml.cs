@@ -1,3 +1,4 @@
+using _0_Framework.Application;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ShopManagement.Application.Contracts.ProductCategory;
@@ -23,6 +24,11 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
 
         public IActionResult OnPost(EditProductCategory command)
         {
+            if (!ModelState.IsValid)
+            {
+                ViewData["Message"] = ApplicationMessage.InvalidModelState;
+                return Page();
+            }
             var result=_productCategoryApplication.Edit(command);
             if (result.IsSuccedded)
             {

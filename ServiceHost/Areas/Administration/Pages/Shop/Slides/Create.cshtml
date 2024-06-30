@@ -20,7 +20,8 @@
                 </div>
                 <div class="card-body">
                     <form asp-page="/Create"
-                          method="post">
+                          method="post"
+                          enctype="multipart/form-data">
                         <div class="row mb-3">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -32,7 +33,7 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label asp-for="Command.Picture" class="control-label">عکس</label>
-                                    <input type="text"  class="form-control" asp-for="Command.Picture"/>
+                                    <input type="file"  class="form-control" asp-for="Command.Picture" accept="image/*"/>
                                     <span asp-validation-for="Command.Picture" class="error"></span>
                                 </div>
                             </div>

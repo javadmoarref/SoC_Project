@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("01_SogandShopQuery")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48b3dc98cd925dd525d71c241c5ff418f994b97d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b696ec2bcd8cb56804b59c1f80705ffc4b978a34")]
 [assembly: System.Reflection.AssemblyProductAttribute("01_SogandShopQuery")]
 [assembly: System.Reflection.AssemblyTitleAttribute("01_SogandShopQuery")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

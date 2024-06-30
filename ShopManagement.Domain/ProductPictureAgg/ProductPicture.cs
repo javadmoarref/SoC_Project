@@ -28,7 +28,10 @@ public class ProductPicture:EntityBase
         string backgroundColor)
     {
         ProductId = productId;
-        Picture = picture;
+        if (!string.IsNullOrWhiteSpace(picture))
+        {
+            Picture = picture;
+        }
         PictureAlt = pictureAlt;
         PictureTitle = pictureTitle;
         BackgroundColor = backgroundColor;
