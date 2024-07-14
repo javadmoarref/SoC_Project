@@ -1,6 +1,6 @@
 ﻿<aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
     <div class="app-brand demo">
-        <a href="index.html" class="app-brand-link">
+        <a asp-page="/Index" class="app-brand-link">
             @*<span class="app-brand-logo demo">
             <svg width="25"
             viewBox="0 0 25 42"
@@ -89,6 +89,11 @@
                 <li class="menu-item">
                     <a asp-page="/Shop/Slides/Index" class="menu-link">
                         <div data-i18n="Without navbar">اسلاید</div>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a asp-page="/Shop/Comments/Index" class="menu-link">
+                        <div data-i18n="Without navbar">کامنت ها</div>
                     </a>
                 </li>
             </ul>

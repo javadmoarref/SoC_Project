@@ -36,8 +36,14 @@ public class ProductQuery:IProductQuery
                 ShortDescription = x.ShortDescription,
                 Category = x.Category.Name,
                 Slug = x.Slug,
-                CategorySlug = x.Category.Slug
+                CategorySlug = x.Category.Slug,
+                Keywords = x.Keywords,
+                MetaDescription = x.MetaDescription
             }).FirstOrDefault(x => x.Slug == slug);
+        if (product == null)
+        {
+            return new ProductQueryModel();
+        }
         var inventory = _inventoryContext.Inventory
             .FirstOrDefault(x => x.ProductId == product.Id);
         if (inventory != null)

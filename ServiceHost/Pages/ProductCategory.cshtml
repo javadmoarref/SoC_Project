@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "{id}"
 @using _0_Framework.Application
 @model ServiceHost.Pages.ProductCategoryModel
 @{
@@ -14,7 +14,7 @@
                     <div class="page-header-st3-content text-center text-md-start">
                         <ol class="breadcrumb justify-content-center justify-content-md-start">
                             <li class="breadcrumb-item"><a class="text-dark" asp-page="./Index">صفحه اصلی</a></li>
-                            <li class="breadcrumb-item active text-dark" aria-current="page">محصول</li>
+                            <li class="breadcrumb-item active text-dark" aria-current="page">@Model.Category.Name</li>
                         </ol>
                         <h2 class="page-header-title"> تمام محصولات گروه :@Model.Category.Name</h2>
                     </div>
@@ -38,7 +38,7 @@
                         <div class="product-item product-st3-item">
                             <div class="product-thumb" data-bg-color="@product.BackgroundColor">
                                 <a class="d-block" asp-page="./ProductDetails" asp-route-id="@product.Slug">
-                                    <img src="@product.Picture" width="370" height="450" alt="@product.PictureAlt" title="@product.PictureTitle">
+                                    <img src="~/uploads/@product.Picture" width="370" height="450" alt="@product.PictureAlt" title="@product.PictureTitle">
                                 </a>
                                 @*<span class="flag-new">جدید</span>*@
                                 <div class="product-action">
@@ -89,7 +89,7 @@
                                 </a>
                             </div>
                         </div>
-                        <!--== End prPduct Item ==-->
+                        <!--== End product Item ==-->
                     </div>
         }
         @*<div class="col-12">

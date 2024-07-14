@@ -1705,6 +1705,10 @@
       "PackagePath": "staticwebassets\\uploads\\dgdg\\2024-06-24-12-32-57-1.png"
     },
     {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\slides\\2024-06-30-22-59-54-slider4.png",
+      "PackagePath": "staticwebassets\\uploads\\slides\\2024-06-30-22-59-54-slider4.png"
+    },
+    {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\لوازم-آرایشی\\2024-06-24-12-33-17-2.png",
       "PackagePath": "staticwebassets\\uploads\\لوازم-آرایشی\\2024-06-24-12-33-17-2.png"
     },
@@ -1771,6 +1775,14 @@
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-06-25-12-50-25-6.png",
       "PackagePath": "staticwebassets\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-06-25-12-50-25-6.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-06-30-22-59-11-2.png",
+      "PackagePath": "staticwebassets\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-06-30-22-59-11-2.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-07-09-11-33-25-3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-07-09-11-33-25-3.jpg"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ServiceHost.Microsoft.AspNetCore.StaticWebAssets.props",

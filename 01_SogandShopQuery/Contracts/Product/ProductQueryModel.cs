@@ -18,5 +18,7 @@
         public bool HasDiscount { get; set; }
         public string CategorySlug { get; set; }
         public bool InStock { get; set; }
+        public string Keywords { get;  set; }
+        public string MetaDescription { get;  set; }
     }
 }
