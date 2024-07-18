@@ -33,6 +33,15 @@
                             <input type="text" class="form-control" asp-for="SearchModel.Email" placeholder="ایمیل">
                         </div>
                     </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="SearchModel.ProductId" class="control-label">نام محصول</label>
+                            <select id="selectTypeOpt" class="form-select color-dropdown" asp-for="SearchModel.ProductId"
+                                    asp-items="@Model.Products">
+                                <option value="0">...</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
                 <div class="row justify-content-end">
                     <div class="col-sm-11">
@@ -65,6 +74,7 @@
                     <th>نام و نام خانوادگی</th>
                     <th>ایمیل</th>
                     <th>پیام</th>
+                    <th>نام محصول</th>
                     <th>تاریخ ایجاد</th>
                     <th>وضعیت</th>
                     <th>عملیات</th>
@@ -78,6 +88,7 @@
                         <td>@item.FullName</td>
                         <td>@item.Email</td>
                         <td class="persianNumber">@item.Message</td>
+                        <td>@item.ProductName</td>
                         <td class="persianNumber">@item.CommentDate</td>
                         <td>
                             @if (!item.IsConfirmed && !item.IsCanceled)

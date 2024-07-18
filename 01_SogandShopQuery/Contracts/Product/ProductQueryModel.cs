@@ -20,5 +20,14 @@
         public bool InStock { get; set; }
         public string Keywords { get;  set; }
         public string MetaDescription { get;  set; }
+        public List<CommentQueryModel> Comments { get; set; }
+    }
+
+    public class CommentQueryModel
+    {
+        public long Id { get; set; }
+        public string FullName { get; set; }
+        public string Message { get; set; }
+
     }
 }

@@ -3,7 +3,6 @@
 @{
 }
 <main class="main-content">
-
     <!--== Start Page Header Area Wrapper ==-->
     <section class="page-header-area pt-10 pb-9" data-bg-color="#FFF3DA">
         <div class="container">
@@ -74,7 +73,7 @@
                 <div class="col-lg-7">
                     <div class="nav product-details-nav" id="product-details-nav-tab" role="tablist">
                         <button class="nav-link" id="specification-tab" data-bs-toggle="tab" data-bs-target="#specification" type="button" role="tab" aria-controls="specification" aria-selected="false">توضیحات</button>
-                        <button class="nav-link active" id="review-tab" data-bs-toggle="tab" data-bs-target="#review" type="button" role="tab" aria-controls="review" aria-selected="true">نظرات</button>
+                        <button class="nav-link active" id="review-tab" data-bs-toggle="tab" data-bs-target="#review" type="button" role="tab" aria-controls="review" aria-selected="true">نظرات : @Model.Product.Comments.Count</button>
                     </div>
                     <div class="tab-content" id="product-details-nav-tabContent">
                         <div class="tab-pane" id="specification" role="tabpanel" aria-labelledby="specification-tab">
@@ -83,90 +82,49 @@
 
                         <div class="tab-pane fade show active" id="review" role="tabpanel" aria-labelledby="review-tab">
                             <!--== Start Reviews Content Item ==-->
-                            <div class="product-review-item">
-                                <div class="product-review-top">
-                                    <div class="product-review-thumb">
-                                        <img src="~/Theme/files/images/shop/product-details/comment1.webp" alt="Images">
-                                    </div>
-                                    <div class="product-review-content">
-                                        <span class="product-review-name">توماس دو</span>
-                                        <span class="product-review-designation">توسعه دهنده</span>
-                                        <div class="product-review-icon">
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-half-o"></i>
+                            @foreach (var comment in Model.Product.Comments)
+                            {
+                                <div class="product-review-item">
+                                    <div class="product-review-top">
+                                        <div class="product-review-thumb">
+                                            <img src="~/Theme/files/images/butterfly-logo.png" width="150" height="150" alt="Images">
+                                        </div>
+                                        <div class="product-review-content">
+                                            <span class="product-review-name">@comment.FullName</span>
+                                            @* <span class="product-review-designation">توسعه دهنده</span> *@
+                                           @*  <div class="product-review-icon">
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-half-o"></i>
+                                            </div> *@
                                         </div>
                                     </div>
+                                    <p class="desc">@comment.Message</p>
+                                    <button type="button" class="review-reply"><i class="fa fa fa-undo"></i></button>
                                 </div>
-                                <p class="desc"> برای خانم‌ها و آقایانی که قصد خرید محصولاتی عالی و اصلی را دارند و می‌خواهند درباره چیزی که می‌خرند اطلاعات کامل و واقعی داشته باشند. این همیشه سرلوحه شعارهای مدیاژ بوده و ما در این مجموعه تمامی تلاشمان این است که مشتری‌هایمان بتوانند با اطلاعات کامل از طیف گسترده‌ای از محصولات بازار، توانایی خرید داشته باشند</p>
-                                <button type="button" class="review-reply"><i class="fa fa fa-undo"></i></button>
-                            </div>
-                            <!--== End Reviews Content Item ==-->
-                            <!--== Start Reviews Content Item ==-->
-                            <div class="product-review-item product-review-reply">
-                                <div class="product-review-top">
-                                    <div class="product-review-thumb">
-                                        <img src="~/Theme/files/images/shop/product-details/comment2.webp" alt="Images">
-                                    </div>
-                                    <div class="product-review-content">
-                                        <span class="product-review-name">توماس دو</span>
-                                        <span class="product-review-designation">توسعه دهنده</span>
-                                        <div class="product-review-icon">
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-half-o"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p class="desc"> برای خانم‌ها و آقایانی که قصد خرید محصولاتی عالی و اصلی را دارند و می‌خواهند درباره چیزی که می‌خرند اطلاعات کامل و واقعی داشته باشند. این همیشه سرلوحه شعارهای مدیاژ بوده و ما در این مجموعه تمامی تلاشمان این است که مشتری‌هایمان بتوانند با اطلاعات کامل از طیف گسترده‌ای از محصولات بازار، توانایی خرید داشته باشند.</p>
-                                <button type="button" class="review-reply"><i class="fa fa fa-undo"></i></button>
-                            </div>
-                            <!--== End Reviews Content Item ==-->
-                            <!--== Start Reviews Content Item ==-->
-                            <div class="product-review-item mb-0">
-                                <div class="product-review-top">
-                                    <div class="product-review-thumb">
-                                        <img src="~/Theme/files/images/shop/product-details/comment3.webp" alt="Images">
-                                    </div>
-                                    <div class="product-review-content">
-                                        <span class="product-review-name">توماس دو</span>
-                                        <span class="product-review-designation">توسعه دهنده</span>
-                                        <div class="product-review-icon">
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-half-o"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p class="desc"> برای خانم‌ها و آقایانی که قصد خرید محصولاتی عالی و اصلی را دارند و می‌خواهند درباره چیزی که می‌خرند اطلاعات کامل و واقعی داشته باشند. این همیشه سرلوحه شعارهای مدیاژ بوده و ما در این مجموعه تمامی تلاشمان این است که مشتری‌هایمان بتوانند با اطلاعات کامل از طیف گسترده‌ای از محصولات بازار، توانایی خرید داشته باشند</p>
-                                <button type="button" class="review-reply"><i class="fa fa fa-undo"></i></button>
-                            </div>
+                            }
                             <!--== End Reviews Content Item ==-->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-5">
                     <div class="product-reviews-form-wrap">
-                        <h4 class="product-form-title">نظر دهید</h4>
+                        <h4 class="product-form-title">نظرات خود را با ما به اشتراک بگذارید...</h4>
                         <div class="product-reviews-form">
-                            <form action="#">
+                            <form method="post">
                                 <div class="form-input-item">
-                                    <textarea class="form-control" placeholder="بازخورد خود را وارد کنید"></textarea>
+                                    <textarea class="form-control" name="message" placeholder="پیام شما ..."></textarea>
                                 </div>
                                 <div class="form-input-item">
-                                    <input class="form-control" type="text" placeholder="نام و نام خانوادگی">
+                                    <input class="form-control" type="text" name="fullName" placeholder="نام و نام خانوادگی">
                                 </div>
                                 <div class="form-input-item">
-                                    <input class="form-control" type="email" placeholder="آدرس ایمیل">
+                                    <input class="form-control" type="email" name="email" placeholder="آدرس ایمیل">
                                 </div>
                                 <div class="form-input-item">
-                                    <div class="form-ratings-item">
+                                    @* <div class="form-ratings-item">
                                         <select id="product-review-form-rating-select" class="select-ratings">
                                             <option value="1">01</option>
                                             <option value="2">02</option>
@@ -191,7 +149,7 @@
                                                 <i class="fa fa-star"></i>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> *@
                                     @* <div class="reviews-form-checkbox">
                                         <input class="form-check-input" type="checkbox" value="" id="ReviewsFormCheckbox" checked>
                                         <label class="form-check-label" for="ReviewsFormCheckbox">
@@ -200,6 +158,8 @@
                                     </div> *@
                                 </div>
                                 <div class="form-input-item mb-0">
+                                    <input type="hidden" name="productId" value="@Model.Product.Id"/>
+                                    <input type="hidden" name="productSlug" value="@Model.Product.Slug"/>
                                     <button type="submit" class="btn">ارسال</button>
                                 </div>
                             </form>

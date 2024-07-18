@@ -3,6 +3,7 @@ using _01_SogandShopQuery.Contracts.Product;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EfCore;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Domain.CommentAgg;
 using ShopManagement.Infrastructure.EFCore;
 
 namespace _01_SogandShopQuery.Query;
@@ -23,6 +24,7 @@ public class ProductQuery:IProductQuery
     public ProductQueryModel GetProductBy(string slug)
     {
         var product= _shopContext.Products
+            .Include(x=>x.Comments)
             .Include(x=>x.Category)
             .Select(x=>new ProductQueryModel()
             {
@@ -38,7 +40,8 @@ public class ProductQuery:IProductQuery
                 Slug = x.Slug,
                 CategorySlug = x.Category.Slug,
                 Keywords = x.Keywords,
-                MetaDescription = x.MetaDescription
+                MetaDescription = x.MetaDescription,
+                Comments = MapComments(x.Comments)
             }).FirstOrDefault(x => x.Slug == slug);
         if (product == null)
         {
@@ -62,6 +65,19 @@ public class ProductQuery:IProductQuery
         }
 
         return product;
+    }
+
+    private static List<CommentQueryModel> MapComments(List<Comment> comments)
+    {
+        return comments
+            .Where(x => !x.IsCanceled)
+            .Where(x => x.IsConfirmed)
+            .Select(x => new CommentQueryModel()
+            {
+                Id = x.Id,
+                FullName = x.FullName,
+                Message = x.Message
+            }).OrderByDescending(x=>x.Id).ToList();
     }
 
     public List<ProductQueryModel> GetLatestArrivals()

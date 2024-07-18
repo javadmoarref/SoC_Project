@@ -41,6 +41,11 @@ public class CommentRepository:RepositoryBase<long,Comment>,ICommentRepository
             query = query.Where(x => x.Email.Contains(searchModel.Email));
         }
 
+        if (!string.IsNullOrWhiteSpace(searchModel.ProductName))
+        {
+            query = query.Where(x => x.ProductName.Contains(searchModel.ProductName));
+        }
+
         return query.OrderByDescending(x=>x.Id).ToList();
     }
 }
