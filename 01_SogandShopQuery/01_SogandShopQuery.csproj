@@ -8,12 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Contracts\Article\" />
+    <Folder Include="Contracts\ArticleCategory\" />
     <Folder Include="Contracts\ProductCategory\" />
     <Folder Include="Contracts\Slide\" />
-    <Folder Include="Query\" />
+    <Folder Include="Model\" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BlogManagement.Infrastructure.EFCore\BlogManagement.Infrastructure.EFCore.csproj" />
     <ProjectReference Include="..\DiscountManagement.Infrastructure.EFCore\DiscountManagement.Infrastructure.EFCore.csproj" />
     <ProjectReference Include="..\InventoryManagement.Infrastructure.EfCore\InventoryManagement.Infrastructure.EfCore.csproj" />
     <ProjectReference Include="..\ShopManagement.Infrastructure.EFCore\ShopManagement.Infrastructure.EFCore.csproj" />

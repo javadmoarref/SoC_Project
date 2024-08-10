@@ -110,3 +110,13 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\n
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net7.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net7.0\ServiceHost.sourcelink.json
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net7.0\ServiceH.EB565EEF.Up2Date
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\BlogManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\BlogManagement.Application.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\BlogManagement.Configuration.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\BlogManagement.Domain.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\BlogManagement.Infrastructure.EFCore.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\BlogManagement.Configuration.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\BlogManagement.Application.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\BlogManagement.Application.Contracts.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\BlogManagement.Domain.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\BlogManagement.Infrastructure.EFCore.pdb

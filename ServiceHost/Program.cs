@@ -1,4 +1,5 @@
 using _0_Framework.Application;
+using BlogManagement.Configuration;
 using DiscountManagement.Configuration;
 using InventoryManagement.Configuration;
 using ServiceHost.Requirements;
@@ -13,6 +14,7 @@ var connectionString = builder.Configuration.GetConnectionString("SogandShopConn
 ShopManagementBootstrapper.Configure(services,connectionString);
 DiscountManagementBootstrapper.Configure(services,connectionString);
 InventoryManagementBootstrapper.Configure(services,connectionString);
+BlogManagementBootstrapper.Configure(services,connectionString);
 
 
 services.AddTransient<IFileUploader,FileUploader>();

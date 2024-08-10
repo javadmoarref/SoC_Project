@@ -44,76 +44,12 @@
     </section>
     <!--== End Product Banner Area Wrapper ==-->
     <!--== Start Blog Area Wrapper ==-->
-    <section class="section-space">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title text-center">
-                        <h2 class="title">پست های وبلاگ</h2>
-                        <p> ابزار است برای خانم‌ها و آقایانی که قصد خرید محصولاتی عالی و اصلی را دارند و می‌خواهند </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row mb-n9">
-                <div class="col-sm-6 col-lg-4 mb-8">
-                    <!--== Start Blog Item ==-->
-                    <div class="post-item">
-                        <a href="blog-details.html" class="thumb">
-                            <img src="~/Theme/files/images/blog/1.webp" width="370" height="320" alt="Image-HasTech">
-                        </a>
-                        <div class="content">
-                            <a class="post-category" href="blog.html">زیبایی</a>
-                            <h4 class="title"><a href="blog-details.html"> ابزار است برای خانم‌ها و آقایانی که قصد خرید محصولاتی عالی و اصلی را دارند </a></h4>
-                            <ul class="meta">
-                                <li class="author-info"><span>توسط:</span> <a href="blog.html">توماس دی مومن</a></li>
-                                <li class="post-date">1402 - 08 - 15</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--== End Blog Item ==-->
-                </div>
-                <div class="col-sm-6 col-lg-4 mb-8">
-                    <!--== Start Blog Item ==-->
-                    <div class="post-item">
-                        <a href="blog-details.html" class="thumb">
-                            <img src="~/Theme/files/images/blog/2.webp" width="370" height="320" alt="Image-HasTech">
-                        </a>
-                        <div class="content">
-                            <a class="post-category post-category-two" data-bg-color="#A49CFF" href="blog.html">زیبایی</a>
-                            <h4 class="title"><a href="blog-details.html"> ابزار است برای خانم‌ها و آقایانی که قصد خرید محصولاتی عالی و اصلی را دارند </a></h4>
-                            <ul class="meta">
-                                <li class="author-info"><span>توسط:</span> <a href="blog.html">توماس دی مومن</a></li>
-                                <li class="post-date">1402 - 08 - 15</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--== End Blog Item ==-->
-                </div>
-                <div class="col-sm-6 col-lg-4 mb-8">
-                    <!--== Start Blog Item ==-->
-                    <div class="post-item">
-                        <a href="blog-details.html" class="thumb">
-                            <img src="~/Theme/files/images/blog/3.webp" width="370" height="320" alt="Image-HasTech">
-                        </a>
-                        <div class="content">
-                            <a class="post-category post-category-three" data-bg-color="#9CDBFF" href="blog.html">زیبایی</a>
-                            <h4 class="title"><a href="blog-details.html"> ابزار است برای خانم‌ها و آقایانی که قصد خرید محصولاتی عالی و اصلی را دارند </a></h4>
-                            <ul class="meta">
-                                <li class="author-info"><span>توسط:</span> <a href="blog.html">توماس دی مومن</a></li>
-                                <li class="post-date">1402 - 08 - 15</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--== End Blog Item ==-->
-                </div>
-            </div>
-        </div>
-    </section>
+    @await Component.InvokeAsync("LatestArticles")
     <!--== End Blog Area Wrapper ==-->
     <!--== Start News Letter Area Wrapper ==-->
     <section class="section-space pt-0">
         <div class="container">
-            <div class="newsletter-content-wrap" data-bg-img="~/Theme/files/images/photos/bg1.webp">
+            <div class="newsletter-content-wrap" data-bg-img="/Theme/files/images/photos/bg1.webp">
                 <div class="newsletter-content">
                     <div class="section-title mb-0">
                         <h2 class="title">بـه ما بپیونـد</h2>

@@ -3,6 +3,7 @@ using _01_SogandShopQuery.Contracts.Product;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ShopManagement.Application.Contracts.Comment;
+using ShopManagement.Domain.ProductCategoryAgg;
 
 namespace ServiceHost.Pages
 {

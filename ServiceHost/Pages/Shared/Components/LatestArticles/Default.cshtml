@@ -1,0 +1,37 @@
+﻿@model List<_01_SogandShopQuery.Contracts.Article.ArticleQueryModel>
+
+<section class="section-space">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title text-center">
+                    <h2 class="title">آخرین مقالات سایت</h2>
+                    @* <p> ابزار است برای خانم‌ها و آقایانی که قصد خرید محصولاتی عالی و اصلی را دارند و می‌خواهند </p> *@
+                </div>
+            </div>
+        </div>
+        <div class="row mb-n9">
+            @foreach (var article in Model)
+            {
+                <div class="col-sm-6 col-lg-4 mb-8">
+                    <!--== Start Blog Item ==-->
+                    <div class="post-item">
+                        <a asp-page="/Article" asp-route-id="@article.Slug" class="thumb">
+                            <img src="~/uploads/@article.Picture" width="370" height="320" alt="@article.PictureAlt" title="@article.PictureTitle">
+                        </a>
+                        <div class="content">
+                            <a class="post-category" asp-page="/ArticleCategory" asp-route-id="@article.CategorySlug">@article.CategoryName</a>
+                            <h4 class="title"><a asp-page="/Article" asp-route-id="@article.Slug"> @article.Title</a></h4>
+                            <ul class="meta">
+                                @*  <li class="author-info"><span>توسط:</span> <a href="blog.html">توماس دی مومن</a></li> *@
+                                <li class="post-date">@article.PublishDate</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--== End Blog Item ==-->
+                </div>
+            }
+            
+        </div>
+    </div>
+</section>

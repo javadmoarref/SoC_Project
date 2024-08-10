@@ -841,8 +841,16 @@
       "PackagePath": "staticwebassets\\Theme\\files\\fonts\\ionicons.woff"
     },
     {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\blog\\1.png",
+      "PackagePath": "staticwebassets\\Theme\\files\\images\\blog\\1.png"
+    },
+    {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\blog\\1.webp",
       "PackagePath": "staticwebassets\\Theme\\files\\images\\blog\\1.webp"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\blog\\2.png",
+      "PackagePath": "staticwebassets\\Theme\\files\\images\\blog\\2.png"
     },
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\blog\\2.webp",
@@ -1099,6 +1107,10 @@
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\photos\\about2.webp",
       "PackagePath": "staticwebassets\\Theme\\files\\images\\photos\\about2.webp"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\photos\\bg1.png",
+      "PackagePath": "staticwebassets\\Theme\\files\\images\\photos\\bg1.png"
     },
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\photos\\bg1.webp",
@@ -1461,12 +1473,708 @@
       "PackagePath": "staticwebassets\\Theme\\files\\js\\site.js"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\js\\site1.js",
-      "PackagePath": "staticwebassets\\Theme\\files\\js\\site1.js"
-    },
-    {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\js\\swiper-bundle.min.js",
       "PackagePath": "staticwebassets\\Theme\\files\\js\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\CHANGES.md",
+      "PackagePath": "staticwebassets\\ckeditor\\CHANGES.md"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\LICENSE.md",
+      "PackagePath": "staticwebassets\\ckeditor\\LICENSE.md"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\README.md",
+      "PackagePath": "staticwebassets\\ckeditor\\README.md"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\SECURITY.md",
+      "PackagePath": "staticwebassets\\ckeditor\\SECURITY.md"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\adapters\\jquery.js",
+      "PackagePath": "staticwebassets\\ckeditor\\adapters\\jquery.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\bender-runner.config.json",
+      "PackagePath": "staticwebassets\\ckeditor\\bender-runner.config.json"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\build-config.js",
+      "PackagePath": "staticwebassets\\ckeditor\\build-config.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\ckeditor.js",
+      "PackagePath": "staticwebassets\\ckeditor\\ckeditor.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\config.js",
+      "PackagePath": "staticwebassets\\ckeditor\\config.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\contents.css",
+      "PackagePath": "staticwebassets\\ckeditor\\contents.css"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\af.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\af.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\ar.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\ar.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\az.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\az.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\bg.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\bg.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\bn.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\bn.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\bs.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\bs.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\ca.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\ca.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\cs.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\cy.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\da.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\da.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\de-ch.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\de-ch.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\de.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\de.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\el.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\el.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\en-au.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\en-au.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\en-ca.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\en-ca.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\en-gb.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\en-gb.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\en.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\en.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\eo.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\es-mx.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\es-mx.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\es.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\es.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\et.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\et.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\eu.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\eu.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\fa.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\fi.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\fo.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\fo.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\fr-ca.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\fr-ca.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\fr.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\gl.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\gl.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\gu.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\gu.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\he.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\he.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\hi.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\hi.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\hr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\hr.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\hu.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\hu.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\id.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\id.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\is.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\is.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\it.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\it.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\ja.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\ja.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\ka.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\ka.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\km.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\km.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\ko.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\ko.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\ku.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\ku.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\lt.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\lt.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\lv.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\lv.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\mk.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\mk.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\mn.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\mn.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\ms.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\ms.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\nb.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\nl.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\no.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\no.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\oc.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\oc.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\pl.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\pl.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\pt-br.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\pt.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\pt.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\ro.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\ro.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\ru.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\ru.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\si.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\si.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\sk.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\sk.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\sl.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\sl.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\sq.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\sq.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\sr-latn.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\sr-latn.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\sr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\sr.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\sv.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\sv.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\th.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\th.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\tr.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\tt.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\tt.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\ug.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\uk.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\uk.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\vi.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\lang\\zh.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\zh.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\plugins\\about\\dialogs\\about.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\about\\dialogs\\about.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\plugins\\about\\dialogs\\hidpi\\logo_ckeditor.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\about\\dialogs\\hidpi\\logo_ckeditor.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\plugins\\about\\dialogs\\logo_ckeditor.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\about\\dialogs\\logo_ckeditor.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\plugins\\clipboard\\dialogs\\paste.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\clipboard\\dialogs\\paste.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\plugins\\dialog\\dialogDefinition.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\dialog\\dialogDefinition.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\plugins\\dialog\\styles\\dialog.css",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\dialog\\styles\\dialog.css"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\plugins\\icons.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\icons.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\plugins\\icons_hidpi.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\icons_hidpi.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\plugins\\link\\dialogs\\anchor.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\link\\dialogs\\anchor.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\plugins\\link\\dialogs\\link.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\link\\dialogs\\link.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\plugins\\link\\images\\anchor.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\link\\images\\anchor.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\plugins\\link\\images\\hidpi\\anchor.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\link\\images\\hidpi\\anchor.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\css\\samples.css",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\css\\samples.css"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\img\\github-top.png",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\img\\github-top.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\img\\header-bg.png",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\img\\header-bg.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\img\\header-separator.png",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\img\\header-separator.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\img\\logo.png",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\img\\logo.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\img\\logo.svg",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\img\\logo.svg"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\img\\navigation-tip.png",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\img\\navigation-tip.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\index.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\index.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\js\\sample.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\js\\sample.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\js\\sf.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\js\\sf.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\ajax.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\ajax.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\api.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\api.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\appendto.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\appendto.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\assets\\inlineall\\logo.png",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\assets\\inlineall\\logo.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\assets\\outputxhtml\\outputxhtml.css",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\assets\\outputxhtml\\outputxhtml.css"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\assets\\posteddata.php",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\assets\\posteddata.php"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\assets\\sample.jpg",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\assets\\sample.jpg"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\assets\\uilanguages\\languages.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\assets\\uilanguages\\languages.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\datafiltering.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\datafiltering.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\dialog\\assets\\my_dialog.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\dialog\\assets\\my_dialog.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\dialog\\dialog.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\dialog\\dialog.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\divreplace.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\divreplace.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\enterkey\\enterkey.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\enterkey\\enterkey.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\index.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\index.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\inlineall.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\inlineall.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\inlinebycode.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\inlinebycode.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\inlinetextarea.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\inlinetextarea.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\jquery.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\jquery.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\readonly.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\readonly.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\replacebyclass.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\replacebyclass.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\replacebycode.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\replacebycode.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\sample.css",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\sample.css"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\sample.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\sample.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\sample_posteddata.php",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\sample_posteddata.php"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\tabindex.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\tabindex.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\toolbar\\toolbar.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\toolbar\\toolbar.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\uicolor.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\uicolor.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\uilanguages.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\uilanguages.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\wysiwygarea\\fullpage.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\wysiwygarea\\fullpage.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\old\\xhtmlstyle.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\xhtmlstyle.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\css\\fontello.css",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\css\\fontello.css"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\font\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\font\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\font\\config.json",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\font\\config.json"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.eot",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.eot"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.svg",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.svg"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.ttf",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.ttf"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.woff",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.woff"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\index.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\index.html"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\js\\abstracttoolbarmodifier.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\js\\abstracttoolbarmodifier.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\js\\fulltoolbareditor.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\js\\fulltoolbareditor.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbarmodifier.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbarmodifier.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbartextmodifier.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbartextmodifier.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\LICENSE",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.css",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.css"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\javascript.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\javascript.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\neo.css",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\neo.css"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.css",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.css"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\dialog.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\dialog.css"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\dialog_ie.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\dialog_ie.css"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\dialog_ie8.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\dialog_ie8.css"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\dialog_iequirks.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\dialog_iequirks.css"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\editor.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\editor.css"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\editor_gecko.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\editor_gecko.css"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\editor_ie.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\editor_ie.css"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\editor_ie8.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\editor_ie8.css"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\editor_iequirks.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\editor_iequirks.css"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\icons.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\icons.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\icons_hidpi.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\icons_hidpi.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\images\\arrow.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\images\\arrow.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\images\\close.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\images\\close.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\close.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\close.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock-open.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock-open.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\refresh.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\refresh.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\images\\lock-open.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\images\\lock-open.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\images\\lock.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\images\\lock.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\images\\refresh.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\images\\refresh.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\images\\spinner.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\images\\spinner.gif"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\skins\\moono-lisa\\readme.md",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-lisa\\readme.md"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\styles.js",
+      "PackagePath": "staticwebassets\\ckeditor\\styles.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\ckeditor\\vendor\\promise.js",
+      "PackagePath": "staticwebassets\\ckeditor\\vendor\\promise.js"
     },
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\favicon.ico",
@@ -1707,6 +2415,26 @@
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\slides\\2024-06-30-22-59-54-slider4.png",
       "PackagePath": "staticwebassets\\uploads\\slides\\2024-06-30-22-59-54-slider4.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\slides\\2024-08-09-12-08-48-slider3.png",
+      "PackagePath": "staticwebassets\\uploads\\slides\\2024-08-09-12-08-48-slider3.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\اخبار-سایت\\2024-07-19-12-41-20-butterfly-logo.png",
+      "PackagePath": "staticwebassets\\uploads\\اخبار-سایت\\2024-07-19-12-41-20-butterfly-logo.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\اخبار-سایت\\راه-اندازی-سایت\\2024-07-26-12-31-18-butterfly-logo.png",
+      "PackagePath": "staticwebassets\\uploads\\اخبار-سایت\\راه-اندازی-سایت\\2024-07-26-12-31-18-butterfly-logo.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\اخبار-سایت\\راه-اندازی-سایت\\2024-07-31-16-27-41-1.png",
+      "PackagePath": "staticwebassets\\uploads\\اخبار-سایت\\راه-اندازی-سایت\\2024-07-31-16-27-41-1.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\اخبار-سایت\\روش-استفاده-از-کرم-پودر\\2024-07-31-16-30-00-2.png",
+      "PackagePath": "staticwebassets\\uploads\\اخبار-سایت\\روش-استفاده-از-کرم-پودر\\2024-07-31-16-30-00-2.png"
     },
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\لوازم-آرایشی\\2024-06-24-12-33-17-2.png",

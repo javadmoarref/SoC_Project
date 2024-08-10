@@ -1,0 +1,16 @@
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Application.Contracts\bin\Debug\net7.0\BlogManagement.Application.Contracts.deps.json
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Application.Contracts\bin\Debug\net7.0\BlogManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Application.Contracts\bin\Debug\net7.0\BlogManagement.Application.Contracts.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Application.Contracts\bin\Debug\net7.0\0_Framework.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Application.Contracts\bin\Debug\net7.0\0_Framework.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Application.Contracts\obj\Debug\net7.0\BlogManagement.Application.Contracts.csproj.AssemblyReference.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Application.Contracts\obj\Debug\net7.0\BlogManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Application.Contracts\obj\Debug\net7.0\BlogManagement.Application.Contracts.AssemblyInfoInputs.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Application.Contracts\obj\Debug\net7.0\BlogManagement.Application.Contracts.AssemblyInfo.cs
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Application.Contracts\obj\Debug\net7.0\BlogManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Application.Contracts\obj\Debug\net7.0\BlogManagement.Application.Contracts.sourcelink.json
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Application.Contracts\obj\Debug\net7.0\BlogMana.D42E5FE3.Up2Date
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Application.Contracts\obj\Debug\net7.0\BlogManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Application.Contracts\obj\Debug\net7.0\refint\BlogManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Application.Contracts\obj\Debug\net7.0\BlogManagement.Application.Contracts.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Application.Contracts\obj\Debug\net7.0\ref\BlogManagement.Application.Contracts.dll

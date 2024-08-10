@@ -1,0 +1,147 @@
+﻿@page
+@model ServiceHost.Areas.Administration.Pages.Blog.Articles.CreateModel
+@{
+    ViewData["Title"] = "ایجاد مقاله";
+}
+
+<div class="container-xxl flex-grow-1 container-p-y">
+    @if (ViewData["Message"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible mb-0" role="alert">
+            @ViewData["Message"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    <div class="row">
+        <div class="col-xxl">
+            <div class="card mb-4">
+                <div class="card-header d-flex align-items-center justify-content-between">
+                    <h5 class="mb-0">ایجاد مقاله</h5>
+                </div>
+                <div class="card-body">
+                    <form asp-page="/Create"
+                          method="post"
+                          enctype="multipart/form-data">
+                        <div class="row mb-3">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label asp-for="Command.Title" class="control-label">عنوان</label>
+                                    <input type="text" id="Title" class="form-control" asp-for="Command.Title" onchange="makeSlug('Title','Slug')" />
+                                    <span asp-validation-for="Command.Title" class="error"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label asp-for="Command.Slug" class="control-label">اسلاگ</label>
+                                    <input type="text" id="Slug" class="form-control" readonly asp-for="Command.Slug">
+                                    <span asp-validation-for="Command.Slug" class="error"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label asp-for="Command.PublishDate" class="control-label">تاریخ انتشار</label>
+                                    <input type="text" class="form-control persianNumber" data-jdp onclick="jalaliDatepicker.startWatch()" asp-for="Command.PublishDate">
+                                    <span asp-validation-for="Command.PublishDate" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Command.Picture" class="control-label">عکس</label>
+                                    <input type="file" class="form-control" asp-for="Command.Picture" accept="image/*">
+                                    <span asp-validation-for="Command.Picture" class="error"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Command.CategoryId" class="control-label">گروه مقاله</label>
+                                    <select id="selectTypeOpt" class="form-select color-dropdown" asp-for="Command.CategoryId"
+                                            asp-items="Model.ArticleCategories">
+                                        <option value="0">...</option>
+                                    </select>
+                                    <span asp-validation-for="Command.CategoryId" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Command.PictureAlt" class="control-label">Alt</label>
+                                    <input type="text" class="form-control" asp-for="Command.PictureAlt">
+                                    <span asp-validation-for="Command.PictureAlt" class="error"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Command.PictureTitle" class="control-label">Title</label>
+                                    <input type="text" class="form-control" asp-for="Command.PictureTitle">
+                                    <span asp-validation-for="Command.PictureTitle" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label asp-for="Command.ShortDescription" class="control-label">توضیحات کوتاه</label>
+                                    <textarea type="text" id="ShortDescription" class="form-control" asp-for="Command.ShortDescription" onchange="fillField('ShortDescription','MetaDescription')"></textarea>
+                                    <span asp-validation-for="Command.ShortDescription" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label asp-for="Command.Description" class="control-label">توضیحات</label>
+                                    <textarea  class="form-control" id="Description"  asp-for="Command.Description"></textarea>
+                                    <span asp-validation-for="Command.Description" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Command.Keywords" class="control-label">کلمات کلیدی</label>
+                                    <input type="text" class="form-control" asp-for="Command.Keywords">
+                                    <span asp-validation-for="Command.Keywords" class="error"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Command.CanonicalAddress" class="control-label">CanonicalAddress</label>
+                                    <input type="text" class="form-control" asp-for="Command.CanonicalAddress">
+                                    <span asp-validation-for="Command.CanonicalAddress" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label asp-for="Command.MetaDescription" class="control-label">توضیحات متا</label>
+                                    <textarea type="text" id="MetaDescription" class="form-control" readonly asp-for="Command.MetaDescription"></textarea>
+                                    <span asp-validation-for="Command.MetaDescription" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <a type="button" asp-page="./Index" class="btn btn-outline-secondary">
+                            بازگشت
+                        </a>
+                        <button type="submit" class="btn btn-primary">ایجاد</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ @section Scripts{
+    <script src="~/ckeditor/ckeditor.js"></script>
+    <script>
+        // Replace the <textarea id="editor1"> with a CKEditor 4
+        // instance, using default configuration.
+        CKEDITOR.replace('Description');
+    </script>
+} 
+
+
+

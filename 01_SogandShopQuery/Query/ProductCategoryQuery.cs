@@ -111,8 +111,7 @@ public class ProductCategoryQuery : IProductCategoryQuery
                 Keywords = x.Keywords,
                 Slug = x.Slug,
                 Products = MapProducts(x.Products)
-            })
-            .FirstOrDefault(x => x.Slug == slug);
+            }).FirstOrDefault(x => x.Slug == slug);
         foreach (var product in category.Products)
         {
             var productInventory = inventory
