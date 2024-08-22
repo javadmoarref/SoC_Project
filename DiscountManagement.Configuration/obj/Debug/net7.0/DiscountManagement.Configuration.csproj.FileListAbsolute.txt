@@ -1,3 +1,9 @@
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\obj\Debug\net7.0\DiscountManagement.Configuration.csproj.AssemblyReference.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\obj\Debug\net7.0\DiscountManagement.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\obj\Debug\net7.0\DiscountManagement.Configuration.AssemblyInfoInputs.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\obj\Debug\net7.0\DiscountManagement.Configuration.AssemblyInfo.cs
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\obj\Debug\net7.0\DiscountManagement.Configuration.csproj.CoreCompileInputs.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\obj\Debug\net7.0\DiscountManagement.Configuration.sourcelink.json
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\bin\Debug\net7.0\DiscountManagement.Configuration.deps.json
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\bin\Debug\net7.0\DiscountManagement.Configuration.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\bin\Debug\net7.0\DiscountManagement.Configuration.pdb
@@ -17,14 +23,8 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Conf
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\bin\Debug\net7.0\ShopManagement.Application.Contracts.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\bin\Debug\net7.0\ShopManagement.Domain.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\bin\Debug\net7.0\ShopManagement.Infrastructure.EFCore.pdb
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\obj\Debug\net7.0\DiscountManagement.Configuration.csproj.AssemblyReference.cache
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\obj\Debug\net7.0\DiscountManagement.Configuration.GeneratedMSBuildEditorConfig.editorconfig
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\obj\Debug\net7.0\DiscountManagement.Configuration.AssemblyInfoInputs.cache
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\obj\Debug\net7.0\DiscountManagement.Configuration.AssemblyInfo.cs
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\obj\Debug\net7.0\DiscountManagement.Configuration.csproj.CoreCompileInputs.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\obj\Debug\net7.0\Discount.07A2EDEC.Up2Date
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\obj\Debug\net7.0\DiscountManagement.Configuration.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\obj\Debug\net7.0\refint\DiscountManagement.Configuration.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\obj\Debug\net7.0\DiscountManagement.Configuration.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\obj\Debug\net7.0\ref\DiscountManagement.Configuration.dll
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\obj\Debug\net7.0\DiscountManagement.Configuration.sourcelink.json
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\DiscountManagement.Configuration\obj\Debug\net7.0\Discount.07A2EDEC.Up2Date

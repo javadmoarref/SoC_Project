@@ -91,11 +91,6 @@
                         <div data-i18n="Without navbar">اسلاید</div>
                     </a>
                 </li>
-                <li class="menu-item">
-                    <a asp-page="/Shop/Comments/Index" class="menu-link">
-                        <div data-i18n="Without navbar">کامنت ها</div>
-                    </a>
-                </li>
             </ul>
         </li>
         <li class="menu-item">
@@ -119,7 +114,7 @@
         </li>
         <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bxs-discount"></i>
+                <i class="menu-icon tf-icons bx bxs-book"></i>
                 <div data-i18n="Layouts">مدیریت مقالات</div>
             </a>
 
@@ -129,12 +124,18 @@
                         <div data-i18n="Without menu">گروه مقالات</div>
                     </a>
                 </li>
-                 <li class="menu-item">
+                <li class="menu-item">
                     <a asp-page="/Blog/Articles/Index" class="menu-link">
                         <div data-i18n="Without menu">مقالات</div>
                     </a>
                 </li> 
             </ul>
+        </li>
+        <li class="menu-item">
+            <a asp-page="/Comments/Index" class="menu-link">
+                <i class="menu-icon tf-icons bx bxs-comment"></i>
+                <div data-i18n="Analytics">کامنت ها</div>
+            </a>
         </li>
         <li class="menu-item">
             <a asp-page="/Inventory/Index" class="menu-link">

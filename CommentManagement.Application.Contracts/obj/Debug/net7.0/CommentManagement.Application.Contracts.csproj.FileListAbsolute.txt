@@ -1,0 +1,16 @@
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\CommentManagement.Application.Contracts\bin\Debug\net7.0\CommentManagement.Application.Contracts.deps.json
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\CommentManagement.Application.Contracts\bin\Debug\net7.0\CommentManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\CommentManagement.Application.Contracts\bin\Debug\net7.0\CommentManagement.Application.Contracts.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\CommentManagement.Application.Contracts\bin\Debug\net7.0\0_Framework.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\CommentManagement.Application.Contracts\bin\Debug\net7.0\0_Framework.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\CommentManagement.Application.Contracts\obj\Debug\net7.0\CommentManagement.Application.Contracts.csproj.AssemblyReference.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\CommentManagement.Application.Contracts\obj\Debug\net7.0\CommentManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\CommentManagement.Application.Contracts\obj\Debug\net7.0\CommentManagement.Application.Contracts.AssemblyInfoInputs.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\CommentManagement.Application.Contracts\obj\Debug\net7.0\CommentManagement.Application.Contracts.AssemblyInfo.cs
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\CommentManagement.Application.Contracts\obj\Debug\net7.0\CommentManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\CommentManagement.Application.Contracts\obj\Debug\net7.0\CommentManagement.Application.Contracts.sourcelink.json
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\CommentManagement.Application.Contracts\obj\Debug\net7.0\CommentM.8FD4D7A5.Up2Date
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\CommentManagement.Application.Contracts\obj\Debug\net7.0\CommentManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\CommentManagement.Application.Contracts\obj\Debug\net7.0\refint\CommentManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\CommentManagement.Application.Contracts\obj\Debug\net7.0\CommentManagement.Application.Contracts.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\CommentManagement.Application.Contracts\obj\Debug\net7.0\ref\CommentManagement.Application.Contracts.dll

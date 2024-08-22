@@ -10,9 +10,9 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Domain\o
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Domain\obj\Debug\net7.0\ShopManagement.Domain.AssemblyInfoInputs.cache
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Domain\obj\Debug\net7.0\ShopManagement.Domain.AssemblyInfo.cs
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Domain\obj\Debug\net7.0\ShopManagement.Domain.csproj.CoreCompileInputs.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Domain\obj\Debug\net7.0\ShopManagement.Domain.sourcelink.json
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Domain\obj\Debug\net7.0\ShopMana.2E6A1FF6.Up2Date
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Domain\obj\Debug\net7.0\ShopManagement.Domain.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Domain\obj\Debug\net7.0\refint\ShopManagement.Domain.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Domain\obj\Debug\net7.0\ShopManagement.Domain.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Domain\obj\Debug\net7.0\ref\ShopManagement.Domain.dll
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Domain\obj\Debug\net7.0\ShopManagement.Domain.sourcelink.json
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Domain\obj\Debug\net7.0\ShopMana.2E6A1FF6.Up2Date

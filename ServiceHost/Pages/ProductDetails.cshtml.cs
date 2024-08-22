@@ -1,9 +1,10 @@
 using _0_Framework.Application;
 using _01_SogandShopQuery.Contracts.Product;
+using CommentManagement.Application.Contracts.Comment;
+using CommentManagement.Infrastructure.EFCore.Requirements;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using ShopManagement.Application.Contracts.Comment;
-using ShopManagement.Domain.ProductCategoryAgg;
+
 
 namespace ServiceHost.Pages
 {
@@ -11,6 +12,7 @@ namespace ServiceHost.Pages
     {
         private readonly IProductQuery _productQuery;
         private readonly ICommentApplication _commentApplication;
+        
         public ProductQueryModel Product { get; set; }
 
         public ProductDetailsModel(IProductQuery productQuery, ICommentApplication commentApplication)
@@ -26,6 +28,7 @@ namespace ServiceHost.Pages
 
         public IActionResult OnPost(AddComment command, string productSlug)
         {
+            command.Type = CommentType.Product; 
             var result = _commentApplication.Add(command);
             if (result.IsSuccedded)
             {

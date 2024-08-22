@@ -1425,6 +1425,14 @@
       "PackagePath": "staticwebassets\\Theme\\files\\images\\slider\\text1.webp"
     },
     {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\userIcon.png",
+      "PackagePath": "staticwebassets\\Theme\\files\\images\\userIcon.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\userIcon1.png",
+      "PackagePath": "staticwebassets\\Theme\\files\\images\\userIcon1.png"
+    },
+    {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\Theme\\files\\js\\bootstrap.bundle.min.js"
     },

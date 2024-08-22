@@ -1,9 +1,12 @@
 ﻿using _0_Framework.Application;
+using _01_SogandShopQuery.Contracts.Comment;
 using _01_SogandShopQuery.Contracts.Product;
+using CommentManagement.Domain.CommentAgg;
+using CommentManagement.Infrastructure.EFCore;
+using CommentManagement.Infrastructure.EFCore.Requirements;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EfCore;
 using Microsoft.EntityFrameworkCore;
-using ShopManagement.Domain.CommentAgg;
 using ShopManagement.Infrastructure.EFCore;
 
 namespace _01_SogandShopQuery.Query;
@@ -13,18 +16,20 @@ public class ProductQuery:IProductQuery
     private readonly ShopContext _shopContext;
     private readonly InventoryContext _inventoryContext;
     private readonly DiscountContext _discountContext;
+    private readonly CommentContext _commentContext;
 
-    public ProductQuery(ShopContext shopContext, InventoryContext inventoryContext, DiscountContext discountContext)
+    public ProductQuery(ShopContext shopContext, InventoryContext inventoryContext,
+        DiscountContext discountContext, CommentContext commentContext)
     {
         _shopContext = shopContext;
         _inventoryContext = inventoryContext;
         _discountContext = discountContext;
+        _commentContext = commentContext;
     }
 
     public ProductQueryModel GetProductBy(string slug)
     {
         var product= _shopContext.Products
-            .Include(x=>x.Comments)
             .Include(x=>x.Category)
             .Select(x=>new ProductQueryModel()
             {
@@ -41,7 +46,6 @@ public class ProductQuery:IProductQuery
                 CategorySlug = x.Category.Slug,
                 Keywords = x.Keywords,
                 MetaDescription = x.MetaDescription,
-                Comments = MapComments(x.Comments)
             }).FirstOrDefault(x => x.Slug == slug);
         if (product == null)
         {
@@ -63,22 +67,22 @@ public class ProductQuery:IProductQuery
                 product.PriceWithDiscount=(price-discountAmount).ToMoney();
             }
         }
+        product.Comments=_commentContext.Comments
+            .Where(x=>x.Type==CommentType.Product)
+            .Where(x=>x.OwnerRecordId==product.Id)
+            .Where(x => !x.IsCanceled)
+                .Where(x => x.IsConfirmed)
+                .Select(x => new CommentQueryModel()
+                {
+                    Id = x.Id,
+                    FullName = x.FullName,
+                    Message = x.Message,
+                    CreationDate = x.CreationDate.ToFarsi()
+                }).OrderByDescending(x => x.Id).ToList();
 
         return product;
     }
 
-    private static List<CommentQueryModel> MapComments(List<Comment> comments)
-    {
-        return comments
-            .Where(x => !x.IsCanceled)
-            .Where(x => x.IsConfirmed)
-            .Select(x => new CommentQueryModel()
-            {
-                Id = x.Id,
-                FullName = x.FullName,
-                Message = x.Message
-            }).OrderByDescending(x=>x.Id).ToList();
-    }
 
     public List<ProductQueryModel> GetLatestArrivals()
     {

@@ -1,6 +1,9 @@
 ﻿@page "{id}"
 @model ServiceHost.Pages.ProductDetailsModel
 @{
+    ViewData["Title"] = Model.Product.Name;
+    ViewData["keywords"] = Model.Product.Keywords;
+    ViewData["metaDescription"] = Model.Product.MetaDescription;
 }
 <main class="main-content">
     <!--== Start Page Header Area Wrapper ==-->
@@ -73,7 +76,7 @@
                 <div class="col-lg-7">
                     <div class="nav product-details-nav" id="product-details-nav-tab" role="tablist">
                         <button class="nav-link" id="specification-tab" data-bs-toggle="tab" data-bs-target="#specification" type="button" role="tab" aria-controls="specification" aria-selected="false">توضیحات</button>
-                        <button class="nav-link active" id="review-tab" data-bs-toggle="tab" data-bs-target="#review" type="button" role="tab" aria-controls="review" aria-selected="true">نظرات : @Model.Product.Comments.Count</button>
+                        <button class="nav-link active" id="review-tab" data-bs-toggle="tab" data-bs-target="#review" type="button" role="tab" aria-controls="review" aria-selected="true">نظرات :@Model.Product.Comments.Count </button>
                     </div>
                     <div class="tab-content" id="product-details-nav-tabContent">
                         <div class="tab-pane" id="specification" role="tabpanel" aria-labelledby="specification-tab">
@@ -82,17 +85,17 @@
 
                         <div class="tab-pane fade show active" id="review" role="tabpanel" aria-labelledby="review-tab">
                             <!--== Start Reviews Content Item ==-->
-                            @foreach (var comment in Model.Product.Comments)
+                           @foreach (var comment in @Model.Product.Comments)
                             {
                                 <div class="product-review-item">
                                     <div class="product-review-top">
                                         <div class="product-review-thumb">
-                                            <img src="~/Theme/files/images/butterfly-logo.png" width="150" height="150" alt="Images">
+                                            <img src="~/Theme/files/images/userIcon.png" width="150" height="150" alt="Images">
                                         </div>
                                         <div class="product-review-content">
                                             <span class="product-review-name">@comment.FullName</span>
-                                            @* <span class="product-review-designation">توسعه دهنده</span> *@
-                                           @*  <div class="product-review-icon">
+                                            <span class="product-review-designation">@comment.CreationDate</span>
+                                            @*  <div class="product-review-icon">
                                                 <i class="fa fa-star-o"></i>
                                                 <i class="fa fa-star-o"></i>
                                                 <i class="fa fa-star-o"></i>
@@ -102,9 +105,10 @@
                                         </div>
                                     </div>
                                     <p class="desc">@comment.Message</p>
-                                    <button type="button" class="review-reply"><i class="fa fa fa-undo"></i></button>
+                                    @* <button type="button" class="review-reply"><i class="fa fa fa-undo"></i></button> *@
                                 </div>
                             }
+                             
                             <!--== End Reviews Content Item ==-->
                         </div>
                     </div>
@@ -158,7 +162,7 @@
                                     </div> *@
                                 </div>
                                 <div class="form-input-item mb-0">
-                                    <input type="hidden" name="productId" value="@Model.Product.Id"/>
+                                    <input type="hidden" name="ownerRecordId" value="@Model.Product.Id"/>
                                     <input type="hidden" name="productSlug" value="@Model.Product.Slug"/>
                                     <button type="submit" class="btn">ارسال</button>
                                 </div>

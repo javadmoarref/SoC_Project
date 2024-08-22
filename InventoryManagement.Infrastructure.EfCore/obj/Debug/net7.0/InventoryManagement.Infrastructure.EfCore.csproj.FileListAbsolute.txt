@@ -1,3 +1,9 @@
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\obj\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.csproj.AssemblyReference.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\obj\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.GeneratedMSBuildEditorConfig.editorconfig
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\obj\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.AssemblyInfoInputs.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\obj\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.AssemblyInfo.cs
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\obj\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.csproj.CoreCompileInputs.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\obj\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.sourcelink.json
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\bin\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.deps.json
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\bin\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.runtimeconfig.json
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\bin\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.dll
@@ -14,15 +20,9 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Inf
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\bin\Debug\net7.0\InventoryManagement.Application.Contracts.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\bin\Debug\net7.0\ShopManagement.Application.Contracts.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\bin\Debug\net7.0\ShopManagement.Domain.pdb
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\obj\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.csproj.AssemblyReference.cache
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\obj\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.GeneratedMSBuildEditorConfig.editorconfig
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\obj\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.AssemblyInfoInputs.cache
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\obj\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.AssemblyInfo.cs
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\obj\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.csproj.CoreCompileInputs.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\obj\Debug\net7.0\Inventor.1D14D1F7.Up2Date
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\obj\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\obj\Debug\net7.0\refint\InventoryManagement.Infrastructure.EfCore.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\obj\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\obj\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.genruntimeconfig.cache
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\obj\Debug\net7.0\ref\InventoryManagement.Infrastructure.EfCore.dll
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\obj\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.sourcelink.json
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\InventoryManagement.Infrastructure.EfCore\obj\Debug\net7.0\Inventor.1D14D1F7.Up2Date

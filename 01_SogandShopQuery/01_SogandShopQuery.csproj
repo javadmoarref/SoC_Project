@@ -10,6 +10,7 @@
   <ItemGroup>
     <Folder Include="Contracts\Article\" />
     <Folder Include="Contracts\ArticleCategory\" />
+    <Folder Include="Contracts\Comment\" />
     <Folder Include="Contracts\ProductCategory\" />
     <Folder Include="Contracts\Slide\" />
     <Folder Include="Model\" />
@@ -17,6 +18,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BlogManagement.Infrastructure.EFCore\BlogManagement.Infrastructure.EFCore.csproj" />
+    <ProjectReference Include="..\CommentManagement.Domain\CommentManagement.Domain.csproj" />
+    <ProjectReference Include="..\CommentManagement.Infrastructure.EFCore\CommentManagement.Infrastructure.EFCore.csproj" />
     <ProjectReference Include="..\DiscountManagement.Infrastructure.EFCore\DiscountManagement.Infrastructure.EFCore.csproj" />
     <ProjectReference Include="..\InventoryManagement.Infrastructure.EfCore\InventoryManagement.Infrastructure.EfCore.csproj" />
     <ProjectReference Include="..\ShopManagement.Infrastructure.EFCore\ShopManagement.Infrastructure.EFCore.csproj" />

@@ -5,11 +5,18 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Sogand -  آرایش و زیبایی</title>
+    @if (ViewData["Title"] != null)
+    {
+        <title>@ViewData["Title"] -  SOGANDShop</title>
+    }
+    else
+    {
+        <title>SOGANDShop</title>
+    }
     <meta name="robots" content="noindex, follow" />
-    <meta name="description" content="Brancy - Cosmetic & Beauty Salon Website Template">
+    <meta name="description" content="@ViewData["metaDescription"]">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="bootstrap, ecommerce, ecommerce html, beauty, cosmetic shop, beauty products, cosmetic, beauty shop, cosmetic store, shop, beauty store, spa, cosmetic, cosmetics, beauty salon" />
+    <meta name="keywords" content="@ViewData["keywords"]" />
     <meta name="author" content="codecarnival" />
 
     <!-- Favicon -->

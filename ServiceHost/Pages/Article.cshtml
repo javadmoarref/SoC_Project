@@ -1,152 +1,162 @@
 ﻿@page "{id}"
 @model ServiceHost.Pages.ArticleModel
 @{
+    ViewData["Title"] = Model.Article.Title;
+    ViewData["keywords"] = Model.Article.Keywords;
+    ViewData["metaDescription"] = Model.Article.MetaDescription;
 }
 
-    <main class="main-content">
-        <!--== Start Page Header Area Wrapper ==-->
-        <nav aria-label="breadcrumb" class="breadcrumb-style1">
-            <div class="container">
-                <ol class="breadcrumb justify-content-center">
-                    <li class="breadcrumb-item"><a asp-page="/Index">صفحه اصلی</a></li>
+<main class="main-content">
+    <!--== Start Page Header Area Wrapper ==-->
+    <nav aria-label="breadcrumb" class="breadcrumb-style1">
+        <div class="container">
+            <ol class="breadcrumb justify-content-center">
+                <li class="breadcrumb-item"><a asp-page="/Index">صفحه اصلی</a></li>
                 <li class="breadcrumb-item"><a asp-page="/ArticleCategory" asp-route-id="@Model.Article.CategorySlug">@Model.Article.CategoryName</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">@Model.Article.Title</li>
-                </ol>
-            </div>
-        </nav>
-        <!--== End Page Header Area Wrapper ==-->
-
-        <!--== Start Blog Detail Area Wrapper ==-->
-        <section class="section-space pb-0">
-            <div class="container">
-                <div class="blog-detail">
-                    <h3 class="blog-detail-title">@Model.Article.Title</h3>
-                    <div class="blog-detail-category">
-                    <a class="category"  asp-page="/ArticleCategory" asp-route-id="@Model.Article.CategorySlug">@Model.Article.CategoryName</a>
-                        @* <a class="category" data-bg-color="#957AFF" href="blog.html">روش</a> *@
+                <li class="breadcrumb-item active" aria-current="page">@Model.Article.Title</li>
+            </ol>
+        </div>
+    </nav>
+    <!--== End Page Header Area Wrapper ==-->
+    <!--== Start Blog Detail Area Wrapper ==-->
+    <section class="section-space pb-0">
+        <div class="container">
+            <div class="blog-detail">
+                <h1 class="blog-detail-title">@Model.Article.Title</h1>
+                <div class="blog-detail-category">
+                    <a class="category" asp-page="/ArticleCategory" asp-route-id="@Model.Article.CategorySlug">@Model.Article.CategoryName</a>
+                    @* <a class="category" data-bg-color="#957AFF" href="blog.html">روش</a> *@
+                </div>
+                <img class="blog-detail-img mb-7 mb-lg-10" src="~/uploads/@Model.Article.Picture" width="1170" height="1012" alt="@Model.Article.PictureAlt" title="@Model.Article.PictureTitle">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <ul class="blog-detail-meta">
+                                    @* <li class="meta-admin"><img src="files/images/blog/admin.webp" alt="Image"> توماس آلوا ادیسون</li> *@
+                                    <li>@Model.Article.PublishDate</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-5">
+                                @* <div class="blog-detail-social">
+                                <span>اشتراک گذاری:</span>
+                                <a href="https://www.pinterest.com/" target="_blank" rel="noopener"><i class="fa fa-pinterest-p"></i></a>
+                                <a href="https://twitter.com/" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
+                                </div> *@
+                            </div>
+                        </div>
+                        <p class="desc mt-4 mt-lg-7">@Html.Raw(Model.Article.Description)</p>
+                        @* <p class="desc mb-6 mb-lg-10">لوازم آرایش شامل کرم‌های محافظت‌کننده پوست، لوسیون‌ها (کرم‌های مایع)، پودرها، عطرها، رژ لب، لاک ناخن، مواد آرایشی چشم و صورت، فر مو، لنزهای رنگی، رنگ مو، ژل و افشانه مو، دئودورانت‌ها (ضد بو)، محصولات مربوط به نوزاد، روغن شستشو، کف وان (مایع ویژه وان)، نمک شستشو، روغن‌ها و دیگر انواع محصولات هستند.</p> *@
                     </div>
-                    <img class="blog-detail-img mb-7 mb-lg-10" src="~/uploads/@Model.Article.Picture" width="1170" height="1012" alt="@Model.Article.PictureAlt" title="@Model.Article.PictureTitle">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-10">
-                            <div class="row">
-                                <div class="col-md-7">
-                                    <ul class="blog-detail-meta">
-                                        @* <li class="meta-admin"><img src="files/images/blog/admin.webp" alt="Image"> توماس آلوا ادیسون</li> *@
-                                        <li>@Model.Article.PublishDate</li>
-                                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="nav product-details-nav" id="product-details-nav-tab" role="tablist">
+                        @* <button class="nav-link" id="specification-tab" data-bs-toggle="tab" data-bs-target="#specification" type="button" role="tab" aria-controls="specification" aria-selected="false">توضیحات</button> *@
+                        <button class="nav-link active" id="review-tab" data-bs-toggle="tab" data-bs-target="#review" type="button" role="tab" aria-controls="review" aria-selected="true">نظرات : @Model.Article.Comments.Count</button>
+                    </div>
+                    <div class="tab-content" id="product-details-nav-tabContent">
+                        @* <div class="tab-pane" id="specification" role="tabpanel" aria-labelledby="specification-tab">
+                        <p>@Model.Product.Description</p>
+                        </div> *@
+
+                        <div class="tab-pane fade show active" id="review" role="tabpanel" aria-labelledby="review-tab">
+
+                            @foreach (var comment in @Model.Article.Comments)
+                            {
+                                <!--== Start Reviews Content Item ==-->
+                                <div class="product-review-item" id="comment-@comment.Id">
+                                    <div class="product-review-top">
+                                        <div class="product-review-thumb">
+                                            <img src="~/Theme/files/images/userIcon.png" width="150" height="150" alt="Images">
+                                        </div>
+                                        <div class="product-review-content">
+                                            <span class="product-review-name">@comment.FullName</span>
+                                            <span class="product-review-designation">@comment.CreationDate</span>
+                                            @*  <div class="product-review-icon">
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                        </div> *@
+                                        </div>
+                                    </div>
+                                    @if (comment.ParentId > 0)
+                                    {
+                                        <span>در پاسخ به: <a href="#comment-@comment.ParentId">@comment.ParentName</a></span>
+                                    }
+                                    <p class="desc">@comment.Message</p>
+                                    <a href="#postComment" class="review-reply" onclick='$("#commentParentId").val(@comment.Id)'><i>پاسخ</i></a>
                                 </div>
-                                <div class="col-md-5">
-                                    @* <div class="blog-detail-social">
-                                        <span>اشتراک گذاری:</span>
-                                        <a href="https://www.pinterest.com/" target="_blank" rel="noopener"><i class="fa fa-pinterest-p"></i></a>
-                                        <a href="https://twitter.com/" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a>
-                                        <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
+                                <!--== End Reviews Content Item ==-->
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="product-reviews-form-wrap">
+                        <h4 class="product-form-title" id="postComment">نظرات خود را با ما به اشتراک بگذارید...</h4>
+                        <div class="product-reviews-form">
+                            <form method="post">
+                                <div class="form-input-item">
+                                    <textarea class="form-control" name="message" placeholder="پیام شما ..."></textarea>
+                                </div>
+                                <div class="form-input-item">
+                                    <input class="form-control" type="text" name="fullName" placeholder="نام و نام خانوادگی">
+                                </div>
+                                <div class="form-input-item">
+                                    <input class="form-control" type="email" name="email" placeholder="آدرس ایمیل">
+                                </div>
+                                <div class="form-input-item">
+                                    @* <div class="form-ratings-item">
+                                    <select id="product-review-form-rating-select" class="select-ratings">
+                                    <option value="1">01</option>
+                                    <option value="2">02</option>
+                                    <option value="3">03</option>
+                                    <option value="4">04</option>
+                                    <option value="5">05</option>
+                                    </select>
+                                    <span class="title">رتبه بندی خود را ارائه دهید</span>
+                                    <div class="product-ratingsform-form-wrap">
+                                    <div class="product-ratingsform-form-icon">
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <div id="product-review-form-rating" class="product-ratingsform-form-icon-fill">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    </div>
+                                    </div>
+                                    </div> *@
+                                    @* <div class="reviews-form-checkbox">
+                                    <input class="form-check-input" type="checkbox" value="" id="ReviewsFormCheckbox" checked>
+                                    <label class="form-check-label" for="ReviewsFormCheckbox">
+                                    رتبه بندی را به صورت ناشناس ارائه دهید.
+                                    </label>
                                     </div> *@
                                 </div>
-                            </div>
-                            <p class="desc mt-4 mt-lg-7">@Html.Raw(Model.Article.Description)</p>
-                            @* <p class="desc mb-6 mb-lg-10">لوازم آرایش شامل کرم‌های محافظت‌کننده پوست، لوسیون‌ها (کرم‌های مایع)، پودرها، عطرها، رژ لب، لاک ناخن، مواد آرایشی چشم و صورت، فر مو، لنزهای رنگی، رنگ مو، ژل و افشانه مو، دئودورانت‌ها (ضد بو)، محصولات مربوط به نوزاد، روغن شستشو، کف وان (مایع ویژه وان)، نمک شستشو، روغن‌ها و دیگر انواع محصولات هستند.</p> *@
+                                <div class="form-input-item mb-0">
+                                    <input type="hidden" name="ownerRecordId" value="@Model.Article.Id" />
+                                    <input type="hidden" name="articleSlug" value="@Model.Article.Slug" />
+                                    <input type="hidden" name="parentId" id="commentParentId" value="" />
+                                    <button type="submit" class="btn">ارسال</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-    <div class="row">
-        <div class="col-lg-7">
-            <div class="nav product-details-nav" id="product-details-nav-tab" role="tablist">
-                <button class="nav-link" id="specification-tab" data-bs-toggle="tab" data-bs-target="#specification" type="button" role="tab" aria-controls="specification" aria-selected="false">توضیحات</button>
-                <button class="nav-link active" id="review-tab" data-bs-toggle="tab" data-bs-target="#review" type="button" role="tab" aria-controls="review" aria-selected="true">نظرات : 12</button>
-            </div>
-            <div class="tab-content" id="product-details-nav-tabContent">
-                @* <div class="tab-pane" id="specification" role="tabpanel" aria-labelledby="specification-tab">
-                <p>@Model.Product.Description</p>
-                </div> *@
-
-                <div class="tab-pane fade show active" id="review" role="tabpanel" aria-labelledby="review-tab">
-                    <!--== Start Reviews Content Item ==-->
-                        <div class="product-review-item">
-                            <div class="product-review-top">
-                                <div class="product-review-thumb">
-                                    <img src="~/Theme/files/images/butterfly-logo.png" width="150" height="150" alt="Images">
-                                </div>
-                                <div class="product-review-content">
-                                    <span class="product-review-name">رضا</span>
-                                    @* <span class="product-review-designation">توسعه دهنده</span> *@
-                                    @*  <div class="product-review-icon">
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-half-o"></i>
-                                </div> *@
-                                </div>
-                            </div>
-                            <p class="desc">سلام</p>
-                            <button type="button" class="review-reply"><i class="fa fa fa-undo"></i></button>
-                        </div>
-                    }
-                    <!--== End Reviews Content Item ==-->
-                </div>
-            </div>
         </div>
-        <div class="col-lg-5">
-            <div class="product-reviews-form-wrap">
-                <h4 class="product-form-title">نظرات خود را با ما به اشتراک بگذارید...</h4>
-                <div class="product-reviews-form">
-                    <form method="post">
-                        <div class="form-input-item">
-                            <textarea class="form-control" name="message" placeholder="پیام شما ..."></textarea>
-                        </div>
-                        <div class="form-input-item">
-                            <input class="form-control" type="text" name="fullName" placeholder="نام و نام خانوادگی">
-                        </div>
-                        <div class="form-input-item">
-                            <input class="form-control" type="email" name="email" placeholder="آدرس ایمیل">
-                        </div>
-                        <div class="form-input-item">
-                            @* <div class="form-ratings-item">
-                            <select id="product-review-form-rating-select" class="select-ratings">
-                            <option value="1">01</option>
-                            <option value="2">02</option>
-                            <option value="3">03</option>
-                            <option value="4">04</option>
-                            <option value="5">05</option>
-                            </select>
-                            <span class="title">رتبه بندی خود را ارائه دهید</span>
-                            <div class="product-ratingsform-form-wrap">
-                            <div class="product-ratingsform-form-icon">
-                            <i class="fa fa-star-o"></i>
-                            <i class="fa fa-star-o"></i>
-                            <i class="fa fa-star-o"></i>
-                            <i class="fa fa-star-o"></i>
-                            <i class="fa fa-star-o"></i>
-                            </div>
-                            <div id="product-review-form-rating" class="product-ratingsform-form-icon-fill">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            </div>
-                            </div>
-                            </div> *@
-                            @* <div class="reviews-form-checkbox">
-                            <input class="form-check-input" type="checkbox" value="" id="ReviewsFormCheckbox" checked>
-                            <label class="form-check-label" for="ReviewsFormCheckbox">
-                            رتبه بندی را به صورت ناشناس ارائه دهید.
-                            </label>
-                            </div> *@
-                        </div>
-                        <div class="form-input-item mb-0">
-                            <input type="hidden" name="productId"/>
-                            <input type="hidden" name="productSlug"/>
-                            <button type="submit" class="btn">ارسال</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    </main>
+    </section>
+</main>
 
 

@@ -1,6 +1,9 @@
 ﻿@page "{id}"
 @model ServiceHost.Pages.ArticleCategoryModel
 @{
+    ViewData["Title"] = Model.ArticleCategoryWithArticles.Name;
+    ViewData["keywords"] = Model.ArticleCategoryWithArticles.Keywords;
+    ViewData["metaDescription"] = Model.ArticleCategoryWithArticles.MetaDescription;
 }
 <main class="main-content">
 
@@ -30,7 +33,7 @@
                                     </a>
                                     <div class="content">
                                         <a class="post-category" asp-page="/ArticleCategory" asp-route-id="@article.CategorySlug">@article.CategoryName</a>
-                                        <h4 class="title"><a asp-page="/Article" asp-route-id="@article.Slug">@article.Title</a></h4>
+                                        <h3 class="title"><a asp-page="/Article" asp-route-id="@article.Slug">@article.Title</a></h3>
                                         <ul class="meta">
                                             @* <li class="author-info"><span>توسط:</span> <a href="blog.html">توماس دی مومن</a></li> *@
                                             <li class="post-date">@article.PublishDate</li>

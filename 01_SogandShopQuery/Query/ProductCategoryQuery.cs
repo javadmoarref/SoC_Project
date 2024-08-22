@@ -112,6 +112,10 @@ public class ProductCategoryQuery : IProductCategoryQuery
                 Slug = x.Slug,
                 Products = MapProducts(x.Products)
             }).FirstOrDefault(x => x.Slug == slug);
+        if (category == null)
+        {
+            return new ProductCategoryQueryModel();
+        }
         foreach (var product in category.Products)
         {
             var productInventory = inventory
