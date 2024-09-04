@@ -1,0 +1,45 @@
+﻿@page
+@model ServiceHost.Areas.Administration.Pages.Accounts.Role.EditModel
+@{
+    ViewData["Title"] = "ویرایش نقش";
+}
+<div class="container-xxl flex-grow-1 container-p-y">
+    @if (ViewData["Message"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible mb-0" role="alert">
+            @ViewData["Message"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    <div class="row">
+        <div class="col-xxl">
+            <div class="card mb-4">
+                <div class="card-header d-flex align-items-center justify-content-between">
+                    <h5 class="mb-0">ویرایش نقش</h5>
+                </div>
+                <div class="card-body">
+                    <form asp-page="/Edit"
+                          method="post"
+                          enctype="multipart/form-data">
+                        <div class="row mb-3">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label asp-for="Command.Name" class="control-label">نام</label>
+                                    <input type="text" id="Name" class="form-control" asp-for="Command.Name" />
+                                    <span asp-validation-for="Command.Name" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="hidden" asp-for="Command.Id" value="@Model.Command.Id"/>
+                        <a type="button" asp-page="./Index" class="btn btn-outline-secondary">
+                            بازگشت
+                        </a>
+                        <button type="submit" class="btn btn-primary">ویرایش</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

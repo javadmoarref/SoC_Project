@@ -1073,6 +1073,10 @@
       "PackagePath": "staticwebassets\\Theme\\files\\images\\icons\\instagram.png"
     },
     {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\icons\\logout.png",
+      "PackagePath": "staticwebassets\\Theme\\files\\images\\icons\\logout.png"
+    },
+    {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\icons\\menu-down2.webp",
       "PackagePath": "staticwebassets\\Theme\\files\\images\\icons\\menu-down2.webp"
     },

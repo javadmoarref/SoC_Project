@@ -132,6 +132,25 @@
             </ul>
         </li>
         <li class="menu-item">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bxs-book"></i>
+                <div data-i18n="Layouts">مدیریت کاربران</div>
+            </a>
+
+            <ul class="menu-sub">
+                <li class="menu-item">
+                    <a asp-page="/Accounts/Role/Index" class="menu-link">
+                        <div data-i18n="Without menu">نقش ها</div>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a asp-page="/Accounts/Account/Index" class="menu-link">
+                        <div data-i18n="Without menu">کاربران</div>
+                    </a>
+                </li> 
+            </ul>
+        </li>
+        <li class="menu-item">
             <a asp-page="/Comments/Index" class="menu-link">
                 <i class="menu-icon tf-icons bx bxs-comment"></i>
                 <div data-i18n="Analytics">کامنت ها</div>
@@ -146,7 +165,7 @@
         <li class="menu-item">
             <a asp-area="" asp-page="/Index" class="menu-link">
                 <i class="menu-icon tf-icons bx bxs-home"></i>
-                <div data-i18n="Analytics">صفحه اصلی</div>
+                <div data-i18n="Analytics">فروشگاه</div>
             </a>
         </li>
     </ul>

@@ -1,0 +1,100 @@
+﻿@page
+@model ServiceHost.Pages.AccountModel
+@{
+    ViewData["Title"] = "ورود و ثبت نام";
+}
+
+<main class="main-content">
+
+    <!--== Start Page Header Area Wrapper ==-->
+    <section class="page-header-area pt-10 pb-9" data-bg-color="#FFF3DA">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="page-header-st3-content text-center text-md-start">
+                        <ol class="breadcrumb justify-content-center justify-content-md-start">
+                            <li class="breadcrumb-item"><a class="text-dark" asp-page="./Index">صفحه اصلی</a></li>
+                            <li class="breadcrumb-item active text-dark" aria-current="page">حساب کاربری</li>
+                        </ol>
+                        <h2 class="page-header-title">حساب کاربری</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--== End Page Header Area Wrapper ==-->
+    <!--== Start Account Area Wrapper ==-->
+    <section class="section-space">
+        <div class="container">
+            @if (ViewData["Message"] != null)
+            {
+                <div class="alert alert-danger">
+                    @ViewData["Message"]
+                </div>
+            }
+            <div class="row mb-n8">
+                <div class="col-lg-6 mb-8">
+                    <!--== Start Login Area Wrapper ==-->
+                    <div class="my-account-item-wrap">
+                        <h3 class="title">ورود</h3>
+                        <div class="my-account-form">
+                            <form method="post" asp-page-handler="Login">
+                                <div class="form-group mb-6">
+                                    <label>نام کاربری <sup>*</sup></label>
+                                    <input type="text" name="username">
+                                </div>
+
+                                <div class="form-group mb-6">
+                                    <label>کلمه رمز<sup>*</sup></label>
+                                    <input type="password" name="password">
+                                </div>
+
+                                <div class="form-group d-flex align-items-center mb-14">
+                                    <button class="btn">ورود</button>
+                                </div>
+                                <a class="lost-password" href="my-account.html">رمز عبور خود را فراموش کرده اید؟</a>
+                            </form>
+                        </div>
+                    </div>
+                    <!--== End Login Area Wrapper ==-->
+                </div>
+                <div class="col-lg-6 mb-8">
+                    <!--== Start Register Area Wrapper ==-->
+                    <div class="my-account-item-wrap">
+                        <h3 class="title">ثبت نام</h3>
+                        <div class="my-account-form">
+                            <form action="#" method="post">
+                                <div class="form-group mb-6">
+                                    <label>نام کامل <sup>*</sup></label>
+                                    <input type="text" name="fullname">
+                                </div>
+                                <div class="form-group mb-6">
+                                    <label>نام کاربری <sup>*</sup></label>
+                                    <input type="text" name="username">
+                                </div>
+                                <div class="form-group mb-6">
+                                    <label>موبایل <sup>*</sup></label>
+                                    <input type="text" name="mobile">
+                                </div>
+                                <div class="form-group mb-6">
+                                    <label>کلمه رمز <sup>*</sup></label>
+                                    <input type="password" name="password">
+                                </div>
+                                <div class="form-group mb-6">
+                                    <label> تایید کلمه رمز <sup>*</sup></label>
+                                    <input type="password" name="rePassword">
+                                </div>
+                                <div class="form-group">
+                                    <a class="btn">ثبت نام</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!--== End Register Area Wrapper ==-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--== End Account Area Wrapper ==-->
+
+</main>

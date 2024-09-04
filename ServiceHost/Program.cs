@@ -1,8 +1,10 @@
 using _0_Framework.Application;
+using AccountManagement.Configuration;
 using BlogManagement.Configuration;
 using CommentManagement.Configuration;
 using DiscountManagement.Configuration;
 using InventoryManagement.Configuration;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using ServiceHost.Requirements;
 using ShopManagement.Configuration;
 
@@ -12,14 +14,31 @@ var builder = WebApplication.CreateBuilder(args);
 var services = builder.Services;
 var connectionString = builder.Configuration.GetConnectionString("SogandShopConnectionString");
 
+services.AddHttpContextAccessor();
 ShopManagementBootstrapper.Configure(services,connectionString);
 DiscountManagementBootstrapper.Configure(services,connectionString);
 InventoryManagementBootstrapper.Configure(services,connectionString);
 BlogManagementBootstrapper.Configure(services,connectionString);
 CommentManagementBootstrapper.Configure(services, connectionString);
+AccountManagementBootstrapper.Configure(services,connectionString);
 
-
+services.AddSingleton<IPasswordHasher, PasswordHasher>();
 services.AddTransient<IFileUploader,FileUploader>();
+services.AddTransient<IAuthHelper, AuthHelper>();
+
+services.Configure<CookiePolicyOptions>(options =>
+{
+    options.CheckConsentNeeded = context => true;
+    options.MinimumSameSitePolicy = SameSiteMode.Lax;
+});
+
+services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, o =>
+    {
+        o.LoginPath = new PathString("/Account");
+        o.LogoutPath = new PathString("/Account");
+        o.AccessDeniedPath = new PathString("/AccessDenied");
+    });
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
@@ -32,9 +51,10 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseAuthentication();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
+app.UseCookiePolicy();
 app.UseRouting();
 
 app.UseAuthorization();

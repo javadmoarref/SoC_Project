@@ -1,9 +1,3 @@
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\obj\Debug\net7.0\ShopManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\obj\Debug\net7.0\ShopManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\obj\Debug\net7.0\ShopManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\obj\Debug\net7.0\ShopManagement.Infrastructure.EFCore.AssemblyInfo.cs
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\obj\Debug\net7.0\ShopManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\obj\Debug\net7.0\ShopManagement.Infrastructure.EFCore.sourcelink.json
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net7.0\ShopManagement.Infrastructure.EFCore.deps.json
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net7.0\ShopManagement.Infrastructure.EFCore.runtimeconfig.json
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net7.0\ShopManagement.Infrastructure.EFCore.dll
@@ -14,6 +8,12 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastr
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net7.0\ShopManagement.Domain.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net7.0\0_Framework.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net7.0\ShopManagement.Application.Contracts.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\obj\Debug\net7.0\ShopManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\obj\Debug\net7.0\ShopManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\obj\Debug\net7.0\ShopManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\obj\Debug\net7.0\ShopManagement.Infrastructure.EFCore.AssemblyInfo.cs
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\obj\Debug\net7.0\ShopManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\obj\Debug\net7.0\ShopManagement.Infrastructure.EFCore.sourcelink.json
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\obj\Debug\net7.0\ShopMana.6B4874FD.Up2Date
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\obj\Debug\net7.0\ShopManagement.Infrastructure.EFCore.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\obj\Debug\net7.0\refint\ShopManagement.Infrastructure.EFCore.dll

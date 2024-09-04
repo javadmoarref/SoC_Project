@@ -11,9 +11,9 @@
         <input type="hidden" asp-for="Id" value="@Model.Id" />
         <div class="modal-action-product">
             <div class="thumb" style="background-color:@Model.BackgroundColor">
-                <img src="@Model.Picture" width="466" height="320" alt="@Model.PictureAlt" title="@Model.PictureTitle">
+                <img src="~/uploads/@Model.Picture" width="466" height="320" alt="@Model.PictureAlt" title="@Model.PictureTitle">
             </div>
-            <h4 class="product-name"><a href="product-details.html">محتوای قابل خواندن </a></h4>
+            <h4 class="product-name"><a asp-page="./ProductDetails" asp-route-id="@Model.Slug">مشاهده محصول</a></h4>
         </div>
     </div>
 </div>
