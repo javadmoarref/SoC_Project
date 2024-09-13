@@ -467,7 +467,10 @@
           "Microsoft.EntityFrameworkCore": "7.0.18"
         },
         "runtime": {
-          "0_Framework.dll": {}
+          "0_Framework.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "BlogManagement.Application.Contracts/1.0.0": {
@@ -476,7 +479,10 @@
           "Microsoft.AspNetCore.Http.Features": "2.2.0"
         },
         "runtime": {
-          "BlogManagement.Application.Contracts.dll": {}
+          "BlogManagement.Application.Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

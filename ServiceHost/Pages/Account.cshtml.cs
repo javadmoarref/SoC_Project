@@ -34,5 +34,17 @@ namespace ServiceHost.Pages
             _accountApplication.Logout();
             return RedirectToPage("/Index");
         }
+
+        public IActionResult OnPostRegister(CreateAccount command)
+        {
+            var result = _accountApplication.Create(command);
+            if (result.IsSuccedded)
+            {
+                ViewData["Message"]=result.Message;
+                return Page();
+            }
+            ViewData["Message"]=result.Message;
+            return Page();
+        }
     }
 }

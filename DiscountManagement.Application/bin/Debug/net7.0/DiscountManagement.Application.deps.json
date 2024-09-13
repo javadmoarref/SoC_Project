@@ -467,7 +467,10 @@
           "Microsoft.EntityFrameworkCore": "7.0.18"
         },
         "runtime": {
-          "0_Framework.dll": {}
+          "0_Framework.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "DiscountManagement.Application.Contracts/1.0.0": {
@@ -475,7 +478,10 @@
           "0_Framework": "1.0.0"
         },
         "runtime": {
-          "DiscountManagement.Application.Contracts.dll": {}
+          "DiscountManagement.Application.Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "DiscountManagement.Domain/1.0.0": {
@@ -484,7 +490,10 @@
           "DiscountManagement.Application.Contracts": "1.0.0"
         },
         "runtime": {
-          "DiscountManagement.Domain.dll": {}
+          "DiscountManagement.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

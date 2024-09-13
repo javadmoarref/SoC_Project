@@ -16,9 +16,11 @@ public class CreateAccount
     public string Password { get;  set; }
 
     [Required(ErrorMessage = ValidationMessage.IsRequired)]
+    public string RePassword { get; set; }
+
+    [Required(ErrorMessage = ValidationMessage.IsRequired)]
     public string Mobile { get;  set; }
 
-    [Range(1,int.MaxValue,ErrorMessage = ValidationMessage.IsRequired)]
     public long RoleId { get;  set; }
     public IFormFile ProfilePhoto { get;  set; }
 }

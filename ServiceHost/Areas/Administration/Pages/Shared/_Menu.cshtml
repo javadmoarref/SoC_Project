@@ -133,7 +133,7 @@
         </li>
         <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bxs-book"></i>
+                <i class="menu-icon tf-icons bx bxs-user-account"></i>
                 <div data-i18n="Layouts">مدیریت کاربران</div>
             </a>
 
@@ -165,7 +165,13 @@
         <li class="menu-item">
             <a asp-area="" asp-page="/Index" class="menu-link">
                 <i class="menu-icon tf-icons bx bxs-home"></i>
-                <div data-i18n="Analytics">فروشگاه</div>
+                <div data-i18n="Analytics">صفحه اصلی</div>
+            </a>
+        </li>
+        <li class="menu-item">
+            <a asp-area="" asp-page="/Account" asp-page-handler="Logout" class="menu-link">
+                <i class="menu-icon tf-icons bx bxs-log-out"></i>
+                <div data-i18n="Analytics">خروج</div>
             </a>
         </li>
     </ul>

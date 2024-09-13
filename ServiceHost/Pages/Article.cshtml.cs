@@ -13,10 +13,10 @@ namespace ServiceHost.Pages
         private readonly IArticleQuery _articleQuery;
         private readonly ICommentApplication _commentApplication;
 
-        public ArticleModel(IArticleQuery articleQuery, ICommentApplication commentApplication)
+        public ArticleModel(ICommentApplication commentApplication, IArticleQuery articleQuery)
         {
-            _articleQuery = articleQuery;
             _commentApplication = commentApplication;
+            _articleQuery = articleQuery;
         }
 
         public void OnGet(string id)

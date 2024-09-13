@@ -467,7 +467,10 @@
           "Microsoft.EntityFrameworkCore": "7.0.18"
         },
         "runtime": {
-          "0_Framework.dll": {}
+          "0_Framework.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "CommentManagement.Application.Contracts/1.0.0": {
@@ -475,7 +478,10 @@
           "0_Framework": "1.0.0"
         },
         "runtime": {
-          "CommentManagement.Application.Contracts.dll": {}
+          "CommentManagement.Application.Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

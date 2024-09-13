@@ -869,7 +869,10 @@
           "ShopManagement.Infrastructure.EFCore": "1.0.0"
         },
         "runtime": {
-          "01_SogandShopQuery.dll": {}
+          "01_SogandShopQuery.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "0_Framework/1.0.0": {
@@ -880,7 +883,10 @@
           "Microsoft.EntityFrameworkCore": "7.0.18"
         },
         "runtime": {
-          "0_Framework.dll": {}
+          "0_Framework.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "BlogManagement.Application.Contracts/1.0.0": {
@@ -889,7 +895,10 @@
           "Microsoft.AspNetCore.Http.Features": "2.2.0"
         },
         "runtime": {
-          "BlogManagement.Application.Contracts.dll": {}
+          "BlogManagement.Application.Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "BlogManagement.Domain/1.0.0": {
@@ -898,7 +907,10 @@
           "BlogManagement.Application.Contracts": "1.0.0"
         },
         "runtime": {
-          "BlogManagement.Domain.dll": {}
+          "BlogManagement.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "BlogManagement.Infrastructure.EFCore/1.0.0": {
@@ -908,7 +920,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.18"
         },
         "runtime": {
-          "BlogManagement.Infrastructure.EFCore.dll": {}
+          "BlogManagement.Infrastructure.EFCore.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "CommentManagement.Application.Contracts/1.0.0": {
@@ -916,7 +931,10 @@
           "0_Framework": "1.0.0"
         },
         "runtime": {
-          "CommentManagement.Application.Contracts.dll": {}
+          "CommentManagement.Application.Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "CommentManagement.Domain/1.0.0": {
@@ -925,7 +943,10 @@
           "CommentManagement.Application.Contracts": "1.0.0"
         },
         "runtime": {
-          "CommentManagement.Domain.dll": {}
+          "CommentManagement.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "CommentManagement.Infrastructure.EFCore/1.0.0": {
@@ -935,7 +956,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.18"
         },
         "runtime": {
-          "CommentManagement.Infrastructure.EFCore.dll": {}
+          "CommentManagement.Infrastructure.EFCore.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "DiscountManagement.Application.Contracts/1.0.0": {
@@ -943,7 +967,10 @@
           "0_Framework": "1.0.0"
         },
         "runtime": {
-          "DiscountManagement.Application.Contracts.dll": {}
+          "DiscountManagement.Application.Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "DiscountManagement.Domain/1.0.0": {
@@ -952,7 +979,10 @@
           "DiscountManagement.Application.Contracts": "1.0.0"
         },
         "runtime": {
-          "DiscountManagement.Domain.dll": {}
+          "DiscountManagement.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "DiscountManagement.Infrastructure.EFCore/1.0.0": {
@@ -963,7 +993,10 @@
           "ShopManagement.Infrastructure.EFCore": "1.0.0"
         },
         "runtime": {
-          "DiscountManagement.Infrastructure.EFCore.dll": {}
+          "DiscountManagement.Infrastructure.EFCore.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "InventoryManagement.Application.Contracts/1.0.0": {
@@ -971,7 +1004,10 @@
           "0_Framework": "1.0.0"
         },
         "runtime": {
-          "InventoryManagement.Application.Contracts.dll": {}
+          "InventoryManagement.Application.Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "InventoryManagement.Domain/1.0.0": {
@@ -980,7 +1016,10 @@
           "InventoryManagement.Application.Contracts": "1.0.0"
         },
         "runtime": {
-          "InventoryManagement.Domain.dll": {}
+          "InventoryManagement.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "InventoryManagement.Infrastructure.EfCore/1.0.0": {
@@ -991,7 +1030,10 @@
           "ShopManagement.Infrastructure.EFCore": "1.0.0"
         },
         "runtime": {
-          "InventoryManagement.Infrastructure.EfCore.dll": {}
+          "InventoryManagement.Infrastructure.EfCore.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "ShopManagement.Application/1.0.0": {
@@ -1000,7 +1042,10 @@
           "ShopManagement.Domain": "1.0.0"
         },
         "runtime": {
-          "ShopManagement.Application.dll": {}
+          "ShopManagement.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "ShopManagement.Application.Contracts/1.0.0": {
@@ -1009,7 +1054,10 @@
           "Microsoft.AspNetCore.Http.Features": "2.2.0"
         },
         "runtime": {
-          "ShopManagement.Application.Contracts.dll": {}
+          "ShopManagement.Application.Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "ShopManagement.Domain/1.0.0": {
@@ -1018,7 +1066,10 @@
           "ShopManagement.Application.Contracts": "1.0.0"
         },
         "runtime": {
-          "ShopManagement.Domain.dll": {}
+          "ShopManagement.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "ShopManagement.Infrastructure.EFCore/1.0.0": {
@@ -1028,7 +1079,10 @@
           "ShopManagement.Domain": "1.0.0"
         },
         "runtime": {
-          "ShopManagement.Infrastructure.EFCore.dll": {}
+          "ShopManagement.Infrastructure.EFCore.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

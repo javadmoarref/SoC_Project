@@ -23,27 +23,34 @@
                           method="post"
                           enctype="multipart/form-data">
                         <div class="row mb-3">
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <div class="form-group">
                                     <label asp-for="Command.Fullname" class="control-label">نام</label>
                                     <input type="text" id="Name" class="form-control" asp-for="Command.Fullname"/>
                                     <span asp-validation-for="Command.Fullname" class="error"></span>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <div class="form-group">
                                     <label asp-for="Command.Username" class="control-label">نام کاربری</label>
                                     <input type="text" class="form-control" asp-for="Command.Username"/>
                                     <span asp-validation-for="Command.Username" class="error"></span>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <div class="form-group">
                                     <label asp-for="Command.Mobile" class="control-label">موبایل</label>
                                     <input type="text" class="form-control" asp-for="Command.Mobile">
                                     <span asp-validation-for="Command.Mobile" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Command.ProfilePhoto" class="control-label">عکس</label>
+                                    <input type="file" class="form-control" asp-for="Command.ProfilePhoto" accept="image/*"/>
+                                    <span asp-validation-for="Command.ProfilePhoto" class="error"></span>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -60,16 +67,16 @@
                         <div class="row mb-3">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label asp-for="Command.ProfilePhoto" class="control-label">عکس</label>
-                                    <input type="file" class="form-control" asp-for="Command.ProfilePhoto" accept="image/*"/>
-                                    <span asp-validation-for="Command.ProfilePhoto" class="error"></span>
+                                    <label asp-for="Command.Password" class="control-label">کلمه رمز</label>
+                                    <input type="text" class="form-control" asp-for="Command.Password">
+                                    <span asp-validation-for="Command.Password" class="error"></span>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label asp-for="Command.Password" class="control-label">کلمه رمز</label>
-                                    <input type="text" class="form-control" asp-for="Command.Password">
-                                    <span asp-validation-for="Command.Password" class="error"></span>
+                                    <label asp-for="Command.RePassword" class="control-label"> تکرار کلمه رمز</label>
+                                    <input type="text" class="form-control" asp-for="Command.RePassword">
+                                    <span asp-validation-for="Command.RePassword" class="error"></span>
                                 </div>
                             </div>
                         </div>

@@ -1,4 +1,5 @@
 using _0_Framework.Application;
+using _0_Framework.Infrastructure;
 using AccountManagement.Configuration;
 using BlogManagement.Configuration;
 using CommentManagement.Configuration;
@@ -39,7 +40,13 @@ services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
         o.LogoutPath = new PathString("/Account");
         o.AccessDeniedPath = new PathString("/AccessDenied");
     });
-builder.Services.AddRazorPages();
+
+services.AddAuthorization(option => option.AddPolicy("AdminArea",
+    x => x.RequireRole(new List<string> { Roles.Administrator })));
+
+builder.Services.AddRazorPages()
+    .AddRazorPagesOptions(option=>
+        option.Conventions.AuthorizeAreaFolder("Administration","/","AdminArea"));
 
 var app = builder.Build();
 

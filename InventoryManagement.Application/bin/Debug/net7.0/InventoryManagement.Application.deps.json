@@ -467,7 +467,10 @@
           "Microsoft.EntityFrameworkCore": "7.0.18"
         },
         "runtime": {
-          "0_Framework.dll": {}
+          "0_Framework.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "InventoryManagement.Application.Contracts/1.0.0": {
@@ -475,7 +478,10 @@
           "0_Framework": "1.0.0"
         },
         "runtime": {
-          "InventoryManagement.Application.Contracts.dll": {}
+          "InventoryManagement.Application.Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "InventoryManagement.Domain/1.0.0": {
@@ -484,7 +490,10 @@
           "InventoryManagement.Application.Contracts": "1.0.0"
         },
         "runtime": {
-          "InventoryManagement.Domain.dll": {}
+          "InventoryManagement.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

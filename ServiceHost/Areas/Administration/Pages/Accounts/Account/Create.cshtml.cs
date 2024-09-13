@@ -18,6 +18,7 @@ namespace ServiceHost.Areas.Administration.Pages.Accounts.Account
         private readonly IAccountApplication _accountApplication;
         private readonly IRoleApplication _roleApplication;
 
+
         public CreateModel(IAccountApplication accountApplication, IRoleApplication roleApplication)
         {
             _accountApplication = accountApplication;

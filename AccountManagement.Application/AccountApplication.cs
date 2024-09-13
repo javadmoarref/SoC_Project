@@ -2,6 +2,7 @@
 using AccountManagement.Application.Contracts.Account;
 using AccountManagement.Domain.AccountAgg;
 
+
 namespace AccountManagement.Application;
 
 public class AccountApplication:IAccountApplication
@@ -10,7 +11,7 @@ public class AccountApplication:IAccountApplication
     private readonly IPasswordHasher _passwordHasher;
     private readonly IFileUploader _fileUploader;
     private readonly IAuthHelper _authHelper;
-
+     
     public AccountApplication(IAccountRepository accountRepository, IPasswordHasher passwordHasher,
         IFileUploader fileUploader, IAuthHelper authHelper)
     {
@@ -28,6 +29,10 @@ public class AccountApplication:IAccountApplication
             return operation.Failed(ApplicationMessage.DuplicatedRecord);
         }
 
+        if (command.Password != command.RePassword)
+        {
+            return operation.Failed(ApplicationMessage.PasswordNotMatch);
+        }
         var password = _passwordHasher.Hash(command.Password);
         var picturePath = "ProfilePhotos";
         var fileName = _fileUploader.Upload(command.ProfilePhoto, picturePath);
@@ -95,7 +100,7 @@ public class AccountApplication:IAccountApplication
             return operation.Failed(ApplicationMessage.WrongUserPass);
         }
 
-        var authViewModel = new AuthViewModel(account.Id, account.RoleId, account.Fullname, account.Username);
+        var authViewModel = new AuthViewModel(account.Id, account.RoleId, account.Fullname, account.Username,account.ProfilePhoto);
         _authHelper.Signin(authViewModel);
         return operation.Succedded();
     }
