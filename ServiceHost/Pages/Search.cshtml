@@ -45,7 +45,8 @@
                                     <a type="button" class="product-action-btn action-btn-quick-view text-center" asp-page="./ProductDetails" asp-route-id="@product.Slug">
                                         <i class="fa fa-expand pt-3 p-2"></i>
                                     </a>
-                                    <a type="button" class="product-action-btn action-btn-cart pt-2" href="#showmodal=@Url.Page("./Index", "CartAdd", new { id = product.Slug })">
+                                    <input type="hidden" title="Quantity" value="01" id="productCount">
+                                    <a type="button" class="product-action-btn action-btn-cart pt-2" href="#showmodal=@Url.Page("./Index", "CartAdd", new { id = product.Slug })" onclick="addToCart('@product.Id','@product.Name','@product.Price','@product.Picture')">
                                         <span>به سبد خرید اضافه کنید</span>
                                     </a>
                                     <a type="button" class="product-action-btn action-btn-wishlist text-center" href="#showmodal=@Url.Page("./Index", "WishList", new { id = product.Slug })">

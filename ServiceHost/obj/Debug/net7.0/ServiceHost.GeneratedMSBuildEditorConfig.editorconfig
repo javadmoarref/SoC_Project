@@ -210,8 +210,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aWNsZUNhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/CartAdd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/CheckOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tPdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/Error.cshtml]

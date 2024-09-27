@@ -45,10 +45,11 @@
                                 </a>
                                 @*<span class="flag-new">جدید</span>*@
                                 <div class="product-action">
-                                    <a type="button" class="product-action-btn action-btn-quick-view text-center" asp-page="./ProductDetails" asp-route-id="@product.Slug">
+                                    <a class="product-action-btn action-btn-quick-view text-center" asp-page="./ProductDetails" asp-route-id="@product.Slug">
                                         <i class="fa fa-expand pt-3 p-2"></i>
                                     </a>
-                                    <a type="button" class="product-action-btn action-btn-cart pt-2" href="#showmodal=@Url.Page("./Index", "CartAdd", new { id = product.Slug })">
+                                    <input type="hidden" title="Quantity" value="01" id="productCount">
+                                    <a type="button" class="product-action-btn action-btn-cart pt-2" href="#showmodal=@Url.Page("./Index", "CartAdd", new { id = product.Slug })" onclick="addToCart('@product.Id','@product.Name','@product.Price','@product.Picture')">
                                         <span>به سبد خرید اضافه کنید</span>
                                     </a>
                                     <a type="button" class="product-action-btn action-btn-wishlist text-center" href="#showmodal=@Url.Page("./Index", "WishList", new { id = product.Slug })">
@@ -57,7 +58,7 @@
                                 </div>
                             </div>
                             <div class="product-info">
-                                <div class="product-rating">
+                               @*  <div class="product-rating">
                                     <div class="rating">
                                         <i class="fa fa-star-o"></i>
                                         <i class="fa fa-star-o"></i>
@@ -66,7 +67,7 @@
                                         <i class="fa fa-star-half-o"></i>
                                     </div>
                                     <div class="reviews">150 بررسی</div>
-                                </div>
+                                </div> *@
                                 <h4 class="title"><a asp-page="./ProductDetails" asp-route-id="@product.Id">@product.Name </a></h4>
                                 <div class="prices">
                                     @if (product.HasDiscount)
@@ -81,14 +82,14 @@
                                 </div>
                             </div>
                             <div class="product-action-bottom">
-                                <a type="button" class="product-action-btn action-btn-quick-view text-center" asp-page="./ProductDetails" asp-route-id="@product.Slug">
+                                <a class="product-action-btn action-btn-quick-view text-center" asp-page="./ProductDetails" asp-route-id="@product.Slug">
                                     <i class="fa fa-expand mt-1"></i>
                                 </a>
                                 <a type="button" class="product-action-btn action-btn-wishlist text-center" href="#showmodal=@Url.Page("./Index", "WishList", new { id = product.Slug })">
                                     <i class="fa fa-heart-o m-1"></i>
                                 </a>
-                                <a type="button" class="product-action-btn action-btn-cart pt-2" href="#showmodal=@Url.Page("./Index", "CartAdd", new { id = product.Slug })">
-                                    <span class="m-3">به سبد خرید اضافه کنید</span>
+                                <a type="button" class="product-action-btn action-btn-cart pt-2" href="#showmodal=@Url.Page("./Index", "CartAdd", new { id = product.Slug })" onclick="addToCart('@product.Id','@product.Name','@product.Price','@product.Picture')">
+                                    <span class="m-6">به سبد خرید اضافه کنید</span>
                                 </a>
                             </div>
                         </div>

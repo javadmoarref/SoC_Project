@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Application;
+using _0_Framework.Infrastructure;
 using _01_SogandShopQuery.Contracts.Product;
 using _01_SogandShopQuery.Contracts.ProductCategory;
 using DiscountManagement.Infrastructure.EFCore;
@@ -14,11 +15,13 @@ public class ProductCategoryQuery : IProductCategoryQuery
     private readonly ShopContext _shopContext;
     private readonly InventoryContext _inventoryContext;
     private readonly DiscountContext _discountContext;
-    public ProductCategoryQuery(ShopContext shopContext, InventoryContext inventoryContext, DiscountContext discountContext)
+    private readonly IAuthHelper _authHelper;
+    public ProductCategoryQuery(ShopContext shopContext, InventoryContext inventoryContext, DiscountContext discountContext, IAuthHelper authHelper)
     {
         _shopContext = shopContext;
         _inventoryContext = inventoryContext;
         _discountContext = discountContext;
+        _authHelper = authHelper;
     }
 
     public List<ProductCategoryQueryModel> GetProductCategories()
@@ -67,13 +70,40 @@ public class ProductCategoryQuery : IProductCategoryQuery
                 {
                     var price = productInventory.UnitPrice;
                     product.Price = price.ToMoney();
-                    var discount = discounts.FirstOrDefault(x => x.ProductId == product.Id);
-                    if (discount != null)
+                    //var discount = discounts.FirstOrDefault(x => x.ProductId == product.Id);
+                    //if (discount != null)
+                    //{
+                    //    product.DiscountRate = discount.DiscountRate;
+                    //    product.HasDiscount = product.DiscountRate > 0;
+                    //    var discountAmount =Math.Round((price * product.DiscountRate) / 100);
+                    //    product.PriceWithDiscount = (price - discountAmount).ToMoney();
+                    //}
+                    var currentAccountRole = _authHelper.CurrentAccountRole();
+                    if (currentAccountRole == Roles.ColleagueUser)
                     {
-                        product.DiscountRate = discount.DiscountRate;
-                        product.HasDiscount = product.DiscountRate > 0;
-                        var discountAmount =Math.Round((price * product.DiscountRate) / 100);
-                        product.PriceWithDiscount = (price - discountAmount).ToMoney();
+                        var colleagueDiscount = _discountContext.ColleagueDiscounts
+                            .FirstOrDefault(x => x.ProductId == product.Id);
+                        if (colleagueDiscount != null)
+                        {
+                            product.DiscountRate = colleagueDiscount.DiscountRate;
+                            product.HasDiscount = product.DiscountRate > 0;
+                            var discountAmount = Math.Round((price * product.DiscountRate) / 100);
+                            product.PriceWithDiscount = (price - discountAmount).ToMoney();
+                        }
+                    }
+                    else
+                    {
+
+                        var discountCustomer = _discountContext.CustomerDiscounts
+                       .FirstOrDefault(x => x.ProductId == product.Id);
+                        if (discountCustomer != null)
+                        {
+                            product.DiscountRate = discountCustomer.DiscountRate;
+                            product.HasDiscount = product.DiscountRate > 0;
+                            var discountAmount = Math.Round((price * product.DiscountRate) / 100);
+                            product.PriceWithDiscount = (price - discountAmount).ToMoney();
+                        }
+
                     }
                 }
                
@@ -125,14 +155,41 @@ public class ProductCategoryQuery : IProductCategoryQuery
                 product.InStock=productInventory.InStock;
                 var price = productInventory.UnitPrice;
                 product.Price = price.ToMoney();
-                var discount = _discountContext.CustomerDiscounts
-                    .FirstOrDefault(x => x.ProductId == product.Id);
-                if (discount != null)
+                //var discount = _discountContext.CustomerDiscounts
+                //    .FirstOrDefault(x => x.ProductId == product.Id);
+                //if (discount != null)
+                //{
+                //    product.DiscountRate= discount.DiscountRate;
+                //    product.HasDiscount=product.DiscountRate>0;
+                //    var discountAmount = Math.Round((price * product.DiscountRate) / 100);
+                //    product.PriceWithDiscount = (price - discountAmount).ToMoney();
+                //}
+                var currentAccountRole = _authHelper.CurrentAccountRole();
+                if (currentAccountRole == Roles.ColleagueUser)
                 {
-                    product.DiscountRate= discount.DiscountRate;
-                    product.HasDiscount=product.DiscountRate>0;
-                    var discountAmount = Math.Round((price * product.DiscountRate) / 100);
-                    product.PriceWithDiscount = (price - discountAmount).ToMoney();
+                    var colleagueDiscount = _discountContext.ColleagueDiscounts
+                        .FirstOrDefault(x => x.ProductId == product.Id);
+                    if (colleagueDiscount != null)
+                    {
+                        product.DiscountRate = colleagueDiscount.DiscountRate;
+                        product.HasDiscount = product.DiscountRate > 0;
+                        var discountAmount = Math.Round((price * product.DiscountRate) / 100);
+                        product.PriceWithDiscount = (price - discountAmount).ToMoney();
+                    }
+                }
+                else
+                {
+
+                    var discountCustomer = _discountContext.CustomerDiscounts
+                   .FirstOrDefault(x => x.ProductId == product.Id);
+                    if (discountCustomer != null)
+                    {
+                        product.DiscountRate = discountCustomer.DiscountRate;
+                        product.HasDiscount = product.DiscountRate > 0;
+                        var discountAmount = Math.Round((price * product.DiscountRate) / 100);
+                        product.PriceWithDiscount = (price - discountAmount).ToMoney();
+                    }
+
                 }
             }
         }

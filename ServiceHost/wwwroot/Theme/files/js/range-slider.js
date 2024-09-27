@@ -2,7 +2,7 @@
 // Link -- https://codepen.io/jackiejohnston/pen/NNrpjQ
 
 // Initialize slider:
-$(document).ready(function() {
+$(function() {
     $('.noUi-handle').on('click', function() {
         $(this).width(50);
     });
@@ -143,11 +143,11 @@ $(document).ready(function() {
     // https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY#Notes
 
     function getPageOffset() {
-        var supportPageOffset = window.pageXOffset !== undefined,
+        var supportPageOffset = window.scrollY !== undefined,
             isCSS1Compat = ((document.compatMode || "") === "CSS1Compat"),
-            x = supportPageOffset ? window.pageXOffset : isCSS1Compat ?
+            x = supportPageOffset ? window.scrollY : isCSS1Compat ?
                 document.documentElement.scrollLeft : document.body.scrollLeft,
-            y = supportPageOffset ? window.pageYOffset : isCSS1Compat ?
+            y = supportPageOffset ? window.scrollY : isCSS1Compat ?
                 document.documentElement.scrollTop : document.body.scrollTop;
         return {
             x: x,
@@ -1196,7 +1196,7 @@ $(document).ready(function() {
             // https://connect.microsoft.com/IE/feedback/details/927005/mobile-ie10-windows-phone-buttons-property-of-pointermove-event-always-zero
             // IE9 has .buttons and .which zero on mousemove.
             // Firefox breaks the spec MDN defines.
-            if (navigator.appVersion.indexOf("MSIE 9") === -1 && event.buttons ===
+            if (navigator.userAgent.indexOf("MSIE 9") === -1 && event.buttons ===
                 0 && data.buttonsProperty !== 0) {
                 return end(event, data);
             }

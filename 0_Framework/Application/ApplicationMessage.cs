@@ -9,4 +9,5 @@ public class ApplicationMessage
     public const string MessageSendWrong = "نظر شما ثبت نشد مجددا تلاش فرمایید.";
     public const string PasswordNotMatch = "پسورد وارد شده با تکرار آن برابر نمیباشد.";
     public const string WrongUserPass = "نام کاربری یا کلمه رمز اشتباه است.";
+    public const string InvalidCountOfProduct = "تعداد کالای درخواستی از موجودی انبار بیشتر است.";
 }

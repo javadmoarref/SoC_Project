@@ -32,17 +32,17 @@ function hideModal() {
     $("#MainModal").modal("hide");
 }
 
-$(document).ready(function () {
+$(function () {
     window.onhashchange = function () {
         SinglePage.LoadModal();
     };
     $("#MainModal").on("shown.bs.modal",
         function () {
             window.location.hash = "##";
-            $('.persianDateInput').persianDatepicker({
-                format: 'YYYY/MM/DD',
-                autoClose: true
-            });
+            //$('.persianDateInput').persianDatepicker({
+            //    format: 'YYYY/MM/DD',
+            //    autoClose: true
+            //});
         });
 
     $(document).on("submit",
@@ -130,7 +130,7 @@ function makeSlug(source, dist) {
 
 var convertToSlug = function (str) {
     var $slug = '';
-    const trimmed = $.trim(str);
+    const trimmed = str.trim();
     $slug = trimmed.replace(/[^a-z0-9-آ-ی-]/gi, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
     return $slug.toLowerCase();
 };

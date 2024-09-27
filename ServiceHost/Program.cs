@@ -1,5 +1,7 @@
 using _0_Framework.Application;
 using _0_Framework.Infrastructure;
+using _01_SogandShopQuery.Contracts.CartService;
+using _01_SogandShopQuery.Query;
 using AccountManagement.Configuration;
 using BlogManagement.Configuration;
 using CommentManagement.Configuration;
@@ -26,6 +28,7 @@ AccountManagementBootstrapper.Configure(services,connectionString);
 services.AddSingleton<IPasswordHasher, PasswordHasher>();
 services.AddTransient<IFileUploader,FileUploader>();
 services.AddTransient<IAuthHelper, AuthHelper>();
+
 
 services.Configure<CookiePolicyOptions>(options =>
 {

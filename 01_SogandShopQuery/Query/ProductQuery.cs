@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Application;
+using _0_Framework.Infrastructure;
 using _01_SogandShopQuery.Contracts.Comment;
 using _01_SogandShopQuery.Contracts.Product;
 using CommentManagement.Domain.CommentAgg;
@@ -7,31 +8,34 @@ using CommentManagement.Infrastructure.EFCore.Requirements;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EfCore;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Application.Contracts.Order;
 using ShopManagement.Infrastructure.EFCore;
 
 namespace _01_SogandShopQuery.Query;
 
-public class ProductQuery:IProductQuery
+public class ProductQuery : IProductQuery
 {
     private readonly ShopContext _shopContext;
     private readonly InventoryContext _inventoryContext;
     private readonly DiscountContext _discountContext;
     private readonly CommentContext _commentContext;
+    private readonly IAuthHelper _authHelper;
 
     public ProductQuery(ShopContext shopContext, InventoryContext inventoryContext,
-        DiscountContext discountContext, CommentContext commentContext)
+        DiscountContext discountContext, CommentContext commentContext, IAuthHelper authHelper)
     {
         _shopContext = shopContext;
         _inventoryContext = inventoryContext;
         _discountContext = discountContext;
         _commentContext = commentContext;
+        _authHelper = authHelper;
     }
 
     public ProductQueryModel GetProductBy(string slug)
     {
-        var product= _shopContext.Products
-            .Include(x=>x.Category)
-            .Select(x=>new ProductQueryModel()
+        var product = _shopContext.Products
+            .Include(x => x.Category)
+            .Select(x => new ProductQueryModel()
             {
                 Id = x.Id,
                 Name = x.Name,
@@ -56,20 +60,47 @@ public class ProductQuery:IProductQuery
         if (inventory != null)
         {
             var price = inventory.UnitPrice;
-            product.Price=price.ToMoney();
-            var discount = _discountContext.CustomerDiscounts
-                .FirstOrDefault(x => x.ProductId == product.Id);
-            if (discount != null)
+            product.Price = price.ToMoney();
+            product.DoublePrice = price;
+            var currentAccountRole = _authHelper.CurrentAccountRole();
+            if (currentAccountRole == Roles.ColleagueUser)
             {
-                product.DiscountRate = discount.DiscountRate;
-                product.HasDiscount = product.DiscountRate > 0;
-                var discountAmount = Math.Round((price * product.DiscountRate) / 100);
-                product.PriceWithDiscount=(price-discountAmount).ToMoney();
+                var colleagueDiscount = _discountContext.ColleagueDiscounts
+                    .FirstOrDefault(x => x.ProductId == product.Id);
+                if (colleagueDiscount != null)
+                {
+                    product.DiscountRate = colleagueDiscount.DiscountRate;
+                    product.HasDiscount = product.DiscountRate > 0;
+                    var discountAmount = Math.Round((price * product.DiscountRate) / 100);
+                    product.PriceWithDiscount = (price - discountAmount).ToMoney();
+                }
             }
+            else
+            {
+
+                var discountCustomer = _discountContext.CustomerDiscounts
+               .FirstOrDefault(x => x.ProductId == product.Id);
+                if (discountCustomer != null)
+                {
+                    product.DiscountRate = discountCustomer.DiscountRate;
+                    product.HasDiscount = product.DiscountRate > 0;
+                    var discountAmount = Math.Round((price * product.DiscountRate) / 100);
+                    product.PriceWithDiscount = (price - discountAmount).ToMoney();
+                }
+
+            }
+
+            //if (discount != null)
+            //{
+            //    product.DiscountRate = discount.DiscountRate;
+            //    product.HasDiscount = product.DiscountRate > 0;
+            //    var discountAmount = Math.Round((price * product.DiscountRate) / 100);
+            //    product.PriceWithDiscount = (price - discountAmount).ToMoney();
+            //}
         }
-        product.Comments=_commentContext.Comments
-            .Where(x=>x.Type==CommentType.Product)
-            .Where(x=>x.OwnerRecordId==product.Id)
+        product.Comments = _commentContext.Comments
+            .Where(x => x.Type == CommentType.Product)
+            .Where(x => x.OwnerRecordId == product.Id)
             .Where(x => !x.IsCanceled)
                 .Where(x => x.IsConfirmed)
                 .Select(x => new CommentQueryModel()
@@ -114,7 +145,7 @@ public class ProductQuery:IProductQuery
                 CategorySlug = product.Category.Slug,
                 ShortDescription = product.ShortDescription,
                 BackgroundColor = product.BackgroundColor
-            }).OrderByDescending(x=>x.Id).ToList();
+            }).OrderByDescending(x => x.Id).ToList();
 
         foreach (var product in products)
         {
@@ -124,19 +155,39 @@ public class ProductQuery:IProductQuery
             {
                 var price = productInventory.UnitPrice;
                 product.Price = price.ToMoney();
+                product.DoublePrice = price;
                 product.InStock = productInventory.InStock;
-                var discount = discounts.FirstOrDefault(x => x.ProductId == product.Id);
-                if (discount != null)
+                var currentAccountRole = _authHelper.CurrentAccountRole();
+                if (currentAccountRole == Roles.ColleagueUser)
                 {
-                    product.DiscountRate = discount.DiscountRate;
-                    product.HasDiscount = product.DiscountRate > 0;
-                    var discountAmount = Math.Round((price * product.DiscountRate) / 100);
-                    product.PriceWithDiscount = (price - discountAmount).ToMoney();
+                    var colleagueDiscount = _discountContext.ColleagueDiscounts
+                        .FirstOrDefault(x => x.ProductId == product.Id);
+                    if (colleagueDiscount != null)
+                    {
+                        product.DiscountRate = colleagueDiscount.DiscountRate;
+                        product.HasDiscount = product.DiscountRate > 0;
+                        var discountAmount = Math.Round((price * product.DiscountRate) / 100);
+                        product.PriceWithDiscount = (price - discountAmount).ToMoney();
+                    }
+                }
+                else
+                {
+
+                    var discountCustomer = _discountContext.CustomerDiscounts
+                   .FirstOrDefault(x => x.ProductId == product.Id);
+                    if (discountCustomer != null)
+                    {
+                        product.DiscountRate = discountCustomer.DiscountRate;
+                        product.HasDiscount = product.DiscountRate > 0;
+                        var discountAmount = Math.Round((price * product.DiscountRate) / 100);
+                        product.PriceWithDiscount = (price - discountAmount).ToMoney();
+                    }
+
                 }
             }
         }
 
-        return products.Where(x=>x.InStock).Take(6).ToList();
+        return products.Where(x => x.InStock).Take(6).ToList();
     }
 
     public List<ProductQueryModel> Search(string value)
@@ -184,18 +235,52 @@ public class ProductQuery:IProductQuery
             {
                 var price = productInventory.UnitPrice;
                 product.Price = price.ToMoney();
+                product.DoublePrice = price;
                 product.InStock = productInventory.InStock;
-                var discount = discounts.FirstOrDefault(x => x.ProductId == product.Id);
-                if (discount != null)
+                var currentAccountRole = _authHelper.CurrentAccountRole();
+                if (currentAccountRole == Roles.ColleagueUser)
                 {
-                    product.DiscountRate = discount.DiscountRate;
-                    product.HasDiscount = product.DiscountRate > 0;
-                    var discountAmount = Math.Round((price * product.DiscountRate) / 100);
-                    product.PriceWithDiscount = (price - discountAmount).ToMoney();
+                    var colleagueDiscount = _discountContext.ColleagueDiscounts
+                        .FirstOrDefault(x => x.ProductId == product.Id);
+                    if (colleagueDiscount != null)
+                    {
+                        product.DiscountRate = colleagueDiscount.DiscountRate;
+                        product.HasDiscount = product.DiscountRate > 0;
+                        var discountAmount = Math.Round((price * product.DiscountRate) / 100);
+                        product.PriceWithDiscount = (price - discountAmount).ToMoney();
+                    }
+                }
+                else
+                {
+
+                    var discountCustomer = _discountContext.CustomerDiscounts
+                   .FirstOrDefault(x => x.ProductId == product.Id);
+                    if (discountCustomer != null)
+                    {
+                        product.DiscountRate = discountCustomer.DiscountRate;
+                        product.HasDiscount = product.DiscountRate > 0;
+                        var discountAmount = Math.Round((price * product.DiscountRate) / 100);
+                        product.PriceWithDiscount = (price - discountAmount).ToMoney();
+                    }
+
                 }
             }
         }
 
         return products.Where(x => x.InStock).ToList();
+    }
+
+    public List<CartItem> CheckInventoryStatus(List<CartItem> cartItems)
+    {
+        var inventory = _inventoryContext.Inventory.ToList();
+        foreach (var cartItem in cartItems)
+        {
+            if (inventory.Any(x => x.ProductId == cartItem.Id && x.InStock))
+            {
+                var itemInventory = inventory.Find(x => x.ProductId == cartItem.Id);
+                cartItem.IsInStock = itemInventory.CalculateCurrentCount() >= cartItem.Count;
+            }
+        }
+        return cartItems;
     }
 }

@@ -20,8 +20,8 @@
 
     // Menu Activeion Js
     var cururl = window.location.pathname;
-    var curpage = cururl.substr(cururl.lastIndexOf('/') + 1);
-    var hash = window.location.hash.substr(1);
+    var curpage = cururl.substring(cururl.lastIndexOf('/') + 1);
+    var hash = window.location.hash.substring(1);
     if((curpage === "" || curpage === "/" || curpage === "admin") && hash === "")
     {
     } else {

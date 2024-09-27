@@ -27,7 +27,8 @@ public class ProductApplication:IProductApplication
         }
         var slug=command.Slug.Slugify();
         var categorySlug = _productCategoryRepository.GetCategorySlugBy(command.CategoryId);
-        var picturePath = Path.Combine(categorySlug, command.Slug);
+        //var picturePath = Path.Combine(categorySlug, slug);
+        var picturePath = $"{categorySlug}/{slug}";
         var fileName = _fileUploader.Upload(command.Picture, picturePath);
         var product = new Product(command.Name, command.Code,  command.ShortDescription,
             command.Description, fileName, command.PictureAlt, command.PictureTitle, slug, command.Keywords,
@@ -52,7 +53,8 @@ public class ProductApplication:IProductApplication
         }
         var slug=command.Slug.Slugify();
         var categorySlug = product.Category.Slug;
-        var picturePath = Path.Combine(categorySlug, command.Slug);
+        //var picturePath = Path.Combine(categorySlug, slug);
+        var picturePath = $"{categorySlug}/{slug}";
         var fileName = _fileUploader.Upload(command.Picture, picturePath);
         product.Edit(command.Name,command.Code,command.ShortDescription,command.Description,
             fileName,command.PictureAlt,command.PictureTitle,slug,command.Keywords,

@@ -13,6 +13,7 @@ namespace _01_SogandShopQuery.Contracts.Product
         public string Description { get; set; }
         public string ShortDescription { get; set; }
         public string Price { get; set; }
+        public double DoublePrice { get; set; }
         public string PriceWithDiscount { get; set; }
         public int DiscountRate { get; set; }
         public string Category { get; set; }

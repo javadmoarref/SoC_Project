@@ -17,10 +17,6 @@
       "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\mystyle.css"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\persian-datepicker.min.css",
-      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\persian-datepicker.min.css"
-    },
-    {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\CHANGELOG.md",
       "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\CHANGELOG.md"
     },
@@ -507,14 +503,6 @@
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\pages-account-settings-account.js",
       "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\pages-account-settings-account.js"
-    },
-    {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\persian-date.min.js",
-      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\persian-date.min.js"
-    },
-    {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\persian-datepicker.min.js",
-      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\persian-datepicker.min.js"
     },
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\ui-modals.js",
@@ -1453,6 +1441,10 @@
       "PackagePath": "staticwebassets\\Theme\\files\\js\\bootstrap.bundle.min.js"
     },
     {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\js\\custome.js",
+      "PackagePath": "staticwebassets\\Theme\\files\\js\\custome.js"
+    },
+    {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\js\\fancybox.min.js",
       "PackagePath": "staticwebassets\\Theme\\files\\js\\fancybox.min.js"
     },
@@ -1487,6 +1479,10 @@
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\js\\modernizr.min.js",
       "PackagePath": "staticwebassets\\Theme\\files\\js\\modernizr.min.js"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\Theme\\files\\js\\plugins.js"
     },
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\js\\range-slider.js",
@@ -1721,24 +1717,56 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\lib\\jquery\\dist\\jquery-3.7.1.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery-3.7.1.js"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
-    },
-    {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\lib\\jquery\\dist\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery-3.7.1.min.js"
     },
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\ProfilePhotos\\2024-09-04-21-24-10-2019-02-20 15.05.21.jpg",
       "PackagePath": "staticwebassets\\uploads\\ProfilePhotos\\2024-09-04-21-24-10-2019-02-20 15.05.21.jpg"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\dgdg\\2024-06-24-12-32-57-1.png",
-      "PackagePath": "staticwebassets\\uploads\\dgdg\\2024-06-24-12-32-57-1.png"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\dgdg\\2024-09-15-17-17-39-1.png",
+      "PackagePath": "staticwebassets\\uploads\\dgdg\\2024-09-15-17-17-39-1.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\dgdg\\2024-09-15-17-18-13-6.png",
+      "PackagePath": "staticwebassets\\uploads\\dgdg\\2024-09-15-17-18-13-6.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\dgdg\\2024-09-15-17-18-21-5.png",
+      "PackagePath": "staticwebassets\\uploads\\dgdg\\2024-09-15-17-18-21-5.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\dgdg\\آبرسان-پمپی\\2024-09-15-17-27-26-1.png",
+      "PackagePath": "staticwebassets\\uploads\\dgdg\\آبرسان-پمپی\\2024-09-15-17-27-26-1.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\dgdg\\آبرسان-پمپی\\2024-09-15-17-27-37-4.png",
+      "PackagePath": "staticwebassets\\uploads\\dgdg\\آبرسان-پمپی\\2024-09-15-17-27-37-4.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\dgdg\\آبرسان-پمپی\\2024-09-15-17-27-47-8.png",
+      "PackagePath": "staticwebassets\\uploads\\dgdg\\آبرسان-پمپی\\2024-09-15-17-27-47-8.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\dgdg\\آبرسان-پمپی\\2024-09-15-19-01-58-8.png",
+      "PackagePath": "staticwebassets\\uploads\\dgdg\\آبرسان-پمپی\\2024-09-15-19-01-58-8.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\dgdg\\کرم-پودر\\2024-09-15-18-49-40-4.png",
+      "PackagePath": "staticwebassets\\uploads\\dgdg\\کرم-پودر\\2024-09-15-18-49-40-4.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\dgdg\\کرم-پودر\\2024-09-15-19-11-27-6.png",
+      "PackagePath": "staticwebassets\\uploads\\dgdg\\کرم-پودر\\2024-09-15-19-11-27-6.png"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\dgdg\\کرم-پودر\\2024-09-15-19-15-57-6.png",
+      "PackagePath": "staticwebassets\\uploads\\dgdg\\کرم-پودر\\2024-09-15-19-15-57-6.png"
     },
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\slides\\2024-06-30-22-59-54-slider4.png",
@@ -1765,80 +1793,80 @@
       "PackagePath": "staticwebassets\\uploads\\اخبار-سایت\\روش-استفاده-از-کرم-پودر\\2024-07-31-16-30-00-2.png"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\لوازم-آرایشی\\2024-06-24-12-33-17-2.png",
-      "PackagePath": "staticwebassets\\uploads\\لوازم-آرایشی\\2024-06-24-12-33-17-2.png"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\ب\\2024-09-15-19-18-03-2.png",
+      "PackagePath": "staticwebassets\\uploads\\ب\\2024-09-15-19-18-03-2.png"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\لوازم-آرایشی\\2024-06-24-12-34-15-1.png",
-      "PackagePath": "staticwebassets\\uploads\\لوازم-آرایشی\\2024-06-24-12-34-15-1.png"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\ب\\2024-09-15-19-18-16-3.png",
+      "PackagePath": "staticwebassets\\uploads\\ب\\2024-09-15-19-18-16-3.png"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\لوازم-آرایشی\\2024-06-24-12-34-26-1.png",
-      "PackagePath": "staticwebassets\\uploads\\لوازم-آرایشی\\2024-06-24-12-34-26-1.png"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\ب\\2024-09-15-19-18-27-1.png",
+      "PackagePath": "staticwebassets\\uploads\\ب\\2024-09-15-19-18-27-1.png"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\لوازم-آرایشی\\2024-06-24-12-34-48-1.png",
-      "PackagePath": "staticwebassets\\uploads\\لوازم-آرایشی\\2024-06-24-12-34-48-1.png"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\ب\\2024-09-15-19-18-41-4.png",
+      "PackagePath": "staticwebassets\\uploads\\ب\\2024-09-15-19-18-41-4.png"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\لوازم-آرایشی\\2024-06-24-12-35-07-3.png",
-      "PackagePath": "staticwebassets\\uploads\\لوازم-آرایشی\\2024-06-24-12-35-07-3.png"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\ب\\2024-09-15-19-18-48-1.png",
+      "PackagePath": "staticwebassets\\uploads\\ب\\2024-09-15-19-18-48-1.png"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\لوازم-آرایشی\\2024-06-24-12-35-15-4.png",
-      "PackagePath": "staticwebassets\\uploads\\لوازم-آرایشی\\2024-06-24-12-35-15-4.png"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\ت\\2024-09-16-11-59-56-6.png",
+      "PackagePath": "staticwebassets\\uploads\\ت\\2024-09-16-11-59-56-6.png"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\لوازم-آرایشی\\2024-06-24-12-35-24-2.png",
-      "PackagePath": "staticwebassets\\uploads\\لوازم-آرایشی\\2024-06-24-12-35-24-2.png"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\ت\\کرم-مرطوب-کننده\\2024-09-16-12-01-01-7.png",
+      "PackagePath": "staticwebassets\\uploads\\ت\\کرم-مرطوب-کننده\\2024-09-16-12-01-01-7.png"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\لوازم-آرایشی\\2024-06-24-12-35-31-5.png",
-      "PackagePath": "staticwebassets\\uploads\\لوازم-آرایشی\\2024-06-24-12-35-31-5.png"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\لوازم-آرایشی\\2024-09-15-17-18-03-3.png",
+      "PackagePath": "staticwebassets\\uploads\\لوازم-آرایشی\\2024-09-15-17-18-03-3.png"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\لوازم-آرایشی\\2024-06-24-12-35-38-6.png",
-      "PackagePath": "staticwebassets\\uploads\\لوازم-آرایشی\\2024-06-24-12-35-38-6.png"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\لوازم-آرایشی\\رژ-لب\\2024-09-15-17-20-13-3.png",
+      "PackagePath": "staticwebassets\\uploads\\لوازم-آرایشی\\رژ-لب\\2024-09-15-17-20-13-3.png"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\لوازم-آرایشی\\2024-06-24-12-35-46-6.png",
-      "PackagePath": "staticwebassets\\uploads\\لوازم-آرایشی\\2024-06-24-12-35-46-6.png"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\لوازم-آرایشی\\رژ-لب\\2024-09-15-19-02-08-3.png",
+      "PackagePath": "staticwebassets\\uploads\\لوازم-آرایشی\\رژ-لب\\2024-09-15-19-02-08-3.png"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\لوازم-آرایشی\\2024-06-24-12-37-23-3.png",
-      "PackagePath": "staticwebassets\\uploads\\لوازم-آرایشی\\2024-06-24-12-37-23-3.png"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\لوازم-آرایشی\\رژ-لب\\2024-09-15-19-10-50-3.png",
+      "PackagePath": "staticwebassets\\uploads\\لوازم-آرایشی\\رژ-لب\\2024-09-15-19-10-50-3.png"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\کرم\\2024-06-24-12-33-07-4.png",
-      "PackagePath": "staticwebassets\\uploads\\کرم\\2024-06-24-12-33-07-4.png"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\لوازم-آرایشی\\رژ-لب\\2024-09-15-19-16-07-3.png",
+      "PackagePath": "staticwebassets\\uploads\\لوازم-آرایشی\\رژ-لب\\2024-09-15-19-16-07-3.png"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\کرم\\2024-06-24-12-37-15-6.png",
-      "PackagePath": "staticwebassets\\uploads\\کرم\\2024-06-24-12-37-15-6.png"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\کرم\\2024-09-15-17-17-53-4.png",
+      "PackagePath": "staticwebassets\\uploads\\کرم\\2024-09-15-17-17-53-4.png"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-06-25-12-29-55-2.png",
-      "PackagePath": "staticwebassets\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-06-25-12-29-55-2.png"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-09-15-17-19-08-2.png",
+      "PackagePath": "staticwebassets\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-09-15-17-19-08-2.png"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-06-25-12-49-48-3.png",
-      "PackagePath": "staticwebassets\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-06-25-12-49-48-3.png"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-09-15-17-19-19-1.png",
+      "PackagePath": "staticwebassets\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-09-15-17-19-19-1.png"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-06-25-12-50-00-1.png",
-      "PackagePath": "staticwebassets\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-06-25-12-50-00-1.png"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-09-15-17-19-33-6.png",
+      "PackagePath": "staticwebassets\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-09-15-17-19-33-6.png"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-06-25-12-50-25-6.png",
-      "PackagePath": "staticwebassets\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-06-25-12-50-25-6.png"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-09-15-19-02-18-6.png",
+      "PackagePath": "staticwebassets\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-09-15-19-02-18-6.png"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-06-30-22-59-11-2.png",
-      "PackagePath": "staticwebassets\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-06-30-22-59-11-2.png"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-09-15-19-10-23-2.png",
+      "PackagePath": "staticwebassets\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-09-15-19-10-23-2.png"
     },
     {
-      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-07-09-11-33-25-3.jpg",
-      "PackagePath": "staticwebassets\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-07-09-11-33-25-3.jpg"
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-09-15-19-16-17-2.png",
+      "PackagePath": "staticwebassets\\uploads\\کرم\\کرم-ضد-آفتاب\\2024-09-15-19-16-17-2.png"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ServiceHost.Microsoft.AspNetCore.StaticWebAssets.props",

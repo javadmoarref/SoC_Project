@@ -48,6 +48,7 @@ public class FileUploader:IFileUploader
                file.CopyTo(fileStream);
             }
         }
-        return  Path.Combine(path,fileName);
+        //return  Path.Combine(path,fileName);
+        return $"{path}/{fileName}";
     }
 }

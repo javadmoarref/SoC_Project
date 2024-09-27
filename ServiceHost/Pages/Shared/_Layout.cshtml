@@ -70,7 +70,6 @@
         <aside class="product-cart-view-modal modal fade" id="MyMainModal" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content" id="MyModalContent">
-
                 </div>
             </div>
         </aside>
@@ -87,7 +86,7 @@
                         <div class="search-note">
                             <p>در این جا محصول مورد نظر خود را جستجو کنید.</p>
                         </div>
-                        <form method="get" asp-page="./Search" >
+                        <form method="get" asp-page="./Search">
                             <div class="aside-search-form position-relative">
                                 <label for="value" class="visually-hidden">جستجو</label>
                                 <input id="value" name="value" type="search" class="form-control" placeholder="جستجوی کل فروشگاه…">
@@ -106,38 +105,31 @@
                 <button class="btn-aside-cart-close" data-bs-dismiss="offcanvas" aria-label="Close">سبد خرید <i class="fa fa-chevron-left"></i></button>
             </div>
             <div class="offcanvas-body">
-                <ul class="aside-cart-product-list">
-                    <li class="aside-product-list-item">
-                        <a href="#/" class="remove">×</a>
-                        <a href="product-details.html">
-                            <img src="~/Theme/files/images/shop/cart1.webp" width="68" height="84" alt="Image">
-                            <span class="product-title">دمپایی مردانه چرم</span>
-                        </a>
-                        <span class="product-price">1 × 69.00 تومان</span>
-                    </li>
-                    <li class="aside-product-list-item">
-                        <a href="#/" class="remove">×</a>
-                        <a href="product-details.html">
-                            <img src="~/Theme/files/images/shop/cart2.webp" width="68" height="84" alt="Image">
-                            <span class="product-title">کفش مردانه </span>
-                        </a>
-                        <span class="product-price">1 × 20.00 تومان</span>
-                    </li>
+                <ul class="aside-cart-product-list" id="cart_items_wrapper">
+                    @*   <li class="aside-product-list-item">
+                    <a href="#/" class="remove">×</a>
+                    <a href="product-details.html">
+                    <img src="~/Theme/files/images/shop/cart1.webp" width="68" height="84" alt="Image">
+                    <span class="product-title">دمپایی مردانه چرم</span>
+                    </a>
+                    <span class="product-price">1 × 69.00 تومان</span>
+                    </li> *@
                 </ul>
-                <p class="cart-total"><span>جمع کل:</span><span class="amount">89.00 تومان</span></p>
-                <a class="btn-total" href="product-cart.html">مشاهده سبد خرید</a>
-                <a class="btn-total" href="product-checkout.html">پرداخت</a>
+                @*  <p class="cart-total"><span>جمع کل:</span><span class="amount">89.00 تومان</span></p> *@
+                <a class="btn-total" asp-page="/Cart">مشاهده سبد خرید</a>
             </div>
         </aside>
         <!--== End Aside Cart ==-->
-        
+
     </div>
 
     <!--== Wrapper End ==-->
     <!-- JS Vendor, Plugins & Activation Script Files -->
     <!-- Vendors JS -->
+    <script src="~/lib/jquery/dist/jquery-3.7.1.min.js"></script>
     <script src="~/Theme/files/js/modernizr-3.11.7.min.js"></script>
-    <script src="~/Theme/files/js/jquery-3.6.0.min.js"></script>
+    @* <script src="~/Theme/files/js/jquery-3.6.0.min.js"></script> *@
+
     <script src="~/Theme/files/js/jquery-migrate-3.3.2.min.js"></script>
     <script src="~/Theme/files/js/bootstrap.bundle.min.js"></script>
 
@@ -147,8 +139,16 @@
     <script src="~/Theme/files/js/jquery.nice-select.min.js"></script>
 
     <!-- Custom Main JS -->
+    @* <script src="~/lib/jquery/dist/jquery-3.7.1.min.js"></script> *@
     <script src="~/Theme/files/js/main.js"></script>
     <script src="~/Theme/files/js/site.js"></script>
+    <script src="~/Theme/files/js/plugins.js"></script>
+    <script src="~/Theme/files/js/custome.js"></script>
+    <script>
+        $(document).ready(function () {
+            updateCart();
+        });
+    </script>
 
 
 </body>
