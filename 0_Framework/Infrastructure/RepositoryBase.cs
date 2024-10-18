@@ -41,6 +41,6 @@ public class RepositoryBase<TKey,T>:IRepository<TKey,T> where T:class
 
     public void Remove(T entity)
     {
-        _context.Remove(entity);
+        _context.Set<T>().Remove(entity);
     }
 }

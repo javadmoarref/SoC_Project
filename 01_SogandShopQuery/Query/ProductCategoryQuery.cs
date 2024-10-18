@@ -45,13 +45,20 @@ public class ProductCategoryQuery : IProductCategoryQuery
                 x.ProductId,
                 x.UnitPrice
             }).ToList();
-        var discounts = _discountContext.CustomerDiscounts
-            .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
+        var customerDiscounts = _discountContext.CustomerDiscounts
+          .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
+          .Select(x => new
+          {
+              x.ProductId,
+              x.DiscountRate
+          }).ToList();
+        var colleagueDiscounts = _discountContext.ColleagueDiscounts
+            .Where(x => x.IsRemoved == false)
             .Select(x => new
             {
                 x.ProductId,
                 x.DiscountRate
-            }).ToList();
+            });
         var categories =_shopContext.ProductCategories
             .Include(x => x.Products)
             .ThenInclude(x => x.Category)
@@ -81,8 +88,7 @@ public class ProductCategoryQuery : IProductCategoryQuery
                     var currentAccountRole = _authHelper.CurrentAccountRole();
                     if (currentAccountRole == Roles.ColleagueUser)
                     {
-                        var colleagueDiscount = _discountContext.ColleagueDiscounts
-                            .FirstOrDefault(x => x.ProductId == product.Id);
+                        var colleagueDiscount = colleagueDiscounts.FirstOrDefault(x => x.ProductId == product.Id);
                         if (colleagueDiscount != null)
                         {
                             product.DiscountRate = colleagueDiscount.DiscountRate;
@@ -94,11 +100,10 @@ public class ProductCategoryQuery : IProductCategoryQuery
                     else
                     {
 
-                        var discountCustomer = _discountContext.CustomerDiscounts
-                       .FirstOrDefault(x => x.ProductId == product.Id);
-                        if (discountCustomer != null)
+                        var customerDiscount = customerDiscounts.FirstOrDefault(x => x.ProductId == product.Id);
+                        if (customerDiscount != null)
                         {
-                            product.DiscountRate = discountCustomer.DiscountRate;
+                            product.DiscountRate = customerDiscount.DiscountRate;
                             product.HasDiscount = product.DiscountRate > 0;
                             var discountAmount = Math.Round((price * product.DiscountRate) / 100);
                             product.PriceWithDiscount = (price - discountAmount).ToMoney();
@@ -122,13 +127,20 @@ public class ProductCategoryQuery : IProductCategoryQuery
                 x.InStock,
                 x.UnitPrice
             }).ToList();
-        var discounts = _discountContext.CustomerDiscounts
-            .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
+        var customerDiscounts = _discountContext.CustomerDiscounts
+           .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
+           .Select(x => new
+           {
+               x.ProductId,
+               x.DiscountRate
+           }).ToList();
+        var colleagueDiscounts = _discountContext.ColleagueDiscounts
+            .Where(x => x.IsRemoved == false)
             .Select(x => new
             {
                 x.ProductId,
                 x.DiscountRate
-            }).ToList();
+            });
         var category = _shopContext.ProductCategories
             .Include(x => x.Products)
             .ThenInclude(x => x.Category)
@@ -167,8 +179,7 @@ public class ProductCategoryQuery : IProductCategoryQuery
                 var currentAccountRole = _authHelper.CurrentAccountRole();
                 if (currentAccountRole == Roles.ColleagueUser)
                 {
-                    var colleagueDiscount = _discountContext.ColleagueDiscounts
-                        .FirstOrDefault(x => x.ProductId == product.Id);
+                    var colleagueDiscount =colleagueDiscounts.FirstOrDefault(x => x.ProductId == product.Id);
                     if (colleagueDiscount != null)
                     {
                         product.DiscountRate = colleagueDiscount.DiscountRate;
@@ -180,11 +191,10 @@ public class ProductCategoryQuery : IProductCategoryQuery
                 else
                 {
 
-                    var discountCustomer = _discountContext.CustomerDiscounts
-                   .FirstOrDefault(x => x.ProductId == product.Id);
-                    if (discountCustomer != null)
+                    var customerDiscount = customerDiscounts.FirstOrDefault(x => x.ProductId == product.Id);
+                    if (customerDiscount != null)
                     {
-                        product.DiscountRate = discountCustomer.DiscountRate;
+                        product.DiscountRate = customerDiscount.DiscountRate;
                         product.HasDiscount = product.DiscountRate > 0;
                         var discountAmount = Math.Round((price * product.DiscountRate) / 100);
                         product.PriceWithDiscount = (price - discountAmount).ToMoney();

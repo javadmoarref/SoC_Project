@@ -39,7 +39,10 @@
                                 }
                             </ul>
                         </li>
-                        <li><a asp-page="/Cart">مشاهده سبد خرید</a></li>
+                        @* <li><a asp-page="/Cart">مشاهده سبد خرید</a></li> *@
+                        @if(Auth.IsAuthenticated()){
+                            <li><a asp-page="/OrderTracking">پیگیری وضعیت سفارش</a></li>
+                        }
                         <li><a href="about-us.html">درباره ما</a></li>
                         <li><a href="contact.html">ارتباط با ما</a></li>
                         @if (Auth.CurrentAccountRole() == Roles.Administrator)
@@ -144,7 +147,11 @@
                         }
                     </ul>
                 </li>
-                <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" asp-page="/Cart">مشاهده سبد خرید</a></li>
+                @* <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" asp-page="/Cart">مشاهده سبد خرید</a></li> *@
+                @if (Auth.IsAuthenticated())
+                {
+                    <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" asp-page="/OrderTracking">پیگیری وضعیت سفارش</a></li>
+                }
                 <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" href="about-us.html">در باره ما</a></li>
                 <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" href="contact.html">ارتباط با ما</a></li>
                 @if (Auth.CurrentAccountRole() == Roles.Administrator)

@@ -1,0 +1,76 @@
+﻿@page
+@model ServiceHost.Areas.Administration.Pages.Shop.Orders.PaymentSuccessModel
+@{
+    ViewData["Title"] = "پرداخت موفق";
+}
+<div class="container-xxl flex-grow-1 container-p-y">
+    @if (ViewData["Message"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible mb-0" role="alert">
+            @ViewData["Message"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    <div class="row">
+        <div class="col-xxl">
+            <div class="card mb-4">
+                <div class="card-header d-flex align-items-center justify-content-between">
+                    <h5 class="mb-0">پرداخت موفق </h5>
+                </div>
+                <div class="card-body">
+                    <form asp-page="/PaymentSuccess"
+                          method="post">
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Command.Id" class="control-label">#</label>
+                                    <input type="text" class="form-control persianNumber" asp-for="Command.Id" disabled/>
+                                    <span asp-validation-for="Command.Id" class="error"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Command.AccountName" class="control-label">نام سفارش دهنده</label>
+                                    <input type="text" class="form-control" asp-for="Command.AccountName" disabled/>
+                                    <span asp-validation-for="Command.AccountName" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Command.AccountMobile" class="control-label">موبایل سفارش دهنده</label>
+                                    <input type="text" class="form-control persianNumber" asp-for="Command.AccountMobile" disabled />
+                                    <span asp-validation-for="Command.AccountMobile" class="error"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Command.PayAmount" class="control-label">مبلغ پرداختی</label>
+                                    <input type="text" class="form-control persianNumber" asp-for="Command.PayAmount" disabled />
+                                    <span asp-validation-for="Command.PayAmount" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Command.RefId" class="control-label">شماره پیگیری پرداخت</label>
+                                    <input type="text" class="form-control persianNumber" asp-for="Command.RefId" />
+                                    <span asp-validation-for="Command.RefId" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="hidden" asp-for="Command.Id" value="@Model.Command.Id"/>
+                        <a asp-page="./Index" class="btn btn-outline-secondary">
+                            بازگشت
+                        </a>
+                        <button type="submit" class="btn btn-primary">ثبت پرداخت موفق</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

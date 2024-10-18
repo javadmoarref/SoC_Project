@@ -56,27 +56,34 @@
                                     <span class="title">@item.Name</span>
                                 </td>
                                 <td class="product-price">
-                                    <span class="price">@item.UnitPrice تومان</span>
+                                    <span class="price">@item.UnitPrice ریال</span>
                                 </td>
                                 <td class="product-quantity">
                                     <span class="price">@item.Count</span>
                                 </td>
                                 <td class="product-price">
-                                    <span class="price">@item.TotalItemPrice.ToMoney() تومان</span>
+                                    <span class="price">@item.TotalItemPrice.ToMoney() ریال</span>
                                 </td>
                                 <td class="product-price">
                                     <span class="price">@item.DiscountRate%</span>
                                 </td>
                                 <td class="product-subtotal border-bottom">
-                                    <span class="price">@item.DiscountAmount.ToMoney() تومان</span>
+                                    <span class="price">@item.DiscountAmount.ToMoney() ریال</span>
                                 </td>
                                 <td class="product-subtotal border-bottom">
-                                    <span class="price">@item.ItemPayAmount.ToMoney() تومان</span>
+                                    <span class="price">@item.ItemPayAmount.ToMoney() ریال</span>
                                 </td>
                             </tr>
                         }
                     </tbody>
                 </table>
+                <span class="text-primary">- بعد از عملیات پرداخت و تایید فروشگاه سفارش شما ثبت خواهد شد و جهت ارسال سفارش اقدام خواهد شد.</span>
+                <br />
+                <span class="text-primary">- بعد از پرداخت میتوانید با ورود به سایت فروشگاه در قسمت پیگیری وضعیت سفارش، وضعیت سفارش خود را بررسی کنید.</span>
+                 <br />
+                <span class="text-primary">- لطفا قبل از پرداخت <strong>مبلغ قابل پرداخت</strong> را یادداشت کنید تا در صفحه پرداخت آن را وارد نمایید.</span>
+                <br />
+                <span class="text-primary">- در صورتی که پرداخت موفق نداشتید دوباره کالای مورد نظر خود را انتخاب کرده و وارد عملیات پرداخت شوید.</span>
                 @* </form> *@
             </div>
             <div class="row">
@@ -86,27 +93,41 @@
                         <table>
                             <tbody>
                                 <tr class="cart-subtotal">
-                                    <th>مبلغ نهایی</th>
+                                    <th>مبلغ کل</th>
                                     <td>
-                                        <span class="amount fs-6">@Model.Cart.TotalAmount.ToMoney() تومان</span>
+                                        <span class="amount fs-6">@Model.Cart.TotalAmount.ToMoney() ریال</span>
                                     </td>
                                 </tr>
                                 <tr class="cart-subtotal">
                                     <th>مبلغ تخفیف</th>
                                     <td>
-                                        <span class="amount fs-6">@Model.Cart.DiscountAmount.ToMoney() تومان</span>
+                                        <span class="amount fs-6">@Model.Cart.DiscountAmount.ToMoney() ریال</span>
+                                    </td>
+                                </tr>
+                                <tr class="cart-subtotal">
+                                    <th>مبلغ نهایی بدون هزینه ارسال پستی</th>
+                                    <td>
+                                        <span class="amount fs-6">@Model.Cart.TotalAmountWithDiscount.ToMoney() ریال</span>
+                                    </td>
+                                </tr>
+                                <tr class="cart-subtotal">
+                                    <th>هزینه ارسال پستی</th>
+                                    <td>
+                                        <span class="amount fs-6">@Model.Cart.PostagePrice.ToMoney() ریال</span>
                                     </td>
                                 </tr>
                                 <tr class="order-total">
-                                    <th>مبلغ قابل پرداخت</th>
+                                    <th>
+                                        <span class="text-primary"><strong>مبلغ قابل پرداخت</strong></span>
+                                    </th>
                                     <td>
-                                        <span class="amount">@Model.Cart.PayAmount.ToMoney() تومان</span>
+                                        <span class="amount">@Model.Cart.PayAmount.ToMoney() ریال</span>
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
                         <div class="text-end">
-                            <a class="checkout-button">پرداخت</a>
+                            <a class="checkout-button" asp-page-handler="Pay" onclick="deleteCookie()">پرداخت</a>
                         </div>
                     </div>
                 </div>

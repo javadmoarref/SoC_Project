@@ -10,4 +10,6 @@ public class ApplicationMessage
     public const string PasswordNotMatch = "پسورد وارد شده با تکرار آن برابر نمیباشد.";
     public const string WrongUserPass = "نام کاربری یا کلمه رمز اشتباه است.";
     public const string InvalidCountOfProduct = "تعداد کالای درخواستی از موجودی انبار بیشتر است.";
+    public const string EnterRefId = "لطفا شماره پیگیری پرداخت را وارد کنید.";
+    public const string EnterPostalCode = "لطفا کد رهگیری پستی را وارد کنید.";
 }

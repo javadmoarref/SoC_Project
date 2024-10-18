@@ -21,57 +21,66 @@
                                 <img src="~/uploads/@product.Picture" width="370" height="450" alt="@product.PictureAlt" title="@product.PictureTitle">
                             </a>
                             <span class="flag-new">جدید</span>
-                            <div class="product-action">
-                                <a class="product-action-btn action-btn-quick-view" asp-page="./ProductDetails" asp-route-id="@product.Slug">
-                                    <i class="fa fa-expand m-3"></i>
+                            @* <div class="product-action">
+                                <a type="button" class="product-action-btn action-btn-cart pt-2" asp-page="./ProductDetails" asp-route-id="@product.Slug">
+                                    <span>مشاهده محصول</span>
                                 </a>
+                            </div> *@
+                            <div class="product-action">
+                                <input type="hidden" title="Quantity" value="01" id="productCount">
+                                <a type="button" class="product-action-btn action-btn-cart pt-2" href="#showmodal=@Url.Page("./Index", "CartAdd", new { id = product.Slug })" onclick="addToCart('@product.Id','@product.Name','@product.Price','@product.Picture')">
+                                    <span>به سبد خرید اضافه کنید</span>
+                                </a>
+                                @*  <a class="product-action-btn action-btn-quick-view" asp-page="./ProductDetails" asp-route-id="@product.Slug">
+                            <i class="fa fa-expand m-3"></i>
+                            </a> *@
                                 @*<button type="button" class="product-action-btn action-btn-quick-view" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
                             <i class="fa fa-expand"></i>
                             </button>*@
                                 @* <a type="button" class="product-action-btn action-btn-quick-view" onclick='mymainmodalbtn' id="mymainmodalbtn" href="#showmodal=@Url.Page("./Index", "QuickViewDetails")">
                             <i class="fa fa-expand m-3"></i>
                             </a>*@
-                                <input type="hidden" title="Quantity" value="01" id="productCount">
-                                <a type="button" class="product-action-btn action-btn-cart pt-2" href="#showmodal=@Url.Page("./Index", "CartAdd", new { id = product.Slug })" onclick="addToCart('@product.Id','@product.Name','@product.Price','@product.Picture')">
-                                    <span>به سبد خرید اضافه کنید</span>
-                                </a>
-                                <a type="button" class="product-action-btn action-btn-wishlist" href="#showmodal=@Url.Page("./Index", "WishList", new { id = product.Slug })">
-                                    <i class="fa fa-heart-o m-3"></i>
-                                </a>
+                                
+                                @* <a type="button" class="product-action-btn action-btn-wishlist" href="#showmodal=@Url.Page("./Index", "WishList", new { id = product.Slug })">
+                            <i class="fa fa-heart-o m-3"></i>
+                            </a> *@
                             </div>
                         </div>
                         <div class="product-info">
                             @* <div class="product-rating">
-                                <div class="rating">
-                                    <i class="fa fa-star-o"></i>
-                                    <i class="fa fa-star-o"></i>
-                                    <i class="fa fa-star-o"></i>
-                                    <i class="fa fa-star-o"></i>
-                                    <i class="fa fa-star-half-o"></i>
-                                </div>
-                                <div class="reviews">150 بررسی</div>
-                            </div> *@
+                        <div class="rating">
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <div class="reviews">150 بررسی</div>
+                        </div> *@
                             <h4 class="title"><a asp-page="./ProductDetails" asp-route-id="@product.Slug">@product.Name </a></h4>
                             <div class="prices">
                                 @if (product.HasDiscount)
                                 {
-                                    <span class="price">@product.PriceWithDiscount تومان</span>
+                                    <span class="price">@product.PriceWithDiscount ریال</span>
                                     <span class="price-old fs-5">@product.Price</span>
                                 }
                                 else
                                 {
-                                    <span class="price">@product.Price تومان</span>
+                                    <span class="price">@product.Price ریال</span>
                                 }
-                                
+
                             </div>
                         </div>
                         <div class="product-action-bottom">
-                            <a class="product-action-btn action-btn-quick-view text-center" asp-page="./ProductDetails" asp-route-id="@product.Slug">
-                                <i class="fa fa-expand mt-1"></i>
+                            @* <a class="product-action-btn action-btn-quick-view text-center" asp-page="./ProductDetails" asp-route-id="@product.Slug">
+                        <i class="fa fa-expand mt-1"></i>
+                        </a> *@
+                            <a type="button" class="product-action-btn action-btn-cart pt-2" asp-page="./ProductDetails" asp-route-id="@product.Slug">
+                                <span class="m-6">مشاهده محصول</span>
                             </a>
-                            <a type="button" class="product-action-btn action-btn-wishlist text-center" href="#showmodal=@Url.Page("./Index", "WishList", new { id = @product.Slug })">
-                                <i class="fa fa-heart-o m-1"></i>
-                            </a>
+                            @* <a type="button" class="product-action-btn action-btn-wishlist text-center" href="#showmodal=@Url.Page("./Index", "WishList", new { id = @product.Slug })">
+                        <i class="fa fa-heart-o m-1"></i>
+                        </a> *@
                             <a type="button" class="product-action-btn action-btn-cart pt-2" href="#showmodal=@Url.Page("./Index", "CartAdd", new { id = @product.Slug })" onclick="addToCart('@product.Id','@product.Name','@product.Price','@product.Picture')">
                                 <span class="m-6">به سبد خرید اضافه کنید</span>
                             </a>

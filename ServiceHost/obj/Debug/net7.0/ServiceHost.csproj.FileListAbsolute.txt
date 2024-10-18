@@ -142,3 +142,4 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\n
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net7.0\ServiceHost.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net7.0\ServiceHost.genruntimeconfig.cache
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net7.0\ref\ServiceHost.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net7.0\RestSharp.dll

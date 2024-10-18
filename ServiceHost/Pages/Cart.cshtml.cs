@@ -25,11 +25,18 @@ namespace ServiceHost.Pages
             var serializer = new JavaScriptSerializer();
             var value = Request.Cookies[CookieName];
             var cartItems = serializer.Deserialize<List<CartItem>>(value);
-            foreach (var item in cartItems)
+            if (cartItems == null)
             {
-                item.CalculateTotalItemPrice();
+                CartItems=new List<CartItem>();
             }
-            CartItems = _productQuery.CheckInventoryStatus(cartItems);
+            else
+            {
+                foreach (var item in cartItems)
+                {
+                    item.CalculateTotalItemPrice();
+                }
+                CartItems = _productQuery.CheckInventoryStatus(cartItems);
+            }
         }
         //public IActionResult OnGetRemoveFromCart(long id)
         //{

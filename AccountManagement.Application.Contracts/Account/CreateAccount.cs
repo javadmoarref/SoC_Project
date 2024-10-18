@@ -10,7 +10,7 @@ public class CreateAccount
     public string Fullname { get;  set; }
 
     [Required(ErrorMessage = ValidationMessage.IsRequired)]
-    public string Username { get;  set; }
+    public string Address { get;  set; }
 
     [Required(ErrorMessage = ValidationMessage.IsRequired)]
     public string Password { get;  set; }
@@ -23,4 +23,7 @@ public class CreateAccount
 
     public long RoleId { get;  set; }
     public IFormFile ProfilePhoto { get;  set; }
+
+    [Required(ErrorMessage = ValidationMessage.IsRequired)]
+    public string PostalCode { get; set; }
 }

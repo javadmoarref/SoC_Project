@@ -29,12 +29,6 @@
                     </div>
                     <div class="col-md-3">
                         <div class="form-group">
-                            <label asp-for="SearchModel.Username" class="control-label">نام کاربری</label>
-                            <input type="text" class="form-control" asp-for="SearchModel.Username" placeholder="نام کاربری">
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="form-group">
                             <label asp-for="SearchModel.Mobile" class="control-label">موبایل</label>
                             <input type="text" class="form-control" asp-for="SearchModel.Mobile" placeholder="موبایل">
                         </div>
@@ -83,10 +77,11 @@
                     <th>#</th>
                     <th>عکس</th>
                     <th>نام</th>
-                    <th>نام کاربری</th>
                     <th>موبایل</th>
                     <th>نقش</th>
                     <th>تاریخ ثبت نام</th>
+                    <th>آدرس</th>
+                    @* <th>کد پستی</th> *@
                     <th>عملیات</th>
                 </tr>
             </thead>
@@ -97,10 +92,11 @@
                         <td class="persianNumber"><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>@item.Id</strong></td>
                         <td><img src="~/uploads/@item.ProfilePhoto" style="width: 70px;height: 70px" /></td>
                         <td>@item.Fullname</td>
-                        <td>@item.Username</td>
                         <td>@item.Mobile</td>
                         <td>@item.Role</td>
                         <td class="persianNumber">@item.CreationDate</td>
+                        <td class="text-wrap">@item.Address - کدپستی:@item.PostalCode</td>
+                        @* <td>@item.PostalCode</td> *@
                         <td>
                             <a class="btn btn-warning pull-right m-rl-5"
                                asp-page="./Edit" asp-route-id="@item.Id">

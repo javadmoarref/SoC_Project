@@ -16,9 +16,9 @@ public class AccountRepository:RepositoryBase<long,Account>, IAccountRepository
         _context = context;
     }
 
-    public Account GetBy(string username)
+    public Account GetBy(string mobile)
     {
-        return _context.Accounts.FirstOrDefault(a => a.Username == username);
+        return _context.Accounts.FirstOrDefault(a => a.Mobile == mobile);
     }
 
     public EditAccount GetDetails(long id)
@@ -27,9 +27,10 @@ public class AccountRepository:RepositoryBase<long,Account>, IAccountRepository
         {
             Id = x.Id,
             Fullname = x.Fullname,
-            Username = x.Username,
+            Address = x.Address,
             Mobile = x.Mobile,
-            RoleId = x.RoleId
+            RoleId = x.RoleId,
+            PostalCode=x.PostalCode
         }).FirstOrDefault(x => x.Id == id);
     }
 
@@ -41,22 +42,18 @@ public class AccountRepository:RepositoryBase<long,Account>, IAccountRepository
         {
             Id = x.Id,
             Fullname = x.Fullname,
-            Username = x.Username,
+            Address = x.Address,
             Role = x.Role.Name,
             RoleId = x.RoleId,
             Mobile = x.Mobile,
             ProfilePhoto = x.ProfilePhoto,
-            CreationDate = x.CreationDate.ToFarsi() 
+            CreationDate = x.CreationDate.ToFarsi(),
+            PostalCode=x.PostalCode
         });
 
         if (!string.IsNullOrWhiteSpace(searchModel.Fullname))
         {
             query = query.Where(x => x.Fullname.Contains(searchModel.Fullname));
-        }
-
-        if (!string.IsNullOrWhiteSpace(searchModel.Username))
-        {
-            query = query.Where(x => x.Username.Contains(searchModel.Username));
         }
 
         if (!string.IsNullOrWhiteSpace(searchModel.Mobile))

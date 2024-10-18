@@ -24,7 +24,7 @@ public class AccountApplication:IAccountApplication
     public OperationResult Create(CreateAccount command)
     {
         var operation=new OperationResult();
-        if (_accountRepository.Exists(x => x.Username == command.Username || x.Mobile == command.Mobile))
+        if (_accountRepository.Exists(x => x.Fullname == command.Fullname || x.Mobile == command.Mobile))
         {
             return operation.Failed(ApplicationMessage.DuplicatedRecord);
         }
@@ -36,8 +36,8 @@ public class AccountApplication:IAccountApplication
         var password = _passwordHasher.Hash(command.Password);
         var picturePath = "ProfilePhotos";
         var fileName = _fileUploader.Upload(command.ProfilePhoto, picturePath);
-        var account = new Account(command.Fullname,command.Username,password,command.Mobile,command.RoleId,
-            fileName);
+        var account = new Account(command.Fullname,command.Address,password,command.Mobile,command.RoleId,
+            fileName,command.PostalCode);
         _accountRepository.Create(account);
         _accountRepository.SaveChanges();
         return operation.Succedded();
@@ -51,14 +51,14 @@ public class AccountApplication:IAccountApplication
         {
             return operation.Failed(ApplicationMessage.RecordNotFound);
         }
-        if(_accountRepository.Exists(x=>(x.Username==command.Username || x.Mobile==command.Mobile) && 
+        if(_accountRepository.Exists(x=>(x.Fullname == command.Fullname || x.Mobile==command.Mobile) && 
                x.Id != command.Id))
         {
             return operation.Failed(ApplicationMessage.DuplicatedRecord);
         }
         var picturePath = "ProfilePhotos";
         var fileName = _fileUploader.Upload(command.ProfilePhoto, picturePath);
-        account.Edit(command.Fullname,command.Username,command.Mobile,command.RoleId,fileName);
+        account.Edit(command.Fullname,command.Address,command.Mobile,command.RoleId,fileName,command.PostalCode);
         _accountRepository.SaveChanges();
         return operation.Succedded();
     }
@@ -87,7 +87,7 @@ public class AccountApplication:IAccountApplication
     public OperationResult Login(Login command)
     {
         var operation = new OperationResult();
-        var account = _accountRepository.GetBy(command.UserName);
+        var account = _accountRepository.GetBy(command.Mobile);
         if (account == null)
         {
             return operation.Failed(ApplicationMessage.WrongUserPass);
@@ -100,7 +100,8 @@ public class AccountApplication:IAccountApplication
             return operation.Failed(ApplicationMessage.WrongUserPass);
         }
 
-        var authViewModel = new AuthViewModel(account.Id, account.RoleId, account.Fullname, account.Username,account.ProfilePhoto);
+        var authViewModel = new AuthViewModel(account.Id, account.RoleId, account.Fullname,
+            account.ProfilePhoto,account.Mobile);
         _authHelper.Signin(authViewModel);
         return operation.Succedded();
     }

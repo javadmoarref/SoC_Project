@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80C65EF1-0902-48CC-B71B-8C4B8E1CE64F}|01_SogandShopQuery\\01_SogandShopQuery.csproj|f:\\myprogram\\vs\\dotnetcore\\sogandshop_project\\sogandshop\\01_sogandshopquery\\query\\productcategoryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C65EF1-0902-48CC-B71B-8C4B8E1CE64F}|01_SogandShopQuery\\01_SogandShopQuery.csproj|solutionrelative:01_sogandshopquery\\query\\productcategoryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A9221EA-9ECB-4632-92DE-9BAE58EA6764}|ShopManagement.Application\\ShopManagement.Application.csproj|f:\\myprogram\\vs\\dotnetcore\\sogandshop_project\\sogandshop\\shopmanagement.application\\orderapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A9221EA-9ECB-4632-92DE-9BAE58EA6764}|ShopManagement.Application\\ShopManagement.Application.csproj|solutionrelative:shopmanagement.application\\orderapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DB21791-66A5-427E-A843-D27231D4EF68}|ServiceHost\\ServiceHost.csproj|f:\\myprogram\\vs\\dotnetcore\\sogandshop_project\\sogandshop\\servicehost\\viewcomponents\\latestarrivalsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DB21791-66A5-427E-A843-D27231D4EF68}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\viewcomponents\\latestarrivalsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DB21791-66A5-427E-A843-D27231D4EF68}|ServiceHost\\ServiceHost.csproj|f:\\myprogram\\vs\\dotnetcore\\sogandshop_project\\sogandshop\\servicehost\\areas\\administration\\pages\\shop\\orders\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB21791-66A5-427E-A843-D27231D4EF68}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\areas\\administration\\pages\\shop\\orders\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DB21791-66A5-427E-A843-D27231D4EF68}|ServiceHost\\ServiceHost.csproj|f:\\myprogram\\vs\\dotnetcore\\sogandshop_project\\sogandshop\\servicehost\\pages\\shared\\components\\latestarrivals\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0DB21791-66A5-427E-A843-D27231D4EF68}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\pages\\shared\\components\\latestarrivals\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80C65EF1-0902-48CC-B71B-8C4B8E1CE64F}|01_SogandShopQuery\\01_SogandShopQuery.csproj|f:\\myprogram\\vs\\dotnetcore\\sogandshop_project\\sogandshop\\01_sogandshopquery\\query\\cartcalculatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C65EF1-0902-48CC-B71B-8C4B8E1CE64F}|01_SogandShopQuery\\01_SogandShopQuery.csproj|solutionrelative:01_sogandshopquery\\query\\cartcalculatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DB21791-66A5-427E-A843-D27231D4EF68}|ServiceHost\\ServiceHost.csproj|f:\\myprogram\\vs\\dotnetcore\\sogandshop_project\\sogandshop\\servicehost\\areas\\administration\\pages\\shop\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DB21791-66A5-427E-A843-D27231D4EF68}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\areas\\administration\\pages\\shop\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LatestArrivalsViewComponent.cs",
-              "DocumentMoniker": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\ViewComponents\\LatestArrivalsViewComponent.cs",
-              "RelativeDocumentMoniker": "ServiceHost\\ViewComponents\\LatestArrivalsViewComponent.cs",
-              "ToolTip": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\ViewComponents\\LatestArrivalsViewComponent.cs",
-              "RelativeToolTip": "ServiceHost\\ViewComponents\\LatestArrivalsViewComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "OrderApplication.cs",
+              "DocumentMoniker": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ShopManagement.Application\\OrderApplication.cs",
+              "RelativeDocumentMoniker": "ShopManagement.Application\\OrderApplication.cs",
+              "ToolTip": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ShopManagement.Application\\OrderApplication.cs",
+              "RelativeToolTip": "ShopManagement.Application\\OrderApplication.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAwGAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T10:14:17.493Z",
+              "WhenOpened": "2024-10-18T06:27:59.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\Areas\\Administration\\Pages\\Shop\\Orders\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "ServiceHost\\Areas\\Administration\\Pages\\Shop\\Orders\\Index.cshtml.cs",
+              "ToolTip": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\Areas\\Administration\\Pages\\Shop\\Orders\\Index.cshtml.cs",
+              "RelativeToolTip": "ServiceHost\\Areas\\Administration\\Pages\\Shop\\Orders\\Index.cshtml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T06:24:40.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\Pages\\Shared\\Components\\LatestArrivals\\Default.cshtml",
-              "RelativeDocumentMoniker": "ServiceHost\\Pages\\Shared\\Components\\LatestArrivals\\Default.cshtml",
-              "ToolTip": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\Pages\\Shared\\Components\\LatestArrivals\\Default.cshtml",
-              "RelativeToolTip": "ServiceHost\\Pages\\Shared\\Components\\LatestArrivals\\Default.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\Areas\\Administration\\Pages\\Shop\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "ServiceHost\\Areas\\Administration\\Pages\\Shop\\Orders\\Index.cshtml",
+              "ToolTip": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\Areas\\Administration\\Pages\\Shop\\Orders\\Index.cshtml",
+              "RelativeToolTip": "ServiceHost\\Areas\\Administration\\Pages\\Shop\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-27T10:14:04.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductCategoryQuery.cs",
-              "DocumentMoniker": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\01_SogandShopQuery\\Query\\ProductCategoryQuery.cs",
-              "RelativeDocumentMoniker": "01_SogandShopQuery\\Query\\ProductCategoryQuery.cs",
-              "ToolTip": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\01_SogandShopQuery\\Query\\ProductCategoryQuery.cs",
-              "RelativeToolTip": "01_SogandShopQuery\\Query\\ProductCategoryQuery.cs",
-              "ViewState": "AgIAAL8AAAAAAAAAAAAIwLUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T09:43:31.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CartCalculatorService.cs",
-              "DocumentMoniker": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\01_SogandShopQuery\\Query\\CartCalculatorService.cs",
-              "RelativeDocumentMoniker": "01_SogandShopQuery\\Query\\CartCalculatorService.cs",
-              "ToolTip": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\01_SogandShopQuery\\Query\\CartCalculatorService.cs",
-              "RelativeToolTip": "01_SogandShopQuery\\Query\\CartCalculatorService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T09:29:28.779Z",
+              "WhenOpened": "2024-10-18T06:22:23.701Z",
               "EditorCaption": ""
             }
           ]

@@ -7,10 +7,12 @@ namespace InventoryManagement.Application
     public class InventoryApplication:IInventoryApplication
     {
         private readonly IInventoryRepository _inventoryRepository;
+        private readonly IAuthHelper _authHelper;
 
-        public InventoryApplication(IInventoryRepository inventoryRepository)
+        public InventoryApplication(IInventoryRepository inventoryRepository, IAuthHelper authHelper)
         {
             _inventoryRepository = inventoryRepository;
+            _authHelper = authHelper;
         }
 
         public OperationResult Create(CreateInventory command)
@@ -56,8 +58,25 @@ namespace InventoryManagement.Application
                 return operation.Failed(ApplicationMessage.RecordNotFound);
             }
 
-            const long operatorId = 1;
+            var operatorId =_authHelper.CurrentAccountId();
             inventory.Increase(command.Count,operatorId,command.Description);
+            _inventoryRepository.SaveChanges();
+            return operation.Succedded();
+        }
+
+        public OperationResult Increase(List<IncreaseInventory> command)
+        {
+            var operation = new OperationResult();
+            var operatorId = _authHelper.CurrentAccountId();
+            foreach (var item in command)
+            {
+                var inventory = _inventoryRepository.GetBy(item.InventoryId);
+                if (inventory == null)
+                {
+                    return operation.Failed(ApplicationMessage.RecordNotFound);
+                }
+                inventory.Increase(item.Count, operatorId, item.Description);
+            }
             _inventoryRepository.SaveChanges();
             return operation.Succedded();
         }
@@ -65,7 +84,7 @@ namespace InventoryManagement.Application
         public OperationResult Reduce(List<ReduceInventory> command)
         {
             var operation = new OperationResult();
-            const long operatorId = 1;
+            var operatorId = _authHelper.CurrentAccountId();
             foreach (var item in command)
             {
                 var inventory=_inventoryRepository.GetBy(item.ProductId);
@@ -88,7 +107,7 @@ namespace InventoryManagement.Application
                 return operation.Failed(ApplicationMessage.RecordNotFound);
             }
 
-            const long operatorId = 1;
+            var operatorId = _authHelper.CurrentAccountId();
             inventory.Reduce(command.Count,operatorId,command.Description,0);
             _inventoryRepository.SaveChanges();
             return operation.Succedded();

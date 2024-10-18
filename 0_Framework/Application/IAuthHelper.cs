@@ -7,4 +7,5 @@ public interface IAuthHelper
     void SignOut();
     string CurrentAccountRole();
     AuthViewModel CurrentAccountInfo();
+    long CurrentAccountId();
 }

@@ -60,7 +60,7 @@
                                     <a class="title" href="single-product.html">@item.Name</a>
                                 </td>
                                 <td class="product-price">
-                                    <span class="price">@item.UnitPrice تومان</span>
+                                    <span class="price">@item.UnitPrice ریال</span>
                                 </td>
                                 <td class="product-quantity">
                                     <div class="pro-qty">
@@ -90,13 +90,21 @@
                             </tr>
                         }
                         @* <tr class="tbody-item-actions">
-                            <td>
-                                <span class="text-primary">در صورت داشتن تخفیف آن را در صفحه تایید سبد خرید مشاهده خواهید کرد</span>
-                            </td>
+                        <td>
+                        <span class="text-primary">در صورت داشتن تخفیف آن را در صفحه تایید سبد خرید مشاهده خواهید کرد</span>
+                        </td>
                         </tr> *@
                         <tr class="tbody-item-actions">
                             <td colspan="6">
-                                <a asp-page-handler="GoToCheckOut" class="btn-update-cart bg-primary">تکمیل فرآیند خرید</a>
+                                @if (Model.CartItems.Count()==0)
+                                {
+                                    <button class="btn-update-cart bg-secondary" disable>تکمیل فرآیند خرید</button>
+                                }
+                                else
+                                {
+                                    <a asp-page-handler="GoToCheckOut" class="btn-update-cart bg-primary">تکمیل فرآیند خرید</a>
+                                }
+
                             </td>
                         </tr>
                     </tbody>

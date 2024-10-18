@@ -1,0 +1,190 @@
+﻿@page
+@using _0_Framework.Application
+@model ServiceHost.Areas.Administration.Pages.Shop.Orders.IndexModel
+@{
+    ViewData["Title"] = "مدیریت سفارش";
+}
+<!-- Content -->
+<!--Search-->
+<div class="container-xxl  cls-sj-saf---content-search-box">
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-dark alert-dismissible mb-0" role="alert">
+            @TempData["Message"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    <div class="card mb-2">
+        <div class="card-header d-flex align-items-center justify-content-between">
+            <h5 class="mb-0">جستجو در محصولات</h5>
+            @*<small class="text-muted float-end">Default label</small>*@
+        </div>
+        <div class="card-body">
+            <form method="get">
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="SearchModel.CreationDate" class="control-label">تاریخ سفارش</label>
+                            <input type="text" class="form-control persianNumber" data-jdp onclick="jalaliDatepicker.startWatch()" asp-for="SearchModel.CreationDate">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="SearchModel.Name" class="control-label">نام سفارش دهنده</label>
+                            <input type="text" class="form-control" asp-for="SearchModel.Name">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="SearchModel.Mobile" class="control-label">موبایل سفارش دهنده</label>
+                            <input type="text" class="form-control" asp-for="SearchModel.Mobile">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-end">
+                    <div class="col-sm-11">
+                        <button type="submit" class="btn btn-success">جستجو</button>
+                        <a class="btn btn-primary" asp-page="./Index">مشاهده همه</a>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+<!--/Search-->
+<div class="container-xxl flex-grow-1  cls-sj-saf---content-Table-box">
+    <!-- Bootstrap Table with Header - Dark -->
+    <div class="card">
+        <div id="card-bar" class="row">
+            <div id="card-bar-right" class="col-sm-6">
+                <h5 class="card-header">لیست محصول</h5>
+            </div>
+            @* <div id="card-bar-left" class="col-sm-6">
+            <a class="btn btn-success" asp-page="./Create">اضافه کردن +</a>
+            </div> *@
+        </div>
+    </div>
+
+
+    <div class="table-responsive text-nowrap">
+        <table class="table">
+            <thead class="table-dark text-center">
+                <tr>
+                    <th>#</th>
+                    <th>تاریخ سفارش</th>
+                    <th>نام سفارش دهنده</th>
+                    <th>موبایل</th>
+                    <th>پرداختی</th>
+                    <th>وضعیت سفارش</th>
+                    <th>لغو سفارش</th>
+                    <th>عملیات</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0 text-center">
+                @foreach (var item in Model.Orders)
+                {
+                    <tr>
+                        <td class="persianNumber"><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>@item.Id</strong></td>
+                        <td class="persianNumber">@item.CreationDate</td>
+                        <td>@item.AccountName</td>
+                        <td class="persianNumber">@item.AccountMobile</td>
+                        <td class="persianNumber">@item.PayAmount.ToMoney()</td>
+                        <td>
+                            @if (item.IsPaid == false && item.IsPayUnSuccess == false && item.IsOrderCanceled == false)
+                            {
+                                <span class="price text-info">در انتظار تایید</span>
+                            }
+                            else if (item.IsPaid == true && item.PostalCode == 0 && item.IsOrderCanceled == false)
+                            {
+                                <span class="price text-success">سفارش تایید شده</span>
+                            }
+                            else if (item.IsPaid == false && item.IsPayUnSuccess == true)
+                            {
+                                <span class="price text-danger">پرداخت ناموفق</span>
+                            }
+                            else if (item.IsPaid == true && item.PostalCode > 0)
+                            {
+                                <span class="price text-warning">سفارش ارسال شده</span>
+                            }
+                            else if (item.IsPaid == true && item.IsOrderCanceled == true)
+                            {
+                                <span class="price text-dark">سفارش لغو شده</span>
+                            }
+                        </td>
+                        <td>
+                            @if (item.IsCanceled == false)
+                            {
+                                <span class="price text-info">-</span>
+                            }
+                            else
+                            {
+                                <span class="price text-danger">بله</span>
+                            }
+                        </td>
+                        <td>
+                            @if (item.IsPaid == false && item.IsPayUnSuccess==false && item.IsOrderCanceled==false)
+                            {
+                                <a class="btn btn-warning pull-right m-rl-5"
+                                   asp-page="./Items" asp-route-id="@item.Id">
+                                    اطلاعات سفارش
+                                </a>
+                                <a class="btn btn-success pull-right m-rl-5"
+                                   asp-page="./PaymentSuccess" asp-route-id="@item.Id">
+                                    پرداخت موفق
+                                </a>
+                                <a class="btn btn-danger pull-right m-rl-5"
+                                   asp-page-handler="PayUnSuccess" asp-route-id="@item.Id">
+                                    پرداخت ناموفق
+                                </a>
+                                <a class="btn btn-secondary pull-right m-rl-5"
+                                   asp-page-handler="RemoveOrder" asp-route-id="@item.Id">
+                                    سفارش نامعتبر
+                                </a>
+                            }
+                            @if (item.IsPaid == true && item.PostalCode == 0 && item.IsOrderCanceled == false)
+                            {
+                                <a class="btn btn-warning pull-right m-rl-5"
+                                   asp-page="./Items" asp-route-id="@item.Id">
+                                    اطلاعات سفارش
+                                </a>
+                                <a class="btn btn-info pull-right m-rl-5"
+                                   asp-page="./SendOrder" asp-route-id="@item.Id">
+                                    ارسال سفارش
+                                </a>
+                                <a class="btn btn-dark pull-right m-rl-5"
+                                   asp-page-handler="OrderCancel" asp-route-id="@item.Id">
+                                    لغو سفارش
+                                </a>
+                            }
+                            @if (item.IsPaid == true && item.IsOrderCanceled == true)
+                            {
+                                <a class="btn btn-warning pull-right m-rl-5"
+                                   asp-page="./Items" asp-route-id="@item.Id">
+                                    اطلاعات سفارش
+                                </a>
+                            }
+                            @if (item.IsPaid == true && item.PostalCode > 0)
+                            {
+                                <a class="btn btn-warning pull-right m-rl-5"
+                                   asp-page="./Items" asp-route-id="@item.Id">
+                                    اطلاعات سفارش
+                                </a>
+                            }
+                            @if (item.IsPaid == false && item.IsPayUnSuccess == true)
+                            {
+                                <a class="btn btn-warning pull-right m-rl-5"
+                                   asp-page="./Items" asp-route-id="@item.Id">
+                                    اطلاعات سفارش
+                                </a>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<!--/ Bootstrap Table with Header Dark -->
+<!-- / Content -->

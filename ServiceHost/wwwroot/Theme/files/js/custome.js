@@ -61,7 +61,6 @@ function removeFromCart(id) {
 
 
 function changeCartItemCount(id,count) {
-    debugger;
     var products = $.cookie(cookieName);
     products = JSON.parse(products);
     var productIndex = products.findIndex(x => x.id == id);
@@ -72,3 +71,32 @@ function changeCartItemCount(id,count) {
     $.cookie(cookieName, JSON.stringify(products), { expires: 2, path: "/" });
     updateCart();
 }
+
+function disableButton() {
+    document.getElementById("myButtonPay").disable = true;
+    document.getElementById("myButtonTracking").disable = false;
+}
+
+function deleteCookie() {
+    //$.cookie(cookieName, JSON.stringify(products), { expires: -2, path: "/" });
+    let products = $.cookie(cookieName);
+    products = JSON.parse(products);
+    const indicesToRemove = products.map((product, index) => index);
+    for (let i = indicesToRemove.length - 1; i >= 0; i--) {
+        const index = indicesToRemove[i];
+        products.splice(index, 1);
+    }
+    $.cookie(cookieName, JSON.stringify(products), { expires: 2, path: "/" });
+    updateCart();
+    localStorage.setItem('redirectToHome', 'true');
+   
+}
+
+window.onload = function () {
+    if (localStorage.getItem('redirectToHome') === 'true') {
+        localStorage.removeItem('redirectToHome'); 
+        window.location.href = '/Index'; 
+    }
+};
+
+

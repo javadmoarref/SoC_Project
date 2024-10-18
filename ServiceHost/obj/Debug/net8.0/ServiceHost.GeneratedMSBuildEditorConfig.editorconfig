@@ -1,0 +1,331 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ServiceHost
+build_property.RootNamespace = ServiceHost
+build_property.ProjectDir = F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Accounts/Account/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcQWNjb3VudFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Accounts/Account/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcQWNjb3VudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Accounts/Account/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcQWNjb3VudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Accounts/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Accounts/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcUm9sZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Accounts/Role/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcUm9sZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Accounts/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Blog/ArticleCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Blog/ArticleCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Blog/ArticleCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Blog/Articles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Blog/Articles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Blog/Articles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Comments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQ29tbWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Discount/ColleagueDiscounts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRcQ29sbGVhZ3VlRGlzY291bnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Discount/ColleagueDiscounts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRcQ29sbGVhZ3VlRGlzY291bnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Discount/ColleagueDiscounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRcQ29sbGVhZ3VlRGlzY291bnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Discount/CustomerDiscounts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRcQ3VzdG9tZXJEaXNjb3VudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Discount/CustomerDiscounts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRcQ3VzdG9tZXJEaXNjb3VudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Discount/CustomerDiscounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRcQ3VzdG9tZXJEaXNjb3VudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Inventory/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Inventory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Inventory/Increase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XEluY3JlYXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Inventory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Inventory/Log.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XExvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Inventory/Reduce.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XFJlZHVjZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shared/_Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hhcmVkXF9NZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shared/_User.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hhcmVkXF9Vc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxPcmRlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/Orders/Items.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxPcmRlcnNcSXRlbXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/Orders/PaymentSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxPcmRlcnNcUGF5bWVudFN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/Orders/SendOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxPcmRlcnNcU2VuZE9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/Postages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQb3N0YWdlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/Postages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQb3N0YWdlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/Postages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQb3N0YWdlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/ProductCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0Q2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/ProductCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0Q2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/ProductCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0Q2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/ProductPictures/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0UGljdHVyZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/ProductPictures/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0UGljdHVyZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/ProductPictures/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0UGljdHVyZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/Slides/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxTbGlkZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/Slides/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxTbGlkZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/Slides/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxTbGlkZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjZXNzRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/Account.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/Article.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aWNsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/ArticleCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aWNsZUNhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/CartAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/CheckOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tPdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/OrderTracking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJUcmFja2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/ProductCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdENhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/QuickViewDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVpY2tWaWV3RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/Shared/Components/Footer/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcRm9vdGVyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/Shared/Components/LatestArrivals/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcTGF0ZXN0QXJyaXZhbHNcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/Shared/Components/LatestArticles/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcTGF0ZXN0QXJ0aWNsZXNcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/Shared/Components/Menu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcTWVudVxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/Shared/Components/ProductCategory/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcUHJvZHVjdENhdGVnb3J5XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/Shared/Components/Slide/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcU2xpZGVcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/WishList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2lzaExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-r67os9uo3w
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-syt8izbppr

@@ -8,6 +8,7 @@ public class CommentQueryModel
     public string CreationDate { get; set; }
     public long ParentId { get; set; }
     public string ParentName { get; set; }
+    public int Type { get; set; }
     //public string ParentCommentDate { get; set; }
     //public string ParentCommentMessage { get; set; }
 }

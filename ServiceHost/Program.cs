@@ -1,4 +1,5 @@
 using _0_Framework.Application;
+using _0_Framework.Application.ZarinPal;
 using _0_Framework.Infrastructure;
 using _01_SogandShopQuery.Contracts.CartService;
 using _01_SogandShopQuery.Query;
@@ -28,7 +29,7 @@ AccountManagementBootstrapper.Configure(services,connectionString);
 services.AddSingleton<IPasswordHasher, PasswordHasher>();
 services.AddTransient<IFileUploader,FileUploader>();
 services.AddTransient<IAuthHelper, AuthHelper>();
-
+services.AddTransient<IZarinPalFactory, ZarinPalFactory>();
 
 services.Configure<CookiePolicyOptions>(options =>
 {

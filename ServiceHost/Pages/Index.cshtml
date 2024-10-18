@@ -15,7 +15,7 @@
     @await Component.InvokeAsync("LatestArrivals")
     <!--== End Product Area Wrapper ==-->
     <!--== Start Product Banner Area Wrapper ==-->
-    <section>
+   @*  <section>
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-lg-4">
@@ -41,7 +41,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> *@
     <!--== End Product Banner Area Wrapper ==-->
     <!--== Start Blog Area Wrapper ==-->
     @await Component.InvokeAsync("LatestArticles")
@@ -53,14 +53,14 @@
                 <div class="newsletter-content">
                     <div class="section-title mb-0">
                         <h2 class="title">بـه ما بپیونـد</h2>
-                        <p> برای خانم‌ها و آقایانی که قصد خرید محصولاتی عالی و اصلی را دارند و می‌خواهند درباره چیزی که می‌خرند اطلاعات کامل و واقعی داشته باشند.</p>
+                        @* <p> برای خانم‌ها و آقایانی که قصد خرید محصولاتی عالی و اصلی را دارند و می‌خواهند درباره چیزی که می‌خرند اطلاعات کامل و واقعی داشته باشند.</p> *@
                     </div>
                 </div>
                 <div class="newsletter-form">
-                    <form>
-                        <input type="email" class="form-control" placeholder="ایمیل خود را وارد کنید">
-                        <button class="btn-submit" type="submit"><i class="fa fa-paper-plane"></i></button>
-                    </form>
+                   @*  <form> *@
+                        @* <input type="email" class="form-control" placeholder="ایمیل خود را وارد کنید"> *@
+                        <a asp-page="./Account">ثبت نام کنید</a>
+                    @* </form> *@
                 </div>
             </div>
         </div>

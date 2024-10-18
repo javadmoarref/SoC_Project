@@ -1,0 +1,102 @@
+﻿@page
+@using _0_Framework.Application
+@model ServiceHost.Areas.Administration.Pages.Shop.Orders.ItemModel
+@{
+    ViewData["Title"] = " اطلاعات سفارش";
+}
+<!-- Content -->
+<!--Search-->
+@* <div class="container-xxl  cls-sj-saf---content-search-box">
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-dark alert-dismissible mb-0" role="alert">
+            @TempData["Message"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+</div> *@
+<!--/Search-->
+<div class="container-xxl flex-grow-1  cls-sj-saf---content-Table-box">
+    <!-- Bootstrap Table with Header - Dark -->
+    <div class="card">
+        <div id="card-bar" class="row">
+            <div id="card-bar-right" class="col-sm-6">
+                <h5 class="card-header">اطلاعات سفارش</h5>
+            </div>
+            <div id="card-bar-left" class="col-sm-6">
+                <a class="btn btn-success" asp-page="./Index">بستن</a>
+            </div>
+        </div>
+    </div>
+    <div class="table-responsive text-nowrap">
+        <table class="table">
+            <thead class="text-center">
+                <tr class="table-secondary">
+                    <th>#</th>
+                    <th>شماره سفارش</th>
+                    <th>نام سفارش دهنده</th>
+                    <th>موبایل</th>
+                    <th> مبلغ کل</th>
+                    <th>مبلغ تخفیف</th>
+                    <th>مبلغ پرداختی</th>
+                    <th>تاریخ سفارش</th>
+                    <th>شماره پیگیری</th>
+                    <th>کد رهگیری پستی</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0 text-center">
+                <tr>
+                    <td class="persianNumber"><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>@Model.Order.Id</strong></td>
+                    <td class="persianNumber">@Model.Order.IssueTrackingNo</td>
+                    <td>@Model.Order.AccountName</td>
+                    <td class="persianNumber">@Model.Order.AccountMobile</td>
+                    <td class="persianNumber">@Model.Order.TotalAmount.ToMoney()</td>
+                    <td class="persianNumber">@Model.Order.DiscountAmount.ToMoney()</td>
+                    <td class="persianNumber">@Model.Order.PayAmount.ToMoney()</td>
+                    <td class="persianNumber">@Model.Order.CreationDate</td>
+                    <td class="persianNumber">@Model.Order.RefId</td>
+                    <td class="persianNumber">@Model.Order.PostalCode</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table">
+            <thead class="text-center">
+                <tr class="table-secondary">
+                    <th>آدرس</th>
+                    <th>کد پستی</th> 
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0 text-center">
+                <tr>
+                    <td class="persianNumber">@Model.Order.AccountAddress</td>
+                    <td class="persianNumber">@Model.Order.AccountAddressPostalCode</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table">
+            <thead class="text-center">
+                <tr class="table-secondary">
+                    <th>تصویر</th>
+                    <th> نام محصول</th>
+                    <th>قیمت واحد</th>
+                    <th> تعداد</th>
+                    <th>تخفیف</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0 text-center">
+                @foreach (var item in Model.Items)
+                {
+                        <tr>
+                            <td><img src="~/uploads/@item.Picture" style="width: 70px;height: 70px" /></td>
+                            <td>@item.Name</td>
+                            <td class="persianNumber">@item.UnitPrice.ToMoney()</td>
+                            <td class="persianNumber">@item.Count</td>
+                            <td class="persianNumber">@item.DiscountRate %</td>
+                        </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<!--/ Bootstrap Table with Header Dark -->
+<!-- / Content -->

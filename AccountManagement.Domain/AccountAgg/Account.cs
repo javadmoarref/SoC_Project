@@ -6,18 +6,19 @@ namespace AccountManagement.Domain.AccountAgg;
 public class Account:EntityBase
 {
     public string Fullname { get; private set; }
-    public string Username { get; private set; }
+    public string Address { get; private set; }
     public string Password { get; private set; }
     public string Mobile { get; private set; }
     public long RoleId { get; private set; }
     public Role Role { get; private set; }
     public string ProfilePhoto { get; private set; }
+    public string PostalCode { get; private set; }
 
-    public Account(string fullname, string username, string password, string mobile, long roleId,
-        string profilePhoto)
+    public Account(string fullname, string address, string password, string mobile, long roleId,
+        string profilePhoto,string postalCode)
     {
         Fullname = fullname;
-        Username = username;
+        Address = address;
         Password = password;
         Mobile = mobile;
         RoleId = roleId;
@@ -26,19 +27,21 @@ public class Account:EntityBase
             RoleId = 2;
         }
         ProfilePhoto = profilePhoto;
+        PostalCode = postalCode;
     }
 
-    public void Edit(string fullname, string username, string mobile, long roleId,
-        string profilePhoto)
+    public void Edit(string fullname, string address, string mobile, long roleId,
+        string profilePhoto,string postalCode)
     {
         Fullname = fullname;
-        Username = username;
+        Address =address;
         Mobile = mobile;
         RoleId = roleId;
         if (!string.IsNullOrWhiteSpace(profilePhoto))
         {
             ProfilePhoto = profilePhoto;
         }
+        PostalCode = postalCode;
     }
 
     public void ChangePassword(string password)

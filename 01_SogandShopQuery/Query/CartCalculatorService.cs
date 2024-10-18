@@ -3,6 +3,7 @@ using _0_Framework.Infrastructure;
 using _01_SogandShopQuery.Contracts.CartService;
 using DiscountManagement.Infrastructure.EFCore;
 using ShopManagement.Application.Contracts.Order;
+using ShopManagement.Infrastructure.EFCore;
 
 namespace _01_SogandShopQuery.Query
 {
@@ -10,11 +11,14 @@ namespace _01_SogandShopQuery.Query
     {
         private readonly DiscountContext _discountContext;
         private readonly IAuthHelper _authHelper;
+        private readonly ShopContext _shopContext;
 
-        public CartCalculatorService(DiscountContext discountContext, IAuthHelper authHelper)
+        public CartCalculatorService(DiscountContext discountContext, IAuthHelper authHelper,
+            ShopContext shopContext)
         {
             _discountContext = discountContext;
             _authHelper = authHelper;
+            _shopContext = shopContext;
         }
 
         public Cart ComputeCart(List<CartItem> cartItems)
@@ -27,6 +31,8 @@ namespace _01_SogandShopQuery.Query
                 .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
                 .Select(x => new { x.DiscountRate, x.ProductId }).ToList();
             var currentAccountRole = _authHelper.CurrentAccountRole();
+            var postagePrice = (_shopContext.Postages.Where(x=>x.PostagePrice>0).FirstOrDefault()).PostagePrice;
+            
             if (currentAccountRole == Roles.ColleagueUser)
             {
                 foreach (var cartItem in cartItems)
@@ -55,7 +61,9 @@ namespace _01_SogandShopQuery.Query
                     cart.Add(cartItem);
                 }
             }
-
+            cart.TotalAmountWithDiscount = cart.PayAmount;
+            cart.PostagePrice = postagePrice;
+            cart.PayAmount = cart.PayAmount + postagePrice;
             return cart;
         }
     }
