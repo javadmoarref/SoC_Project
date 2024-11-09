@@ -1,0 +1,56 @@
+﻿@page
+@model ServiceHost.Areas.Administration.Pages.Shop.ContactUs.CreateModel
+@{
+    ViewData["Title"] = "ایجاد ارتباط با ما";
+}
+
+<div class="container-xxl flex-grow-1 container-p-y">
+    @if (ViewData["Message"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible mb-0" role="alert">
+            @ViewData["Message"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    <div class="row">
+        <div class="col-xxl">
+            <div class="card mb-4">
+                <div class="card-header d-flex align-items-center justify-content-between">
+                    <h5 class="mb-0">ایجاد ارتباط با ما</h5>
+                </div>
+                <div class="card-body">
+                    <form asp-page="/Create"
+                          method="post">
+                        <div class="row mb-3">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label asp-for="Command.Mobile" class="control-label">موبایل</label>
+                                    <input type="text" class="form-control persianNumber" asp-for="Command.Mobile"/>
+                                    <span asp-validation-for="Command.Mobile" class="error"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label asp-for="Command.Email" class="control-label">ایمیل</label>
+                                    <input type="text" class="form-control persianNumber" asp-for="Command.Email" />
+                                    <span asp-validation-for="Command.Email" class="error"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label asp-for="Command.InstagramAccount" class="control-label">اکانت اینیستاگرام</label>
+                                    <input type="text" class="form-control persianNumber" asp-for="Command.InstagramAccount" />
+                                    <span asp-validation-for="Command.InstagramAccount" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <a asp-page="./Index" class="btn btn-outline-secondary">
+                            بازگشت
+                        </a>
+                        <button type="submit" class="btn btn-primary">ایجاد</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

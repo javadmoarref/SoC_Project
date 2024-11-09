@@ -77,26 +77,28 @@ function disableButton() {
     document.getElementById("myButtonTracking").disable = false;
 }
 
-function deleteCookie() {
-    //$.cookie(cookieName, JSON.stringify(products), { expires: -2, path: "/" });
+function deleteCookie() { 
+    //localStorage.setItem('redirectToHome', 'true');
     let products = $.cookie(cookieName);
     products = JSON.parse(products);
-    const indicesToRemove = products.map((product, index) => index);
-    for (let i = indicesToRemove.length - 1; i >= 0; i--) {
-        const index = indicesToRemove[i];
-        products.splice(index, 1);
-    }
-    $.cookie(cookieName, JSON.stringify(products), { expires: 2, path: "/" });
-    updateCart();
-    localStorage.setItem('redirectToHome', 'true');
-   
+    $.cookie(cookieName, JSON.stringify(products), { expires: -2, path: "/" });
+    //const indicesToRemove = products.map((product, index) => index);
+    //for (let i = indicesToRemove.length - 1; i >= 0; i--) {
+    //    const index = indicesToRemove[i];
+    //    products.splice(index, 1);
+    //}
+    //$.cookie(cookieName, JSON.stringify(products), { expires: 2, path: "/" });
+    updateCart(); 
 }
 
-window.onload = function () {
-    if (localStorage.getItem('redirectToHome') === 'true') {
-        localStorage.removeItem('redirectToHome'); 
-        window.location.href = '/Index'; 
-    }
-};
+//document.addEventListener('DOMContentLoaded', function () {
+//    debugger;
+//    if (localStorage.getItem('redirectToHome') === 'true') {
+//        localStorage.removeItem('redirectToHome');
+//        window.location.href = '/Index';
+//    }
+//});
+
+
 
 

@@ -26,16 +26,31 @@ namespace ShopManagement.Application
         public void PlaceOrder(Cart cart)
         {
             var currentAccountInfo = _authHelper.CurrentAccountInfo();
-            var order = new Order(currentAccountInfo.Id,currentAccountInfo.Fullname,currentAccountInfo.Mobile, cart.TotalAmount, cart.DiscountAmount, cart.PayAmount);
+            var order = new Order(currentAccountInfo.Id, currentAccountInfo.Fullname, currentAccountInfo.Mobile, cart.TotalAmount, cart.DiscountAmount, cart.PayAmount);
             foreach (var cartItem in cart.Items)
             {
-                var orderItem = new OrderItem(cartItem.Id,cartItem.Name,cartItem.Picture, cartItem.Count,double.Parse(cartItem.UnitPrice), cartItem.DiscountRate);
+                var orderItem = new OrderItem(cartItem.Id, cartItem.Name, cartItem.Picture, cartItem.Count, double.Parse(cartItem.UnitPrice), cartItem.DiscountRate);
                 order.AddItem(orderItem);
             }
 
             _orderRepository.Create(order);
             _orderRepository.SaveChanges();
         }
+
+        //public long PlaceOrder(Cart cart)
+        //{
+        //    var currentAccountInfo = _authHelper.CurrentAccountInfo();
+        //    var order = new Order(currentAccountInfo.Id, currentAccountInfo.Fullname, currentAccountInfo.Mobile, cart.TotalAmount, cart.DiscountAmount, cart.PayAmount);
+        //    foreach (var cartItem in cart.Items)
+        //    {
+        //        var orderItem = new OrderItem(cartItem.Id, cartItem.Name, cartItem.Picture, cartItem.Count, double.Parse(cartItem.UnitPrice), cartItem.DiscountRate);
+        //        order.AddItem(orderItem);
+        //    }
+
+        //    _orderRepository.Create(order);
+        //    _orderRepository.SaveChanges();
+        //    return order.Id;
+        //}
 
         public void PaymentSucceeded(long orderId, long refId)
         {
@@ -50,7 +65,20 @@ namespace ShopManagement.Application
             }
         }
 
-       
+        //public string PaymentSucceeded(long orderId, long refId)
+        //{
+        //    var order = _orderRepository.Get(orderId);
+        //    order.PaymentSucceeded(refId);
+        //    var symbol = _configuration.GetSection("Symbol").Value;
+        //    var issueTrackingNo = CodeGenerator.Generate(symbol);
+        //    order.SetIssueTrackingNo(issueTrackingNo);
+        //    if (_shopInventoryAcl.ReduceFromInventory(order.Items))
+        //    {
+        //        _orderRepository.SaveChanges();
+        //    }
+        //    return issueTrackingNo;
+        //}
+
 
         public List<OrderViewModel> Search(OrderSearchModel searchModel)
         {
@@ -65,6 +93,11 @@ namespace ShopManagement.Application
         public List<OrderItemViewModel> GetItems(long orderId)
         {
             return _orderRepository.GetItems(orderId);
+        }
+
+        public OrderViewModel GetOrderByCurrentAccountId(long accountId)
+        {
+            return _orderRepository.GetOrderByCurrentAccountId(accountId);
         }
 
         public void RemoveOrder(long id)
@@ -96,6 +129,18 @@ namespace ShopManagement.Application
             {
                 _orderRepository.SaveChanges();
             }
+        }
+
+        public void Cancel(long id)
+        {
+            var order=_orderRepository.Get(id);
+            order.Cancel();
+            _orderRepository.SaveChanges();
+        }
+
+        public double GetAmountBy(long id)
+        {
+            return _orderRepository.GetAmountBy(id);
         }
     }
 }

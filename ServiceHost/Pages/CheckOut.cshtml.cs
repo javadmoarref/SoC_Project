@@ -7,14 +7,18 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Nancy.Json;
 using ShopManagement.Application.Contracts.Order;
+using System.Globalization;
+using System.IdentityModel.Tokens.Jwt;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ServiceHost.Pages
 {
     [Authorize]
     public class CheckOutModel : PageModel
     {
-        public Cart  Cart { get; set; }
+        public Cart Cart { get; set; }
         public const string CookieName = "cart-Items";
+        public bool ReturnToMySite { get; set; }
         private readonly ICartCalculatorService _cartCalculatorService;
         private readonly ICartService _cartService;
         private readonly IProductQuery _productQuery;
@@ -36,16 +40,24 @@ namespace ServiceHost.Pages
 
         public void OnGet()
         {
+
             var serializer = new JavaScriptSerializer();
             var value = Request.Cookies[CookieName];
-            var cartItems = serializer.Deserialize<List<CartItem>>(value);
-            foreach (var item in cartItems)
+            if (value == null)
             {
-                item.CalculateTotalItemPrice();
+                Cart = new Cart();
             }
-            
-            Cart=_cartCalculatorService.ComputeCart(cartItems);
-            _cartService.Set(Cart); 
+            else
+            {
+                var cartItems = serializer.Deserialize<List<CartItem>>(value);
+                foreach (var item in cartItems)
+                {
+                    item.CalculateTotalItemPrice();
+                }
+
+                Cart = _cartCalculatorService.ComputeCart(cartItems);
+                _cartService.Set(Cart);
+            }
         }
 
         public IActionResult OnGetPay()
@@ -56,13 +68,33 @@ namespace ServiceHost.Pages
             {
                 return RedirectToPage("/Cart");
             }
-            _orderApplication.PlaceOrder(cart); 
+            _orderApplication.PlaceOrder(cart);
             return Redirect($"https://zarinp.al/myflexisite");
+            //var orderId = _orderApplication.PlaceOrder(cart);
+            //var accountInfo = _authHelper.CurrentAccountInfo();
+            //var paymentResponse = _zarinPalFactory.CreatePaymentRequest(
+            //    cart.PayAmount.ToString(CultureInfo.InvariantCulture), accountInfo.Mobile, "", "خرید از درگاه لوازم آرایشی سوگند", orderId);
+            //return Redirect($"https://{_zarinPalFactory.Prefix}.zarinpal.com/pg/StartPay/{paymentResponse.Authority}");
         }
-        
-        //public IActionResult OnGetCallBack()
+
+        //public IActionResult OnGetCallBack([FromQuery] string authority, [FromQuery] string status,
+        //[FromQuery] long oId)
         //{
-        //    return null;
+        //    var orderAmount = _orderApplication.GetAmountBy(oId);
+        //    var verificationResponse = _zarinPalFactory.CreateVerificationRequest(authority, orderAmount.ToString(CultureInfo.InvariantCulture));
+        //    var result = new PaymentResult();
+        //    if (status == "OK" && verificationResponse.Status >= 100)
+        //    {
+        //        var issueTrackingNo = _orderApplication.PaymentSucceeded(oId, verificationResponse.RefID);
+        //        result = result.Succeeded(ApplicationMessage.PayIsSuccessFull, issueTrackingNo);
+        //        return RedirectToPage("/PaymentResult", result);
+        //    }
+        //    else
+        //    {
+        //        _orderApplication.PayUnSuccess(oId);
+        //        result = result.Failed(ApplicationMessage.PayIsWrong);
+        //        return RedirectToPage("/PaymentResult", result);
+        //    }
         //}
     }
 }

@@ -1,14 +1,15 @@
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ServiceHost.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\appsettings.Development.json
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\appsettings.json
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ServiceHost.staticwebassets.runtime.json
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ServiceHost.exe
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ServiceHost.deps.json
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ServiceHost.runtimeconfig.json
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ServiceHost.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ServiceHost.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\Azure.Core.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\Azure.Identity.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\Humanizer.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\IPE.SmsIrClient.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -147,6 +148,7 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\n
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ShopManagement.Configuration.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ShopManagement.Domain.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ShopManagement.Infrastructure.EFCore.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ShopManagement.Infrastructure.InventoryAcl.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\AccountManagement.Configuration.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\BlogManagement.Configuration.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\CommentManagement.Application.Contracts.pdb
@@ -179,6 +181,7 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\n
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ShopManagement.Application.Contracts.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ShopManagement.Domain.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ShopManagement.Infrastructure.EFCore.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ShopManagement.Infrastructure.InventoryAcl.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net8.0\ServiceHost.csproj.AssemblyReference.cache
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net8.0\ServiceHost.GeneratedMSBuildEditorConfig.editorconfig
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net8.0\ServiceHost.AssemblyInfoInputs.cache
@@ -206,5 +209,3 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\n
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net8.0\ServiceHost.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net8.0\ServiceHost.genruntimeconfig.cache
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\obj\Debug\net8.0\ref\ServiceHost.dll
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ShopManagement.Infrastructure.InventoryAcl.dll
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ShopManagement.Infrastructure.InventoryAcl.pdb

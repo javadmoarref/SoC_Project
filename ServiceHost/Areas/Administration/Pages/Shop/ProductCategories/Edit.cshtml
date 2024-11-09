@@ -50,7 +50,7 @@
                             <div class="col-md-2">
                                 <div class="form-group">
                                     <label asp-for="Command.BackgroundColor" class="control-label">رنگ زمینه عکس</label>
-                                    <input type="color" class="form-control form-control-color form-control-plaintext" asp-for="Command.BackgroundColor">
+                                    <input type="color" class="form-control form-control-color form-control-plaintext" asp-for="Command.BackgroundColor" disabled>
                                     <span asp-validation-for="Command.BackgroundColor" class="error"></span>
                                 </div>
                             </div>
@@ -99,7 +99,7 @@
                             </div>
                         </div>
                         <input type="hidden" asp-for="Command.Id" value="@Model.Command.Id"/>
-                        <a type="button" asp-page="./Index" class="btn btn-outline-secondary">
+                        <a asp-page="./Index" class="btn btn-outline-secondary">
                             بازگشت
                         </a>
                         <button type="submit" class="btn btn-primary">ویرایش</button>

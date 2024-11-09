@@ -3,10 +3,16 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastr
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net8.0\ShopManagement.Infrastructure.EFCore.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net8.0\ShopManagement.Infrastructure.EFCore.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net8.0\0_Framework.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net8.0\AccountManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net8.0\AccountManagement.Domain.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net8.0\AccountManagement.Infrastructure.EFCore.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net8.0\ShopManagement.Application.Contracts.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net8.0\ShopManagement.Domain.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net8.0\AccountManagement.Infrastructure.EFCore.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net8.0\ShopManagement.Domain.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net8.0\0_Framework.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net8.0\AccountManagement.Application.Contracts.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net8.0\AccountManagement.Domain.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net8.0\ShopManagement.Application.Contracts.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\obj\Debug\net8.0\ShopManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\obj\Debug\net8.0\ShopManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
@@ -20,9 +26,3 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastr
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\obj\Debug\net8.0\ShopManagement.Infrastructure.EFCore.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\obj\Debug\net8.0\ShopManagement.Infrastructure.EFCore.genruntimeconfig.cache
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\obj\Debug\net8.0\ref\ShopManagement.Infrastructure.EFCore.dll
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net8.0\AccountManagement.Application.Contracts.dll
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net8.0\AccountManagement.Domain.dll
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net8.0\AccountManagement.Infrastructure.EFCore.dll
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net8.0\AccountManagement.Infrastructure.EFCore.pdb
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net8.0\AccountManagement.Application.Contracts.pdb
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ShopManagement.Infrastructure.EFCore\bin\Debug\net8.0\AccountManagement.Domain.pdb

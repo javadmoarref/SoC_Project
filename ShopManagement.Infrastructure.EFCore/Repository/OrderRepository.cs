@@ -17,6 +17,16 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             _accountContext = accountContext;
         }
 
+        public double GetAmountBy(long id)
+        {
+            var order = _context.Orders.Select(x => new { x.Id, x.PayAmount }).FirstOrDefault(x => x.Id == id);
+            if (order != null)
+            {
+                return order.PayAmount;
+            }
+            return 0;
+        }
+
         public List<OrderItemViewModel> GetItems(long orderId)
         {
             var order = _context.Orders.FirstOrDefault(x => x.Id == orderId);
@@ -35,6 +45,14 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 UnitPrice = x.UnitPrice
             }).ToList();
             return items;
+        }
+
+        public OrderViewModel GetOrderByCurrentAccountId(long currentAccountId)
+        {
+            var orderId=_context.Orders.Where(x=>x.AccountId==currentAccountId)
+                .OrderByDescending(x=>x.Id)
+                .FirstOrDefault().Id;
+            return GetOrderById(orderId);
         }
 
         public OrderViewModel GetOrderById(long id)
@@ -82,11 +100,6 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 RefId = x.RefId,
                 TotalAmount = x.TotalAmount
             });
-
-            //foreach(var order in query)
-            //{
-            //    order.Items=GetItems(order.Id);
-            //}
 
             if (!string.IsNullOrWhiteSpace(searchModel.CreationDate))
             {

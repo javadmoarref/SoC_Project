@@ -24,6 +24,12 @@ public class AccountApplication:IAccountApplication
     public OperationResult Create(CreateAccount command)
     {
         var operation=new OperationResult();
+        if(string.IsNullOrWhiteSpace(command.Fullname) || string.IsNullOrWhiteSpace(command.Address) || 
+            string.IsNullOrWhiteSpace(command.Password) || string.IsNullOrWhiteSpace(command.Mobile) ||
+            string.IsNullOrWhiteSpace(command.PostalCode))
+        {
+            return operation.Failed(ApplicationMessage.InvalidModelState);
+        }
         if (_accountRepository.Exists(x => x.Fullname == command.Fullname || x.Mobile == command.Mobile))
         {
             return operation.Failed(ApplicationMessage.DuplicatedRecord);

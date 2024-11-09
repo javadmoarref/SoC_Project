@@ -3,6 +3,9 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configur
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\BlogManagement.Configuration.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\01_SogandShopQuery.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\0_Framework.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\AccountManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\AccountManagement.Domain.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\AccountManagement.Infrastructure.EFCore.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\BlogManagement.Application.Contracts.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\BlogManagement.Application.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\BlogManagement.Domain.dll
@@ -24,6 +27,9 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configur
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\BlogManagement.Application.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\BlogManagement.Infrastructure.EFCore.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\0_Framework.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\AccountManagement.Application.Contracts.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\AccountManagement.Domain.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\AccountManagement.Infrastructure.EFCore.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\BlogManagement.Domain.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\CommentManagement.Application.Contracts.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\CommentManagement.Domain.pdb
@@ -48,9 +54,3 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configur
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\obj\Debug\net8.0\refint\BlogManagement.Configuration.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\obj\Debug\net8.0\BlogManagement.Configuration.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\obj\Debug\net8.0\ref\BlogManagement.Configuration.dll
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\AccountManagement.Application.Contracts.dll
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\AccountManagement.Domain.dll
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\AccountManagement.Infrastructure.EFCore.dll
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\AccountManagement.Application.Contracts.pdb
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\AccountManagement.Domain.pdb
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\BlogManagement.Configuration\bin\Debug\net8.0\AccountManagement.Infrastructure.EFCore.pdb

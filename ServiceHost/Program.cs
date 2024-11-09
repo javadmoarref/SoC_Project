@@ -1,8 +1,7 @@
 using _0_Framework.Application;
+using _0_Framework.Application.Sms;
 using _0_Framework.Application.ZarinPal;
 using _0_Framework.Infrastructure;
-using _01_SogandShopQuery.Contracts.CartService;
-using _01_SogandShopQuery.Query;
 using AccountManagement.Configuration;
 using BlogManagement.Configuration;
 using CommentManagement.Configuration;
@@ -30,6 +29,7 @@ services.AddSingleton<IPasswordHasher, PasswordHasher>();
 services.AddTransient<IFileUploader,FileUploader>();
 services.AddTransient<IAuthHelper, AuthHelper>();
 services.AddTransient<IZarinPalFactory, ZarinPalFactory>();
+services.AddTransient<ISmsService, SmsService>();
 
 services.Configure<CookiePolicyOptions>(options =>
 {
@@ -71,5 +71,6 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+app.MapControllers();
 
 app.Run();

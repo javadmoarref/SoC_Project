@@ -1037,6 +1037,10 @@
       "PackagePath": "staticwebassets\\Theme\\files\\images\\icons\\3.webp"
     },
     {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\icons\\4.jpg",
+      "PackagePath": "staticwebassets\\Theme\\files\\images\\icons\\4.jpg"
+    },
+    {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\images\\icons\\feature1.webp",
       "PackagePath": "staticwebassets\\Theme\\files\\images\\icons\\feature1.webp"
     },
@@ -1727,6 +1731,10 @@
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\ProfilePhotos\\2024-09-04-21-24-10-2019-02-20 15.05.21.jpg",
       "PackagePath": "staticwebassets\\uploads\\ProfilePhotos\\2024-09-04-21-24-10-2019-02-20 15.05.21.jpg"
+    },
+    {
+      "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\aboutUs\\2024-11-08-20-53-16-about1.png",
+      "PackagePath": "staticwebassets\\uploads\\aboutUs\\2024-11-08-20-53-16-about1.png"
     },
     {
       "Id": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\uploads\\dgdg\\2024-09-15-17-17-39-1.png",

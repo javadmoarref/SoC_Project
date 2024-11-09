@@ -8,5 +8,7 @@ namespace ShopManagement.Domain.OrderAgg
         OrderViewModel GetOrderById(long id);
         List<OrderViewModel> Search(OrderSearchModel searchModel);
         List<OrderItemViewModel> GetItems(long orderId);
+        OrderViewModel GetOrderByCurrentAccountId(long currentAccountId);
+        double GetAmountBy(long id);
     }
 }

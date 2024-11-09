@@ -6,12 +6,16 @@ using _01_SogandShopQuery.Query;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ShopManagement.Application;
+using ShopManagement.Application.Contracts.AboutUs;
+using ShopManagement.Application.Contracts.ContactUS;
 using ShopManagement.Application.Contracts.Order;
 using ShopManagement.Application.Contracts.Postage;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Application.Contracts.ProductPicture;
 using ShopManagement.Application.Contracts.Slide;
+using ShopManagement.Domain.AboutUsAgg;
+using ShopManagement.Domain.ContactUsAgg;
 using ShopManagement.Domain.OrderAgg;
 using ShopManagement.Domain.PostageAgg;
 using ShopManagement.Domain.ProductAgg;
@@ -46,6 +50,12 @@ namespace ShopManagement.Configuration
 
             services.AddTransient<IPostageApplication,PostageApplication>();
             services.AddTransient<IPostageRepository,PostageRepository>();
+
+            services.AddTransient<IAboutUsRepository,AboutUsRepository>();
+            services.AddTransient<IAboutUsApplication,AboutUsApplication>();
+
+            services.AddTransient<IContactUsApplication,ContactUsApplication>();
+            services.AddTransient<IContactUsRepository,ContactUsRepository>();
 
             services.AddSingleton<ICartService, CartService>();
             services.AddTransient<IShopInventoryAcl,ShopInventoryAcl>();

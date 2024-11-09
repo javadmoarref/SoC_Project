@@ -1,0 +1,64 @@
+﻿@page
+@model ServiceHost.Areas.Administration.Pages.Shop.AboutUs.EditModel
+@{
+    ViewData["Title"] = "ویرایش درباره ما";
+}
+
+<div class="container-xxl flex-grow-1 container-p-y">
+    @if (ViewData["Message"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible mb-0" role="alert">
+            @ViewData["Message"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    <div class="row">
+        <div class="col-xxl">
+            <div class="card mb-4">
+                <div class="card-header d-flex align-items-center justify-content-between">
+                    <h5 class="mb-0">ویرایش درباره ما</h5>
+                </div>
+                <div class="card-body">
+                    <form asp-page="/Edit"
+                          method="post"
+                          enctype="multipart/form-data">
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Command.Picture" class="control-label">عکس</label>
+                                    <input type="file" class="form-control" asp-for="Command.Picture" accept="image/*" />
+                                    <span asp-validation-for="Command.Picture" class="error"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label asp-for="Command.Title" class="control-label">عنوان</label>
+                                        <input type="text" class="form-control" asp-for="Command.Title" />
+                                        <span asp-validation-for="Command.Title" class="error"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label asp-for="Command.Description" class="control-label">نام</label>
+                                    <textarea type="text" id="Name" class="form-control" asp-for="Command.Description"></textarea>
+                                    <span asp-validation-for="Command.Description" class="error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="hidden" asp-for="@Model.Command.Id" value="@Model.Command.Id"/>
+                        <a asp-page="./Index" class="btn btn-outline-secondary">
+                            بازگشت
+                        </a>
+                        <button type="submit" class="btn btn-primary">ویرایش</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

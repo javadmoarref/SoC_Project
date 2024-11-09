@@ -1,0 +1,47 @@
+﻿@page
+@model ServiceHost.Pages.PaymentResultModel
+@{
+    ViewData["Title"] = "نتیجه پرداخت";
+}
+
+<main class="main-content">
+
+    <!--== Start Page Header Area Wrapper ==-->
+    <nav aria-label="breadcrumb" class="breadcrumb-style1">
+        <div class="container">
+            <ol class="breadcrumb justify-content-center">
+                <li class="breadcrumb-item"><a asp-page="./Index">صفحه اصلی</a></li>
+                <li class="breadcrumb-item active" aria-current="page">نتیجه پرداخت</li>
+            </ol>
+        </div>
+    </nav>
+    <!--== End Page Header Area Wrapper ==-->
+    <!--== Start Product Area Wrapper ==-->
+    <section class="section-space">
+        <div class="container">
+           <div class="row">
+                @if (Model.Result.IsSuccessful)
+                {
+                    <div class="alert alert-success">
+                        <p>
+                            @Model.Result.Message
+                        </p>
+                        <p>
+                            شماره پیگیری:<strong>@Model.Result.IssueTrackingNo</strong>
+                        </p>
+                    </div>
+                }
+                else
+                {
+                    <div class="alert alert-danger">
+                        <p>
+                            @Model.Result.Message
+                        </p>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+    <!--== End Product Area Wrapper ==-->
+
+</main>

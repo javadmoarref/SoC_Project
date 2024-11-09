@@ -138,6 +138,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/AboutUs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxBYm91dFVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/AboutUs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxBYm91dFVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/AboutUs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxBYm91dFVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/ContactUs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxDb250YWN0VXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/ContactUs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxDb250YWN0VXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/ContactUs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxDb250YWN0VXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Areas/Administration/Pages/Shop/Orders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxPcmRlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -222,6 +246,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRVcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjZXNzRGVuaWVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -250,6 +278,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tPdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/ContactUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -260,6 +292,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/OrderTracking.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJUcmFja2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/PaymentResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudFJlc3VsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/Privacy.cshtml]
@@ -308,6 +344,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/UpdateAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBkYXRlQWNjb3VudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/MyProgram/VS/DotNetCore/SogandShop_Project/SogandShop/ServiceHost/Pages/WishList.cshtml]

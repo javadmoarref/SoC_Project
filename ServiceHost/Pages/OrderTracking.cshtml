@@ -1,7 +1,8 @@
 ﻿@page
+@using _0_Framework.Application
 @model ServiceHost.Pages.OrderTrackingModel
 @{
-    ViewData["Title"] = "پیگیری وضعیت سفارش";
+    ViewData["Title"] = "فروشگاه من";
 }
 
 <main class="main-content">
@@ -11,7 +12,7 @@
         <div class="container">
             <ol class="breadcrumb justify-content-center">
                 <li class="breadcrumb-item"><a asp-page="./Index">صفحه اصلی</a></li>
-                <li class="breadcrumb-item active" aria-current="page">پیگیری وضعیت سفارش</li>
+                <li class="breadcrumb-item active" aria-current="page">فروشگاه من</li>
             </ol>
         </div>
     </nav>
@@ -19,6 +20,36 @@
     <!--== Start Product Area Wrapper ==-->
     <section class="section-space">
         <div class="container">
+            <table class="table text-center">
+                @*  <thead class="bg-info">
+                <tr>
+                <th class="product-thumbnail">شماره سفارش</th>
+                <th class="product-quantity">مبلغ پرداخت شده</th>
+                <th class="product-quantity">تاریخ ثبت سفارش</th>
+                <th class="product-quantity">کد پیگیری پرداخت</th>
+                <th class="product-quantity">کد رهگیری پستی</th>
+                <th class="product-quantity">وضعیت</th>
+                @if (Model.Order.PostalCode == 0)
+                {
+                <th class="product-quantity">لغو سفارش</th>
+                }
+                </tr>
+                </thead> *@
+                <tbody>
+                    <tr class="tbody-item">
+                        <td class="product-name">
+                            <span class="title">@Model.Order.AccountName</span>
+                        </td>
+                        <td class="product-name">
+                            <span class="price">@Model.Order.AccountMobile</span>
+                        </td>
+                        <td class="product-subtotal border-bottom">
+                            @* <a asp-page-handler="GoToCheckOut" class="btn-update-cart">ویرایش اطلاعات کاربری</a> *@
+                            <a asp-page="UpdateAccount" class="btn-update-cart" asp-route-id="@Model.Order.AccountId">ویرایش اطلاعات کاربری</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
             @if (ViewData["Message"] != null)
             {
                 <div class="alert alert-danger">
@@ -30,12 +61,15 @@
                     <thead class="bg-info">
                         <tr>
                             <th class="product-thumbnail">شماره سفارش</th>
-                            <th class="product-quantity">مبلغ پرداخت شده</th> 
+                            <th class="product-quantity">مبلغ پرداخت شده</th>
                             <th class="product-quantity">تاریخ ثبت سفارش</th>
                             <th class="product-quantity">کد پیگیری پرداخت</th>
                             <th class="product-quantity">کد رهگیری پستی</th>
                             <th class="product-quantity">وضعیت</th>
-                            <th class="product-quantity">لغو سفارش</th>
+                            @if (Model.Order.PostalCode == 0)
+                            {
+                                <th class="product-quantity">لغو سفارش</th>
+                            }
                         </tr>
                     </thead>
                     <tbody>
@@ -44,42 +78,55 @@
                                 <span class="title">@Model.Order.IssueTrackingNo</span>
                             </td>
                             <td class="product-price">
-                                <span class="price">@Model.Order.PayAmount ریال</span>
+                                <span class="price">@Model.Order.PayAmount.ToMoney() ریال</span>
                             </td>
                             <td class="product-subtotal border-bottom">
                                 <span class="title">@Model.Order.CreationDate</span>
                             </td>
-                            <td class="product-price">
+                            <td class="product-name">
                                 <span class="title">@Model.Order.RefId</span>
                             </td>
-                            <td class="product-price">
+                            <td class="product-name">
                                 <span class="title">@Model.Order.PostalCode</span>
                             </td>
-                            <td class="product-price">
-                                @if (Model.Order.IsPaid == false && Model.Order.IsCanceled == false)
+                            <td class="product-name">
+                                @if (Model.Order.IsPaid == false && Model.Order.IsPayUnSuccess == false && Model.Order.IsOrderCanceled == false)
                                 {
-                                    <span class="price text-info">در انتظار تایید</span>
+                                    <span class="title text-info">در انتظار </span>
                                 }
-                                else if (Model.Order.IsPaid == true && Model.Order.IsCanceled == true)
+                                else if (Model.Order.IsPaid == true && Model.Order.PostalCode == 0 && Model.Order.IsOrderCanceled == false)
                                 {
-                                    <span class="price text-info">سفارش لغو شده</span>
+                                    <span class="title text-success">سفارش تایید شده</span>
                                 }
-                                else if (Model.Order.IsPaid == false && Model.Order.IsCanceled == true)
+                                else if (Model.Order.IsPaid == false && Model.Order.IsPayUnSuccess == true)
                                 {
-                                    <span class="price text-info">سفارش لغو شده</span>
+                                    <span class="title text-danger">پرداخت ناموفق</span>
                                 }
-                                else if (Model.Order.IsPaid == true && Model.Order.IsCanceled == false)
+                                else if (Model.Order.IsPaid == true && Model.Order.PostalCode > 0)
                                 {
-                                    <span class="price text-info">سفارش تایید شده و در حال بسته بندی جهت ارسال</span>
+                                    <span class="title text-warning">سفارش ارسال شده</span>
                                 }
-                                else if (Model.Order.PostalCode > 0)
+                                else if (Model.Order.IsPaid == true && Model.Order.IsOrderCanceled == true)
                                 {
-                                    <span class="price text-info">سفارش ارسال شده</span>
+                                    <span class="title text-dark">سفارش لغو شده</span>
                                 }
                             </td>
-                            <td class="product-price">
-                                <span class="price">لغو سفارش</span>
-                            </td>
+                            @if (Model.Order.PostalCode == 0)
+                            {
+                                <td class="product-price">
+                                    @if (Model.Order.IsCanceled == false)
+                                    {
+                                        <a asp-page-handler="OrderCanceled" class="btn-update-cart bg-primary" asp-route-id="@Model.Order.Id">لغو سفارش</a>
+                                        <input type="hidden" value="@Model.Order.Id" asp-for="@Model.Order.Id" />
+                                    }
+                                    else
+                                    {
+                                        <span class="price text-dark">سفارش توسط شما لغو شد </span>
+                                    }
+
+                                </td>
+                            }
+
                         </tr>
                     </tbody>
                 </table>
@@ -93,7 +140,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach (var item in Model.Order.Items)
+                        @foreach (var item in Model.Items)
                         {
                             <tr class="tbody-item">
                                 <td class="product-thumbnail">
@@ -107,7 +154,7 @@
                                     <span class="title">@item.Name</span>
                                 </td>
                                 <td class="product-price">
-                                    <span class="price">@item.UnitPrice ریال</span>
+                                    <span class="price">@item.UnitPrice.ToMoney() ریال</span>
                                 </td>
                                 <td class="product-quantity">
                                     <span class="price">@item.Count</span>

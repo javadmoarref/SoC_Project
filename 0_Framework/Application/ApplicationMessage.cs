@@ -12,4 +12,6 @@ public class ApplicationMessage
     public const string InvalidCountOfProduct = "تعداد کالای درخواستی از موجودی انبار بیشتر است.";
     public const string EnterRefId = "لطفا شماره پیگیری پرداخت را وارد کنید.";
     public const string EnterPostalCode = "لطفا کد رهگیری پستی را وارد کنید.";
+    public const string PayIsSuccessFull="پرداخت با موفقیت انجام شد.جهت دیدن وضعیت سفارش به منو فروشگاه من مراجعه کنید.";
+    public const string PayIsWrong="پرداخت ناموفق. در صورت کسر مبلغ از حساب شما، مبلغ تا 24 ساعت آینده به حساب شما بازخواهد گشت.";
 }

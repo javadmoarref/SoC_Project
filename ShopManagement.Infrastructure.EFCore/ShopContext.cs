@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ShopManagement.Domain.ContactUsAgg;
 using ShopManagement.Domain.OrderAgg;
 using ShopManagement.Domain.PostageAgg;
 using ShopManagement.Domain.ProductAgg;
@@ -17,6 +18,8 @@ namespace ShopManagement.Infrastructure.EFCore
         public DbSet<Slide> Slides { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Postage> Postages { get; set; }
+        public DbSet<AboutUs> AboutUs { get; set; }
+        public DbSet<ContactUs> ContactUs { get; set; }
 
         public ShopContext(DbContextOptions<ShopContext> options) : base(options)
         {

@@ -48,8 +48,8 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label asp-for="Command.BtnText" class="control-label">متن دکمه</label>
-                                    <input type="text" class="form-control" asp-for="Command.BtnText">
+                                    @* <label asp-for="Command.BtnText" class="control-label">متن دکمه</label> *@
+                                    <input type="hidden" class="form-control" asp-for="Command.BtnText" value="خرید">
                                     <span asp-validation-for="Command.BtnText" class="error"></span>
                                 </div>
                             </div>
@@ -73,8 +73,8 @@
                         <div class="row mb-3">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label asp-for="Command.Link" class="control-label">لینک</label>
-                                    <input type="text" class="form-control" asp-for="Command.Link"/>
+                                    @* <label asp-for="Command.Link" class="control-label">لینک</label> *@
+                                    <input type="hidden" class="form-control" asp-for="Command.Link" value="./Index"/>
                                     <span asp-validation-for="Command.Link" class="error"></span>
                                 </div>
                             </div>

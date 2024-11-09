@@ -2,6 +2,9 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\01_SogandShopQuery.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\01_SogandShopQuery.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\0_Framework.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\AccountManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\AccountManagement.Domain.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\AccountManagement.Infrastructure.EFCore.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\BlogManagement.Application.Contracts.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\BlogManagement.Domain.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\BlogManagement.Infrastructure.EFCore.dll
@@ -24,6 +27,9 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\InventoryManagement.Infrastructure.EfCore.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\ShopManagement.Infrastructure.EFCore.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\0_Framework.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\AccountManagement.Application.Contracts.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\AccountManagement.Domain.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\AccountManagement.Infrastructure.EFCore.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\BlogManagement.Application.Contracts.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\BlogManagement.Domain.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\CommentManagement.Application.Contracts.pdb
@@ -44,9 +50,3 @@ F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\obj\
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\obj\Debug\net8.0\refint\01_SogandShopQuery.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\obj\Debug\net8.0\01_SogandShopQuery.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\obj\Debug\net8.0\ref\01_SogandShopQuery.dll
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\AccountManagement.Application.Contracts.dll
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\AccountManagement.Domain.dll
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\AccountManagement.Infrastructure.EFCore.dll
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\AccountManagement.Application.Contracts.pdb
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\AccountManagement.Domain.pdb
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\01_SogandShopQuery\bin\Debug\net8.0\AccountManagement.Infrastructure.EFCore.pdb

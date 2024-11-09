@@ -9,7 +9,17 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-5 col-lg-2">
+                
                 <div class="header-logo">
+                    @* menucanvas *@
+
+                    <button class="header-menu-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasMenu" aria-controls="AsideOffcanvasMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                    @* menucanvas *@
                     <a asp-page="/Index">
                         <img class="logo-main" src="~/Theme/files/images/slider/butterfly-logo.png" width="500" height="500" alt="Logo" />
                     </a>
@@ -39,16 +49,18 @@
                                 }
                             </ul>
                         </li>
-                        @* <li><a asp-page="/Cart">مشاهده سبد خرید</a></li> *@
-                        @if(Auth.IsAuthenticated()){
-                            <li><a asp-page="/OrderTracking">پیگیری وضعیت سفارش</a></li>
+                        @* <li><a asp-page="/Cart">مشاهده سبد خرید</a></li> *@                    
+                        <li><a asp-page="/AboutUs">درباره ما</a></li>
+                        <li><a asp-page="/ContactUs">ارتباط با ما</a></li>
+                        @if (Auth.IsAuthenticated())
+                        {
+                            <li><a asp-page="/OrderTracking">فروشگاه من</a></li>
                         }
-                        <li><a href="about-us.html">درباره ما</a></li>
-                        <li><a href="contact.html">ارتباط با ما</a></li>
                         @if (Auth.CurrentAccountRole() == Roles.Administrator)
                         {
                             <li><a asp-area="Administration" asp-page="/Index">داشبورد مدیریت</a></li>
                         }
+                       
                     </ul>
                 </div>
             </div>
@@ -77,7 +89,7 @@
                                         <use xlink:href="#image0_504:9" transform="scale(0.0333333)" />
                                     </pattern>
                                     <image id="image0_504:9" width="30" height="30" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAABFUlEQVRIie2VMU7DMBSGvwAqawaYuAmKxCW4A1I5Qg4AA93KBbp1ZUVUlQJSVVbCDVhgzcTQdLEVx7WDQ2xLRfzSvzzb+d6zn2MYrkugBBYevuWsHKiFn2JBMwH8Bq6Aw1jgBwHOYwGlPgT4LDZ4I8BJDNiEppl034UEJ8DMAJ0DByHBACPgUYEugePQUKkUWAmnsaB/Ry/YO9aXCwlT72AdrqaWEohwBWxSwc8ReIVtYIr5bM5pXqO+Men7rozGlkVSv4lJj1WQfsbvXVkNVNk1eEK4ik9/yuwzAPhLh5iuU4jtftMDR4ZJJXChxTJ2H3zXGDgWc43/X2Wro8G81a8u2fXU2nXiLVAxvNIKuPGW/r/2SltF+a3Rkw4pmwAAAABJRU5ErkJggg==" />
-                                    <span class="counter" id="cart_items_count" style="color:red"></span>
+                                    <span class="counter fs-5" id="cart_items_count" style="color:red">  </span>
                                 </defs>
                             </svg>
                         </span>
@@ -102,16 +114,12 @@
                     {
                         <a class="header-action-btn" asp-page="./Account" asp-page-handler="Logout">
                             <span class="icon">
-                                <img src="~/Theme/files/images/icons/logout3.png" width="25" height="25"/>
+                                <img src="~/Theme/files/images/icons/logout3.png" width="25" height="25" />
                             </span>
                         </a>
                     }
 
-                    <button class="header-menu-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasMenu" aria-controls="AsideOffcanvasMenu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
+                    @* menucanvas *@
                 </div>
             </div>
         </div>
@@ -120,8 +128,8 @@
 <!--== Start Aside Menu ==-->
 <aside class="off-canvas-wrapper offcanvas offcanvas-start" tabindex="-1" id="AsideOffcanvasMenu" aria-labelledby="offcanvasExampleLabel">
     <div class="offcanvas-header">
-       @* <h1 class="d-none" id="offcanvasExampleLabel">منوی کنار</h1>*@
-        <button class="btn-menu-close" data-bs-dismiss="offcanvas" aria-label="Close">Sogand -  آرایش و زیبایی <i class="fa fa-chevron-left"></i></button>
+        @* <h1 class="d-none" id="offcanvasExampleLabel">منوی کنار</h1>*@
+        <button class="btn-menu-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa fa-close"></i></button>
     </div>
     <div class="offcanvas-body">
         <div id="offcanvasNav" class="offcanvas-menu-nav">
@@ -147,13 +155,13 @@
                         }
                     </ul>
                 </li>
-                @* <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" asp-page="/Cart">مشاهده سبد خرید</a></li> *@
+                @* <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" asp-page="/Cart">مشاهده سبد خرید</a></li> *@ 
+                <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" asp-page="/AboutUs">در باره ما</a></li>
+                <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" asp-page="/ContactUs">ارتباط با ما</a></li>
                 @if (Auth.IsAuthenticated())
                 {
-                    <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" asp-page="/OrderTracking">پیگیری وضعیت سفارش</a></li>
+                    <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" asp-page="/OrderTracking">فروشگاه من</a></li>
                 }
-                <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" href="about-us.html">در باره ما</a></li>
-                <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" href="contact.html">ارتباط با ما</a></li>
                 @if (Auth.CurrentAccountRole() == Roles.Administrator)
                 {
                     <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" asp-area="Administration" asp-page="/Index">داشبورد مدیریت</a></li>
