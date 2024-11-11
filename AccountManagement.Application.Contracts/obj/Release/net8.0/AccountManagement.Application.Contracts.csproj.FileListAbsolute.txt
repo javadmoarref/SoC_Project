@@ -1,0 +1,16 @@
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\AccountManagement.Application.Contracts\bin\Release\net8.0\AccountManagement.Application.Contracts.deps.json
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\AccountManagement.Application.Contracts\bin\Release\net8.0\AccountManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\AccountManagement.Application.Contracts\bin\Release\net8.0\AccountManagement.Application.Contracts.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\AccountManagement.Application.Contracts\bin\Release\net8.0\0_Framework.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\AccountManagement.Application.Contracts\bin\Release\net8.0\0_Framework.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\AccountManagement.Application.Contracts\obj\Release\net8.0\AccountManagement.Application.Contracts.csproj.AssemblyReference.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\AccountManagement.Application.Contracts\obj\Release\net8.0\AccountManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\AccountManagement.Application.Contracts\obj\Release\net8.0\AccountManagement.Application.Contracts.AssemblyInfoInputs.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\AccountManagement.Application.Contracts\obj\Release\net8.0\AccountManagement.Application.Contracts.AssemblyInfo.cs
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\AccountManagement.Application.Contracts\obj\Release\net8.0\AccountManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\AccountManagement.Application.Contracts\obj\Release\net8.0\AccountManagement.Application.Contracts.sourcelink.json
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\AccountManagement.Application.Contracts\obj\Release\net8.0\AccountM.C7397A91.Up2Date
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\AccountManagement.Application.Contracts\obj\Release\net8.0\AccountManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\AccountManagement.Application.Contracts\obj\Release\net8.0\refint\AccountManagement.Application.Contracts.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\AccountManagement.Application.Contracts\obj\Release\net8.0\AccountManagement.Application.Contracts.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\AccountManagement.Application.Contracts\obj\Release\net8.0\ref\AccountManagement.Application.Contracts.dll

@@ -1,0 +1,89 @@
+/*
+* mystyle.css
+* Author: Samir Abasfard
+* Email: samir.abasfard@gmail.com
+******************************************************************************/
+
+@font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/Vazir-Bold.eot');
+    src: url('../fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Vazir-Bold.woff2') format('woff2'), 
+         url('../fonts/Vazir-Bold.woff') format('woff'), 
+         url('../fonts/Vazir.ttf') format('truetype');
+}
+@font-face {
+    font-family: Vazir-FD;
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/Farsi-Digits/Vazir-Bold-FD.eot");
+    src: url("../fonts/Farsi-Digits/Vazir-Bold-FD.woff2") format("woff2"),
+         url("../fonts/Farsi-Digits/Vazir-Bold-FD.woff") format("woff"), 
+         url("../fonts/Farsi-Digits/Vazir-Bold-FD.ttf") format("truetype");
+}
+
+body .persianNumber, .jdp-day, .jdp-year{
+    font-family: Vazir-FD;
+}
+
+
+body {
+    font-family: 'Vazir'
+}
+
+.cls-sj-saf---content-search-box{
+  padding-bottom: 0px !important;
+  padding-top: 20px !important;
+}
+
+.cls-sj-saf---content-Table-box{
+  padding-top: 0px !important;
+}
+
+ul.dropdown-menu.show > li {
+  text-align: right;
+}
+
+#navbar-collapse > ul #li-avatar {
+flex-direction: row-reverse;
+}
+
+#card-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+  height: unset;
+}
+
+@media (min-width: 576px) {
+  #card-bar {
+      height: 60px;
+  }
+  #card-bar-left {
+      text-align: left;
+  }
+}
+
+@media (max-width: 575px) {
+  #card-bar-left ,
+  #card-bar-right
+  {
+      text-align: center;
+  }
+}
+
+#card-bar-right > h5 {
+
+  line-height: 40px;
+  padding: 0;
+}
+
+#li-avatar     #div-avatar{
+margin-left: 10px;
+}
+
+#sj-saf---id-aside-menu-arrow{
+  transform: rotate(180deg);
+}

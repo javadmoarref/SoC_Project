@@ -1,10 +1,10 @@
-F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ServiceHost.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\appsettings.Development.json
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\appsettings.json
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ServiceHost.staticwebassets.runtime.json
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ServiceHost.exe
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ServiceHost.deps.json
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ServiceHost.runtimeconfig.json
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ServiceHost.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\ServiceHost.pdb
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\Azure.Core.dll
 F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\ServiceHost\bin\Debug\net8.0\Azure.Identity.dll

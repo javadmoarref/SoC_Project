@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{0DB21791-66A5-427E-A843-D27231D4EF68}|ServiceHost\\ServiceHost.csproj|f:\\myprogram\\vs\\dotnetcore\\sogandshop_project\\sogandshop\\servicehost\\pages\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0DB21791-66A5-427E-A843-D27231D4EF68}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\pages\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DB21791-66A5-427E-A843-D27231D4EF68}|ServiceHost\\ServiceHost.csproj|f:\\myprogram\\vs\\dotnetcore\\sogandshop_project\\sogandshop\\servicehost\\pages\\productcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0DB21791-66A5-427E-A843-D27231D4EF68}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\pages\\productcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DB21791-66A5-427E-A843-D27231D4EF68}|ServiceHost\\ServiceHost.csproj|f:\\myprogram\\vs\\dotnetcore\\sogandshop_project\\sogandshop\\servicehost\\wwwroot\\theme\\files\\css\\style.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{0DB21791-66A5-427E-A843-D27231D4EF68}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\wwwroot\\theme\\files\\css\\style.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,45 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductCategory.cshtml",
-              "DocumentMoniker": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\Pages\\ProductCategory.cshtml",
-              "RelativeDocumentMoniker": "ServiceHost\\Pages\\ProductCategory.cshtml",
-              "ToolTip": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\Pages\\ProductCategory.cshtml",
-              "RelativeToolTip": "ServiceHost\\Pages\\ProductCategory.cshtml",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAF8AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-09T10:24:18.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "style.min.css",
-              "DocumentMoniker": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\css\\style.min.css",
-              "RelativeDocumentMoniker": "ServiceHost\\wwwroot\\Theme\\files\\css\\style.min.css",
-              "ToolTip": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\wwwroot\\Theme\\files\\css\\style.min.css",
-              "RelativeToolTip": "ServiceHost\\wwwroot\\Theme\\files\\css\\style.min.css",
-              "ViewState": "AgIAAMkPAAAAAAAAAAAgwN8PAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-09T10:21:08.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductDetails.cshtml",
-              "DocumentMoniker": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\Pages\\ProductDetails.cshtml",
-              "RelativeDocumentMoniker": "ServiceHost\\Pages\\ProductDetails.cshtml",
-              "ToolTip": "F:\\MyProgram\\VS\\DotNetCore\\SogandShop_Project\\SogandShop\\ServiceHost\\Pages\\ProductDetails.cshtml",
-              "RelativeToolTip": "ServiceHost\\Pages\\ProductDetails.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEQAAAD7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-09T10:01:45.017Z",
-              "EditorCaption": ""
             }
           ]
         }

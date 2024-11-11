@@ -69,7 +69,7 @@ namespace ServiceHost.Pages
                 return RedirectToPage("/Cart");
             }
             _orderApplication.PlaceOrder(cart);
-            return Redirect($"https://zarinp.al/myflexisite");
+            return Redirect($"https://zarinp.al/sogandsite");
             //var orderId = _orderApplication.PlaceOrder(cart);
             //var accountInfo = _authHelper.CurrentAccountInfo();
             //var paymentResponse = _zarinPalFactory.CreatePaymentRequest(

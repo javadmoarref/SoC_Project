@@ -1,0 +1,13 @@
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\0_Framework\bin\Release\net8.0\0_Framework.deps.json
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\0_Framework\bin\Release\net8.0\0_Framework.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\0_Framework\bin\Release\net8.0\0_Framework.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\0_Framework\obj\Release\net8.0\0_Framework.csproj.AssemblyReference.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\0_Framework\obj\Release\net8.0\0_Framework.GeneratedMSBuildEditorConfig.editorconfig
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\0_Framework\obj\Release\net8.0\0_Framework.AssemblyInfoInputs.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\0_Framework\obj\Release\net8.0\0_Framework.AssemblyInfo.cs
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\0_Framework\obj\Release\net8.0\0_Framework.csproj.CoreCompileInputs.cache
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\0_Framework\obj\Release\net8.0\0_Framework.sourcelink.json
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\0_Framework\obj\Release\net8.0\0_Framework.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\0_Framework\obj\Release\net8.0\refint\0_Framework.dll
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\0_Framework\obj\Release\net8.0\0_Framework.pdb
+F:\MyProgram\VS\DotNetCore\SogandShop_Project\SogandShop\0_Framework\obj\Release\net8.0\ref\0_Framework.dll

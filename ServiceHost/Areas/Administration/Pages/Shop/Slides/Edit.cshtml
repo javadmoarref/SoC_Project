@@ -31,18 +31,18 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label asp-for="Command.Picture" class="control-label">عکس</label>
-                                    <input type="file" class="form-control" asp-for="Command.Picture" accept="image/*"/>
-                                    <span asp-validation-for="Command.Picture" class="error"></span>
+                                    <label asp-for="Command.Title" class="control-label">عنوان</label>
+                                    <input type="text" class="form-control" asp-for="Command.Title" />
+                                    <span asp-validation-for="Command.Title" class="error"></span>
                                 </div>
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="form-group">
-                                    <label asp-for="Command.Title" class="control-label">عنوان</label>
-                                    <input type="text" class="form-control" asp-for="Command.Title" />
-                                    <span asp-validation-for="Command.Title" class="error"></span>
+                                    <label asp-for="Command.Picture" class="control-label">عکس</label>
+                                    <input type="file" class="form-control" asp-for="Command.Picture" accept="image/*" />
+                                    <span asp-validation-for="Command.Picture" class="error"></span>
                                 </div>
                             </div>
                             <div class="col-md-6">
